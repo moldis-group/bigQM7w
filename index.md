@@ -4,25 +4,42 @@ layout: default
 
 ## bigQM7w dataset
 
-This dataset [Ref-1] contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP.
+This dataset [Ref-1] contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
 
-level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
+
 
 ***
 
-## BODIPYs
+## SMILES and Geometries
 
-This BODIPYs data set contains  3 files:  
-[77k_BODIPYs_DFT_geom.xyz.bz2](https://drive.google.com/file/d/1nX_duEd0nnyMVqenR4mhp7PH1mZ_4dAy/view?usp=sharing) (40 MB)     
-[77k_BODIPYs_PM7_geom.xyz.bz2](https://drive.google.com/file/d/1erNz0F6w4iGybOgtwI3-ccCUcnHzzVrb/view?usp=sharing) (44 MB)     
-[77k_BODIPYs_properties.txt.bz2](https://drive.google.com/file/d/1NAor-rHYtVwCat4Ms3IkdyDL27alqu6l/view?usp=sharing) (4 MB)    
+#### SMILES from GDB11 universe for 12883 molecules and UFF geometries
+[bigQM7w.smi]() (x MB) 
+[bigQM7w_UFF.sdf]() (x MB) 
+[bigQM7w_UFF.xyz]() (x MB) 
+
+#### Minimum energy geometries for 12880 molecules
+```
+3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a ring are eliminated.
+```
+
+[bigQM7w_PM6.xyz]() (x MB) 
+
+[bigQM7w_wB97_321G.xyz]() (x MB)   
+[bigQM7w_wB97_def2SVP.xyz]() (x MB) 
+[bigQM7w_wB97_def2TZVP.xyz]() (x MB) 
+
 
 Unzip the files in linux as
 ```
-bunzip2 -f 77k_BODIPYs_properties.txt.bz2
-bunzip2 -f 77k_BODIPYs_DFT_geom.xyz.bz2
-bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
+bunzip2 -f bigQM7w.smi.bz2
+bunzip2 -f bigQM7w_UFF.xyz.bz2
+bunzip2 -f bigQM7w_UFF.sdf.bz2
+bunzip2 -f bigQM7w_PM6.xyz.bz2
+bunzip2 -f bigQM7w_wB97_321G.xyz.bz2
+bunzip2 -f bigQM7w_wB97_def2SVP.xyz.bz2
+bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
 ```
+
 
 ***
 
@@ -69,7 +86,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ***
 
-## Dataset breakdown
+## Ground state properties
 
 | **Type**                 | **# entries**
 | Unsubstituted            | 1       
@@ -89,7 +106,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ## Revision notes
 
-_19 August 2021: First upload_
+_15 September 2021: First upload_
 
 ***
 
