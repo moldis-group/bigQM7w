@@ -2,9 +2,11 @@
 layout: default
 ---
 
-## bigQM7w chemical space dataset
+## bigQM7w dataset
 
-This dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
+This dataset [Ref-1] contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP.
+
+level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
 
 ***
 
