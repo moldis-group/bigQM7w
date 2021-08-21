@@ -83,7 +83,7 @@ tar -xzf bigQM7w_TDwB97_def2SVP_spectra.tar.gz
 tar -xzf bigQM7w_TDwB97_def2TZVP_spectra.tar.gz 
 ```
 
-Each folder contains 12880 zipped files. Unzip these 
+Each folder contains 12880 zipped files. Unzip these as follows
 ```
 cd bigQM7w_ZINDO_spectra
 bunzip2 -f bigQM7w_ZINDO_000001.dat.bz2
