@@ -17,16 +17,16 @@ See Ref-1 for more details.
 ```
 
 #### SMILES from GDB11 universe for 12880 molecules and UFF geometries
-[bigQM7w.smi.bz2]() (x MB)     
-[bigQM7w_UFF.sdf.bz2]() (x MB)     
-[bigQM7w_UFF.xyz.bz2]() (x MB)      
+[bigQM7w.smi.bz2](https://drive.google.com/file/d/1UujnGhD7UcgHMyZ6UrYHwW2oroiQOmQy/view?usp=sharing) (52 kB)     
+[bigQM7w_UFF.sdf.bz2](https://drive.google.com/file/d/1aeYRGRAwRaYMNNPArpxdd9SPv-0Kfofx/view?usp=sharing) (1.5 MB)     
+[bigQM7w_UFF.xyz.bz2](https://drive.google.com/file/d/1qGGJkS3gZIGEqCJ6samtcflkSZCN4uoM/view?usp=sharing) (1.4 MB)      
 
 #### Minimum energy geometries of 12880 molecules
 
-[bigQM7w_PM6.xyz.bz2]() (x MB)     
-[bigQM7w_wB97XD_321G.xyz.bz2]() (x MB)       
-[bigQM7w_wB97XD_def2SVP.xyz.bz2]() (x MB)      
-[bigQM7w_wB97XD_def2TZVP.xyz.bz2]() (x MB)      
+[bigQM7w_PM6.xyz.bz2](https://drive.google.com/file/d/1aSsorhv6fM-SPDpKKri_0SfmJ8XXF9VS/view?usp=sharing) (2.0 MB)     
+[bigQM7w_wB97XD_321G.xyz.bz2](https://drive.google.com/file/d/1rAYPSl0GecvWixiqtrwOHz0kHLek3fgW/view?usp=sharing) (1.9 MB)       
+[bigQM7w_wB97XD_def2SVP.xyz.bz2](https://drive.google.com/file/d/1CsboCg7HbfAMyDwDrO192Tv6k_uA1QkG/view?usp=sharing) (2.0 MB)      
+[bigQM7w_wB97XD_def2TZVP.xyz.bz2](https://drive.google.com/file/d/1mcfQ-ECk30H_YgT-mlcE26Eu8RIamE_t/view?usp=sharing) (2.0 MB)      
 
 Unzip the files in linux as
 ```
@@ -69,9 +69,9 @@ Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP 
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
-[bigQM7w_ZINDO_spectra.tar.gz]() (x MB)     
-[bigQM7w_TDwB97XD_321G_spectra.tar.gz]() (x MB)       
-[bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz]() (x MB)      
+[bigQM7w_ZINDO_spectra.tar.gz](https://drive.google.com/file/d/1YN6FEkBVEccDAT0ucgnDm2e5Tnz-VtgF/view?usp=sharing) (76 MB)     
+[bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://drive.google.com/file/d/1ZSv-8U8DGmQkrGdLpR3jCcyPalD1UpsL/view?usp=sharing) (207 MB)       
+[bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz](https://drive.google.com/file/d/1vz3ICMFrUNzROPJkwfqe9VJyWMB6A1Nx/view?usp=sharing) (409 MB)      
 [bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz]() (x MB)      
 
 Untar the folders in linux as
