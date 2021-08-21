@@ -4,7 +4,7 @@ layout: default
 
 ## bigQM7&omega; dataset
 
-This dataset [Ref-1]() contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
+This dataset [Ref-1]() contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. Geometries at all levels retain connectivities as encoded in the original SMILES. 
 
 ***
 
@@ -17,7 +17,7 @@ This dataset [Ref-1]() contains structures, ground state and electronic spectra 
 
 #### Minimum energy geometries of 12880 molecules
 ```
-3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a 
+3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a 
 ring are eliminated. See Ref-1 for more details.
 ```
 
