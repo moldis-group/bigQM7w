@@ -17,16 +17,16 @@ See Ref-1 for more details.
 ```
 
 #### SMILES from GDB11 universe for 12880 molecules and UFF geometries
-[bigQM7w.smi]() (x MB)     
-[bigQM7w_UFF.sdf]() (x MB)     
-[bigQM7w_UFF.xyz]() (x MB)      
+[bigQM7w.smi.bz2]() (x MB)     
+[bigQM7w_UFF.sdf.bz2]() (x MB)     
+[bigQM7w_UFF.xyz.bz2]() (x MB)      
 
 #### Minimum energy geometries of 12880 molecules
 
-[bigQM7w_PM6.xyz]() (x MB)     
-[bigQM7w_wB97_321G.xyz]() (x MB)       
-[bigQM7w_wB97_def2SVP.xyz]() (x MB)      
-[bigQM7w_wB97_def2TZVP.xyz]() (x MB)      
+[bigQM7w_PM6.xyz.bz2]() (x MB)     
+[bigQM7w_wB97_321G.xyz.bz2]() (x MB)       
+[bigQM7w_wB97_def2SVP.xyz.bz2]() (x MB)      
+[bigQM7w_wB97_def2TZVP.xyz.bz2]() (x MB)      
 
 Unzip the files in linux as
 ```
