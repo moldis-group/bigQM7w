@@ -10,22 +10,22 @@ This dataset [Ref-1]() contains structures, ground state and electronic spectra 
 
 ## SMILES and Geometries
 
-#### SMILES from GDB11 universe for 12883 molecules and UFF geometries
-[bigQM7w.smi]() (x MB)     
-[bigQM7w_UFF.sdf]() (x MB)     
-[bigQM7w_UFF.xyz]() (x MB)      
-
-#### Minimum energy geometries of 12880 molecules
 ```
 3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a 
 ring are eliminated. See Ref-1 for more details.
 ```
 
+#### SMILES from GDB11 universe for 12880 molecules and UFF geometries
+[bigQM7w.smi]() (x MB)     
+[bigQM7w_UFF.sdf]() (x MB)     
+[bigQM7w_UFF.xyz]() (x MB)      
+
+#### Minimum energy geometries of 12880 molecules
+
 [bigQM7w_PM6.xyz]() (x MB)     
 [bigQM7w_wB97_321G.xyz]() (x MB)       
 [bigQM7w_wB97_def2SVP.xyz]() (x MB)      
 [bigQM7w_wB97_def2TZVP.xyz]() (x MB)      
-
 
 Unzip the files in linux as
 ```
@@ -40,7 +40,9 @@ bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
 
 ***
 
-### Ground state properties 
+## Ground state properties 
+
+#### PM6-level properties 
 
 Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
 
@@ -66,7 +68,9 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 **Column 13** DFT Ground State energy (in au)      
 **Column 14** PM7 HOMO (in eV)       
 **Column 15** PM7 LUMO (in eV)       
-**Column 16** PM7 heat of formation (in kcal/mol)      
+**Column 16** PM7 heat of formation (in kcal/mol)   
+
+#### PM6-level properties 
 
 ***
 
