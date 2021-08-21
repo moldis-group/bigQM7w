@@ -13,20 +13,20 @@ This dataset [Ref-1] contains structures, ground state and electronic spectra ca
 ## SMILES and Geometries
 
 #### SMILES from GDB11 universe for 12883 molecules and UFF geometries
-[bigQM7w.smi]() (x MB) 
-[bigQM7w_UFF.sdf]() (x MB) 
-[bigQM7w_UFF.xyz]() (x MB) 
+[bigQM7w.smi]() (x MB)     
+[bigQM7w_UFF.sdf]() (x MB)     
+[bigQM7w_UFF.xyz]() (x MB)      
 
 #### Minimum energy geometries for 12880 molecules
 ```
 3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a ring are eliminated.
 ```
 
-[bigQM7w_PM6.xyz]() (x MB) 
+[bigQM7w_PM6.xyz]() (x MB)     
 
-[bigQM7w_wB97_321G.xyz]() (x MB)   
-[bigQM7w_wB97_def2SVP.xyz]() (x MB) 
-[bigQM7w_wB97_def2TZVP.xyz]() (x MB) 
+[bigQM7w_wB97_321G.xyz]() (x MB)       
+[bigQM7w_wB97_def2SVP.xyz]() (x MB)      
+[bigQM7w_wB97_def2TZVP.xyz]() (x MB)      
 
 
 Unzip the files in linux as
