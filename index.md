@@ -4,9 +4,7 @@ layout: default
 
 ## bigQM7&omega; dataset
 
-This dataset [Ref-1] contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
-
-
+This dataset [Ref-1]() contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
 
 ***
 
@@ -17,13 +15,12 @@ This dataset [Ref-1] contains structures, ground state and electronic spectra ca
 [bigQM7w_UFF.sdf]() (x MB)     
 [bigQM7w_UFF.xyz]() (x MB)      
 
-#### Minimum energy geometries for 12880 molecules
+#### Minimum energy geometries of 12880 molecules
 ```
-3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a ring are eliminated.
+3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a ring are eliminated. See Ref-1 for more details.
 ```
 
 [bigQM7w_PM6.xyz]() (x MB)     
-
 [bigQM7w_wB97_321G.xyz]() (x MB)       
 [bigQM7w_wB97_def2SVP.xyz]() (x MB)      
 [bigQM7w_wB97_def2TZVP.xyz]() (x MB)      
@@ -39,20 +36,6 @@ bunzip2 -f bigQM7w_wB97_321G.xyz.bz2
 bunzip2 -f bigQM7w_wB97_def2SVP.xyz.bz2
 bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
 ```
-
-
-***
-
-## Files
-### 77k_BODIPYs_DFT_geom.xyz 
-
-Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
-
-***
-
-### 77k_BODIPYs_PM7_geom.xyz 
-
-Contains coordinates of 77412 BODIPYs relaxed using PM7.
 
 ***
 
@@ -98,9 +81,14 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
 
-## Machine for S<sub>0</sub>  → S<sub>1</sub>  excitation energy of BODIPYs
+## Data-mining platform
 
-[https://moldis.tifrh.res.in/db/bodipy](https://moldis.tifrh.res.in/db/bodipy)
+[https://moldis.tifrh.res.in/db/bigqm7w](https://moldis.tifrh.res.in/db/bigqm7w)
+
+## Raw input/output files on NOMAD
+
+[https://moldis.tifrh.res.in/db/bigqm7w](https://moldis.tifrh.res.in/db/bigqm7w)
+
 
 ***
 
@@ -111,10 +99,10 @@ _15 September 2021: First upload_
 ***
 
 ## References
-[Ref-1] [_Revving up <sup>13</sup>C NMR shielding predictions across chemical space: benchmarks for atoms-in-molecules kernel machine learning with new data for 134 kilo molecules_](https://doi.org/10.1088/2632-2153/abe347)            
-Amit Gupta, Sabyasachi Chakraborty and Raghunathan Ramakrishnan     
-Mach. Learn.: Sci. Technol. 2 (2021) 035010     
-[Supplementary Information to the article (PDF)](data/SI.pdf)
-
+[Ref-1] [_Machine Learning 
+Electronic Transition Probabilities across Chemical Space:
+The Resolution-vs-Accuracy Dilemma_](https://doi.org/10.1088/2632-2153/abe347)            
+Prakriti Kayastha, Raghunathan Ramakrishnan     
+submitted (2021)  
 
 ***
