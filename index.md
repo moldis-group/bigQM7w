@@ -39,7 +39,7 @@ bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
 
 ***
 
-### 77k_BODIPYs_properties.txt 
+### Ground state properties 
 
 Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
 
@@ -69,7 +69,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ***
 
-## Ground state properties
+## Excited state properties
 
 | **Type**                 | **# entries**
 | Unsubstituted            | 1       
