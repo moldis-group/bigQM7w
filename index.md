@@ -34,9 +34,9 @@ bunzip2 -f bigQM7w.smi.bz2
 bunzip2 -f bigQM7w_UFF.xyz.bz2
 bunzip2 -f bigQM7w_UFF.sdf.bz2
 bunzip2 -f bigQM7w_PM6.xyz.bz2
-bunzip2 -f bigQM7w_wB97_321G.xyz.bz2
-bunzip2 -f bigQM7w_wB97_def2SVP.xyz.bz2
-bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
+bunzip2 -f bigQM7w_wB97XD_321G.xyz.bz2
+bunzip2 -f bigQM7w_wB97XD_def2SVP.xyz.bz2
+bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 ```
 
 ***
@@ -70,20 +70,20 @@ Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
 [bigQM7w_ZINDO_spectra.tar.gz]() (x MB)     
-[bigQM7w_TDwB97_321G_spectra.tar.gz]() (x MB)       
-[bigQM7w_TDwB97_def2SVP_spectra.tar.gz]() (x MB)      
-[bigQM7w_TDwB97_def2TZVP_spectra.tar.gz]() (x MB)      
+[bigQM7w_TDwB97XD_321G_spectra.tar.gz]() (x MB)       
+[bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz]() (x MB)      
+[bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz]() (x MB)      
 
 Untar the folders in linux as
 
 ```
 tar -xzf bigQM7w_ZINDO_spectra.tar.gz     
-tar -xzf bigQM7w_TDwB97_321G_spectra.tar.gz   
-tar -xzf bigQM7w_TDwB97_def2SVP_spectra.tar.gz   
-tar -xzf bigQM7w_TDwB97_def2TZVP_spectra.tar.gz 
+tar -xzf bigQM7w_TDwB97XD_321G_spectra.tar.gz   
+tar -xzf bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz   
+tar -xzf bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz 
 ```
 
-Each folder contains 12880 zipped files. Unzip these as follows
+Each folder contains 12880 zipped files. Unzip these, for example, as follows
 ```
 cd bigQM7w_ZINDO_spectra
 bunzip2 -f bigQM7w_ZINDO_000001.dat.bz2
@@ -92,10 +92,10 @@ bunzip2 -f bigQM7w_ZINDO_012880.dat.bz2
 ```
 
 ```
-cd bigQM7w_TDwB97_def2TZVP_spectra
-bunzip2 -f bigQM7w_TDwB97_def2TZVP_000001.dat.bz2
+cd bigQM7w_TDwB97XD_def2TZVP_spectra
+bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_000001.dat.bz2
 ...
-bunzip2 -f bigQM7w_TDwB97_def2TZVP_012880.dat.bz2
+bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 ```
    
 
