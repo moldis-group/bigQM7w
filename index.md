@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## BODIPYs dataset
+## bigQM7w chemical space dataset
 
-The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
+This dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
 
 ***
 
