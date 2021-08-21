@@ -17,7 +17,8 @@ This dataset [Ref-1]() contains structures, ground state and electronic spectra 
 
 #### Minimum energy geometries of 12880 molecules
 ```
-3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a ring are eliminated. See Ref-1 for more details.
+3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substruture in a 
+ring are eliminated. See Ref-1 for more details.
 ```
 
 [bigQM7w_PM6.xyz]() (x MB)     
