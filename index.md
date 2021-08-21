@@ -48,13 +48,6 @@ bunzip2 -f bigQM7w_wB97_def2TZVP.xyz.bz2
 Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
 
 **Column 01** names of the molecules made up using site (s_nn) and type of substitution (g_mm)
-
-```
-Example: g_01_s_7_00002 implies there is a substitution at site 7 by group 01. 
-The last digits (here _00002) are for indexing and can be ignored.  
-Long names (Hextuply/Septuply-substituted) do not contain '_'.
-```
-
 **Column 02** T/V in training/validation set in ML       
 **Column 03** State index (always 1)    
 **Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm^-1)    
@@ -71,21 +64,31 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 **Column 15** PM7 LUMO (in eV)       
 **Column 16** PM7 heat of formation (in kcal/mol)   
 
-#### PM6-level properties 
+#### &omega;B97XD-level properties 
 
+Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
+
+**Column 01** names of the molecules made up using site (s_nn) and type of substitution (g_mm)
+**Column 02** T/V in training/validation set in ML       
+**Column 03** State index (always 1)    
+**Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm^-1)    
+**Column 05** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in nm)     
+**Column 06** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in au)     
+**Column 07** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in eV)     
+**Column 08** Oscillator strength of S<sub>0</sub>  → S<sub>1</sub>  excitation     
+**Column 09** T^2 (in au^2), square of transition dipole moment     
+**Column 10** TX (in au), x-component of transition dipole moment vector     
+**Column 11** TY (in au), y-component of transition dipole moment vector     
+**Column 12** TZ (in au), z-component of transition dipole moment vector      
+**Column 13** DFT Ground State energy (in au)      
+**Column 14** PM7 HOMO (in eV)       
+**Column 15** PM7 LUMO (in eV)       
+**Column 16** PM7 heat of formation (in kcal/mol)  
 ***
 
-## Excited state properties
+## Excited state properties at ZINDO and &omega;B97XD levels
 
-| **Type**                 | **# entries**
-| Unsubstituted            | 1       
-| Singly-substituted       | 184      
-| Doubly-substituted       | 22287     
-| Triply-substituted       | 10999     
-| Quadruply-substituted    | 10990     
-| Quintuply-substituted    | 10982     
-| Hextuply-substituted     | 10986     
-| Septuply-substituted     | 10983     
+   
 
 ## Data-mining platform
 
