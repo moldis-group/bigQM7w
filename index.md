@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## bigQM7w dataset
+## bigQM7&omega; dataset
 
 This dataset [Ref-1] contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
 
