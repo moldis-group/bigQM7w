@@ -54,18 +54,19 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 
 **Column 01** Molecule index           
 **Column 02** Dipole moment (in Debye)             
-**Column 03** Polarizability (in au)              
-**Column 04** HOMO energy (in au)               
-**Column 05** LUMO energy (in au)               
-**Column 06** HOMO-LUMO gap (in au)           
-**Column 07** Radial expectation value, <_R_<sup>2</sup>> (in au)            
-**Column 08** ZPVE (in au)              
-**Column 09** U0                
-**Column 10** UT             
-**Column 11** HT                   
-**Column 12** GT               
-**Column 13** Cv              
-**Column 14** Atomization energy (in au)                 
+**Column 03** Polarizability (in _a_<sub>0</sub><sup>3</sup>, bohr<sup>3</sup>)              
+**Column 04** HOMO energy (in _E_<sub>H</sub>, hartree)               
+**Column 05** LUMO energy (in _E_<sub>H</sub>, hartree)                 
+**Column 06** HOMO-LUMO gap (in _E_<sub>H</sub>, hartree)             
+**Column 07** Radial expectation value, <_R_<sup>2</sup>> (in _a_<sub>0</sub><sup>2</sup>, bohr<sup>2</sup>)             
+**Column 08** Zero-point vibrational energy (in kcal/mol)              
+**Column 09** Sum of electronic and zero-point energies, _U_0 (in _E_<sub>H</sub>, hartree)                 
+**Column 10** Sum of electronic and thermal energies, _U_T (in _E_<sub>H</sub>, hartree)              
+**Column 11** Sum of electronic and thermal enthalpies, _H_T (in _E_<sub>H</sub>, hartree)                    
+**Column 12** Sum of electronic and thermal free Energies, _G_T (in _E_<sub>H</sub>, hartree)                
+**Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
+**Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
+
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
