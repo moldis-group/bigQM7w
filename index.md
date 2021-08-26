@@ -43,7 +43,29 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 
 #### PM6-level properties 
 
-Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
+**Column 01** Molecule index  
+**Column 02** HOMO energy (in au)      
+**Column 03** LUMO energy (in au) 
+**Column 04** HOMO-LUMO gap (in au) 
+**Column 05** Total energy (in au) 
+**Column 06** Atomization energy (in au)      
+
+#### &omega;B97XD-level properties 
+
+**Column 01** Molecule index  
+**Column 02** Dipole moment (in au)      
+**Column 03** Polarizability (in au) 
+**Column 04** HOMO energy (in au)      
+**Column 05** LUMO energy (in au) 
+**Column 06** HOMO-LUMO gap (in au) 
+**Column 07** Radial expectation value, <_R_<sup>2</sup>> (in au) 
+**Column 08** ZPVE (in au) 
+**Column 09** U0
+**Column 10** UT
+**Column 11** HT
+**Column 12** GT
+**Column 13** Cv
+**Column 14** Atomization energy (in au) 
 
 **Column 01** names of the molecules made up using site (s_nn) and type of substitution (g_mm)     
 **Column 02** T/V in training/validation set in ML       
@@ -56,13 +78,7 @@ Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP 
 **Column 09** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment     
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
-**Column 12** TZ (in au), z-component of transition dipole moment vector      
-**Column 13** DFT Ground State energy (in au)      
-**Column 14** PM7 HOMO (in eV)       
-**Column 15** PM7 LUMO (in eV)       
-**Column 16** PM7 heat of formation (in kcal/mol)   
-
-#### &omega;B97XD-level properties 
+**Column 12** TZ (in au), z-component of transition dipole moment vector     
 
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
