@@ -52,20 +52,20 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 
 #### &omega;B97XD-level properties 
 
-**Column 01** Molecule index  
-**Column 02** Dipole moment (in au)      
-**Column 03** Polarizability (in au) 
-**Column 04** HOMO energy (in au)      
-**Column 05** LUMO energy (in au) 
-**Column 06** HOMO-LUMO gap (in au) 
-**Column 07** Radial expectation value, <_R_<sup>2</sup>> (in au) 
-**Column 08** ZPVE (in au) 
-**Column 09** U0
-**Column 10** UT
-**Column 11** HT
-**Column 12** GT
-**Column 13** Cv
-**Column 14** Atomization energy (in au) 
+**Column 01** Molecule index           
+**Column 02** Dipole moment (in au)             
+**Column 03** Polarizability (in au)              
+**Column 04** HOMO energy (in au)               
+**Column 05** LUMO energy (in au)               
+**Column 06** HOMO-LUMO gap (in au)           
+**Column 07** Radial expectation value, <_R_<sup>2</sup>> (in au)            
+**Column 08** ZPVE (in au)              
+**Column 09** U0                
+**Column 10** UT             
+**Column 11** HT                   
+**Column 12** GT               
+**Column 13** Cv              
+**Column 14** Atomization energy (in au)             
 
 **Column 01** names of the molecules made up using site (s_nn) and type of substitution (g_mm)     
 **Column 02** T/V in training/validation set in ML       
