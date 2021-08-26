@@ -73,9 +73,9 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 **Column 02** Excitation energy, _E_ (S<sub>0</sub>  → S<sub>k</sub>) (in eV)       
 **Column 03** Excitation wavelength, _&lambda;_ (S<sub>0</sub>  → S<sub>k</sub>) (in nm)   
 **Column 04** Oscillator strength of _f_ (S<sub>0</sub>  → S<sub>k</sub>) excitation  
-**Column 05** TX (in au), x-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation          
-**Column 06** TY (in au), y-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation        
-**Column 07** TZ (in au), z-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation    
+**Column 05** _T_<sub>x</sub> (in au), x-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation          
+**Column 06** _T_<sub>y</sub> (in au), y-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation        
+**Column 07** _T_<sub>z</sub> (in au), z-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation    
 **Column 08** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment  for S<sub>0</sub>  → S<sub>k</sub> excitation 
 
 [bigQM7w_ZINDO_spectra.tar.gz](https://drive.google.com/file/d/1YN6FEkBVEccDAT0ucgnDm2e5Tnz-VtgF/view?usp=sharing) (76 MB)     
