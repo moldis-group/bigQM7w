@@ -70,13 +70,13 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
 **Column 01** Excitation index, _k_, with respect to ground state   
-**Column 02** Excitation energy, _E_(S<sub>0</sub>  → S<sub>k</sub>) (in eV)       
-**Column 03** Excitation wavelength, _&lambda;_(S<sub>0</sub>  → S<sub>k</sub>) (in nm)   
-**Column 04** Oscillator strength of _f_(S<sub>0</sub>  → S<sub>1</sub>)  excitation  
-**Column 05** TX (in au), x-component of transition dipole moment vector     
-**Column 06** TY (in au), y-component of transition dipole moment vector     
-**Column 07** TZ (in au), z-component of transition dipole moment vector
-**Column 08** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment 
+**Column 02** Excitation energy, _E_ (S<sub>0</sub>  → S<sub>k</sub>) (in eV)       
+**Column 03** Excitation wavelength, _&lambda;_ (S<sub>0</sub>  → S<sub>k</sub>) (in nm)   
+**Column 04** Oscillator strength of _f_ (S<sub>0</sub>  → S<sub>k</sub>) excitation  
+**Column 05** TX (in au), x-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation          
+**Column 06** TY (in au), y-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation        
+**Column 07** TZ (in au), z-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation    
+**Column 08** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment  for S<sub>0</sub>  → S<sub>k</sub> excitation 
 
 [bigQM7w_ZINDO_spectra.tar.gz](https://drive.google.com/file/d/1YN6FEkBVEccDAT0ucgnDm2e5Tnz-VtgF/view?usp=sharing) (76 MB)     
 [bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://drive.google.com/file/d/1ZSv-8U8DGmQkrGdLpR3jCcyPalD1UpsL/view?usp=sharing) (207 MB)       
