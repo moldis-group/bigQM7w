@@ -10,11 +10,9 @@ This dataset [Ref-1]() contains structures, ground state and electronic spectra 
 
 ## SMILES and Geometries
 
-```
-3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated. 
-See Ref-1 for more details. 
+_3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated. 
+See Ref-1 for more details._
 
-```
 
 #### SMILES from GDB11 universe for 12880 molecules and UFF geometries
 [bigQM7w.smi.bz2](https://drive.google.com/file/d/1UujnGhD7UcgHMyZ6UrYHwW2oroiQOmQy/view?usp=sharing) (52 kB)     
