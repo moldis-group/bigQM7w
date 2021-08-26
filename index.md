@@ -55,7 +55,7 @@ Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP 
 **Column 06** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in au)     
 **Column 07** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in eV)     
 **Column 08** Oscillator strength of S<sub>0</sub>  → S<sub>1</sub>  excitation     
-**Column 09** T^2 (in au^2), square of transition dipole moment     
+**Column 09** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment     
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
 **Column 12** TZ (in au), z-component of transition dipole moment vector      
