@@ -71,7 +71,15 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
  
 [bigQM7w_wB97XD_321G_prop.txt.bz2]() (XX MB)           
 [bigQM7w_wB97XD_def2SVP_prop.txt.bz2]() (XX MB)       
-[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2]() (XX MB)        
+[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2]() (XX MB)       
+
+Unzip the files in linux as
+```
+bunzip2 -f bigQM7w_PM6_prop.txt.bz2            
+bunzip2 -f bigQM7w_wB97XD_321G_prop.txt.bz2               
+bunzip2 -f bigQM7w_wB97XD_def2SVP_prop.txt.bz2                  
+bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2                         
+```
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
