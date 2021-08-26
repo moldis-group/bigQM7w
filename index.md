@@ -48,7 +48,9 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 **Column 03** LUMO energy (in au)             
 **Column 04** HOMO-LUMO gap (in au)               
 **Column 05** Total energy (in au)                  
-**Column 06** Atomization energy (in au)                        
+**Column 06** Atomization energy (in au)      
+
+[bigQM7w_PM6_prop.txt.bz2]() (XX MB)     
 
 #### &omega;B97XD-level properties 
 
@@ -66,7 +68,10 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 **Column 12** Sum of electronic and thermal free Energies, _G_<sub>T</sub> (in _E_<sub>H</sub>, hartree)                
 **Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
 **Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
-
+ 
+[bigQM7w_wB97XD_321G_prop.txt.bz2]() (XX MB)           
+[bigQM7w_wB97XD_def2SVP_prop.txt.bz2]() (XX MB)       
+[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2]() (XX MB)        
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
