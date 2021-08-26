@@ -65,23 +65,18 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 **Column 11** HT                   
 **Column 12** GT               
 **Column 13** Cv              
-**Column 14** Atomization energy (in au)             
-
-**Column 01** names of the molecules made up using site (s_nn) and type of substitution (g_mm)     
-**Column 02** T/V in training/validation set in ML       
-**Column 03** State index (always 1)    
-**Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm^-1)    
-**Column 05** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in nm)     
-**Column 06** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in au)     
-**Column 07** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in eV)     
-**Column 08** Oscillator strength of S<sub>0</sub>  → S<sub>1</sub>  excitation     
-**Column 09** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment     
-**Column 10** TX (in au), x-component of transition dipole moment vector     
-**Column 11** TY (in au), y-component of transition dipole moment vector     
-**Column 12** TZ (in au), z-component of transition dipole moment vector     
-
+**Column 14** Atomization energy (in au)                 
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
+
+**Column 01** Excitation index, _k_, with respect to ground state   
+**Column 02** Excitation energy, _E_(S<sub>0</sub>  → S<sub>k</sub>) (in eV)       
+**Column 03** Excitation wavelength, _&lambda;_(S<sub>0</sub>  → S<sub>k</sub>) (in nm)   
+**Column 04** Oscillator strength of _f_(S<sub>0</sub>  → S<sub>1</sub>)  excitation  
+**Column 05** TX (in au), x-component of transition dipole moment vector     
+**Column 06** TY (in au), y-component of transition dipole moment vector     
+**Column 07** TZ (in au), z-component of transition dipole moment vector
+**Column 08** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment 
 
 [bigQM7w_ZINDO_spectra.tar.gz](https://drive.google.com/file/d/1YN6FEkBVEccDAT0ucgnDm2e5Tnz-VtgF/view?usp=sharing) (76 MB)     
 [bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://drive.google.com/file/d/1ZSv-8U8DGmQkrGdLpR3jCcyPalD1UpsL/view?usp=sharing) (207 MB)       
