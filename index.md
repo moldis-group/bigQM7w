@@ -60,12 +60,12 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 **Column 06** HOMO-LUMO gap (in _E_<sub>H</sub>, hartree)             
 **Column 07** Radial expectation value, <_R_<sup>2</sup>> (in _a_<sub>0</sub><sup>2</sup>, bohr<sup>2</sup>)             
 **Column 08** Zero-point vibrational energy (in kcal/mol)              
-**Column 09** Sum of electronic and zero-point energies, _U_0 (in _E_<sub>H</sub>, hartree)                 
-**Column 10** Sum of electronic and thermal energies, _U_T (in _E_<sub>H</sub>, hartree)              
-**Column 11** Sum of electronic and thermal enthalpies, _H_T (in _E_<sub>H</sub>, hartree)                    
-**Column 12** Sum of electronic and thermal free Energies, _G_T (in _E_<sub>H</sub>, hartree)                
+**Column 09** Sum of electronic and zero-point energies, _U_ 0 (in _E_ <sub>H</sub>, hartree)                 
+**Column 10** Sum of electronic and thermal energies, _U_ T (in _E_ <sub>H</sub>, hartree)              
+**Column 11** Sum of electronic and thermal enthalpies, _H_ T (in _E_ <sub>H</sub>, hartree)                    
+**Column 12** Sum of electronic and thermal free Energies, _G_ T (in _E_ <sub>H</sub>, hartree)                
 **Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
-**Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
+**Column 14** Atomization energy (in _E_ <sub>H</sub>, hartree)    
 
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
