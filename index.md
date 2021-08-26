@@ -43,17 +43,17 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
 
 #### PM6-level properties 
 
-**Column 01** Molecule index  
-**Column 02** HOMO energy (in au)      
-**Column 03** LUMO energy (in au) 
-**Column 04** HOMO-LUMO gap (in au) 
-**Column 05** Total energy (in au) 
-**Column 06** Atomization energy (in au)      
+**Column 01** Molecule index      
+**Column 02** HOMO energy (in au)               
+**Column 03** LUMO energy (in au)             
+**Column 04** HOMO-LUMO gap (in au)               
+**Column 05** Total energy (in au)                  
+**Column 06** Atomization energy (in au)                        
 
 #### &omega;B97XD-level properties 
 
 **Column 01** Molecule index           
-**Column 02** Dipole moment (in au)             
+**Column 02** Dipole moment (in Debye)             
 **Column 03** Polarizability (in au)              
 **Column 04** HOMO energy (in au)               
 **Column 05** LUMO energy (in au)               
