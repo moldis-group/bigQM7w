@@ -156,6 +156,7 @@ _15 September 2021: First upload_
 ## Mirror sites for the dataset with all files
 1. [Folder in google drive](https://drive.google.com/drive/folders/1smDh6MKcvUodM9zrQPowafYc8EAFGhTX?usp=sharing)
 2. [MolDis server](https://moldis.tifrh.res.in/db/data/bigQM7w)
+3. [Zenodo](https://zenodo.org/deposit/5280934)
 
 ## References
 [Ref-1] [_Machine Learning 
