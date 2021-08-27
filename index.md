@@ -30,9 +30,9 @@ See Ref-1 for more details._
 
 #### Harmonic frequencies of 12880 molecules
 
-[bigQM7w_wB97XD_321G_freq.txt.bz2](https://drive.google.com/file/d/1rAYPSl0GecvWixiqtrwOHz0kHLek3fgW/view?usp=sharing) (1.9 MB)       
-[bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://drive.google.com/file/d/1CsboCg7HbfAMyDwDrO192Tv6k_uA1QkG/view?usp=sharing) (2.0 MB)      
-[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://drive.google.com/file/d/1mcfQ-ECk30H_YgT-mlcE26Eu8RIamE_t/view?usp=sharing) (2.0 MB)  
+[bigQM7w_wB97XD_321G_freq.txt.bz2](https://drive.google.com/file/d/1_MEAUQbKZFwH8Nznf4REnxFHDmP2y8zt/view?usp=sharing) (1.7 MB)       
+[bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://drive.google.com/file/d/1AVERbOGRfW4mEqUFvmIZiQOJB1AglJHe/view?usp=sharing) (1.7 MB)      
+[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://drive.google.com/file/d/11Yj6iiVUlAWG12G38K73uY0WK5p9s3_D/view?usp=sharing) (1.7 MB)  
 
 _NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1<sup>_ 
 
@@ -63,7 +63,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 **Column 05** Total energy (in au)                  
 **Column 06** Atomization energy (in au)      
 
-[bigQM7w_PM6_prop.txt.bz2]() (XX MB)     
+[bigQM7w_PM6_prop.txt.bz2](https://drive.google.com/file/d/1U040JuWXRLfw6LapxAXiOrgFcT58NZXn/view?usp=sharing) (282 kB)     
 
 #### &omega;B97XD-level properties 
 
@@ -82,9 +82,9 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 **Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
 **Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
  
-[bigQM7w_wB97XD_321G_prop.txt.bz2]() (XX MB)           
-[bigQM7w_wB97XD_def2SVP_prop.txt.bz2]() (XX MB)       
-[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2]() (XX MB)       
+[bigQM7w_wB97XD_321G_prop.txt.bz2](https://drive.google.com/file/d/1LsO2WaOuYcmiKwgQfOHp_Ia1fjNZrmdt/view?usp=sharing) (619 kB)           
+[bigQM7w_wB97XD_def2SVP_prop.txt.bz2](https://drive.google.com/file/d/1GcMwqMC4kuljw-kkok3zbcQdXdzURtzU/view?usp=sharing) (619 kB)       
+[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2](https://drive.google.com/file/d/1eVYWyQUY5kEkw5s5rg_PxKeBktso_KTM/view?usp=sharing) (617 kB)       
 
 Unzip the files in linux as
 ```
