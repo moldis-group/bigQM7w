@@ -4,11 +4,13 @@ layout: default
 
 ## bigQM7&omega; dataset
 
-This dataset [Ref-1]() contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. Geometries at all levels retain connectivities as encoded in the original SMILES. 
+This dataset [Ref-1]() contains structures, ground state and electronic spectra calculated with the range-separated hybrid DFT method, &omega;B97XD. All results are provided for 3 basis sets: 3-21G, def2SVP, def2TZVP. Results from baseline models PM6 and ZINDO are also provided. 
+
+Geometries at &omega;B97XD/def2SVP and &omega;B97XD/def2TZVP levels retain connectivities as encoded in the original SMILES.
 
 ***
 
-## SMILES and Geometries
+## SMILES, Geometries and Frequencies
 
 _3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated. 
 See Ref-1 for more details._
@@ -24,7 +26,15 @@ See Ref-1 for more details._
 [bigQM7w_PM6.xyz.bz2](https://drive.google.com/file/d/1aSsorhv6fM-SPDpKKri_0SfmJ8XXF9VS/view?usp=sharing) (2.0 MB)     
 [bigQM7w_wB97XD_321G.xyz.bz2](https://drive.google.com/file/d/1rAYPSl0GecvWixiqtrwOHz0kHLek3fgW/view?usp=sharing) (1.9 MB)       
 [bigQM7w_wB97XD_def2SVP.xyz.bz2](https://drive.google.com/file/d/1CsboCg7HbfAMyDwDrO192Tv6k_uA1QkG/view?usp=sharing) (2.0 MB)      
-[bigQM7w_wB97XD_def2TZVP.xyz.bz2](https://drive.google.com/file/d/1mcfQ-ECk30H_YgT-mlcE26Eu8RIamE_t/view?usp=sharing) (2.0 MB)      
+[bigQM7w_wB97XD_def2TZVP.xyz.bz2](https://drive.google.com/file/d/1mcfQ-ECk30H_YgT-mlcE26Eu8RIamE_t/view?usp=sharing) (2.0 MB)     
+
+#### Harmonic frequencies of 12880 molecules
+
+[bigQM7w_wB97XD_321G_freq.txt.bz2](https://drive.google.com/file/d/1rAYPSl0GecvWixiqtrwOHz0kHLek3fgW/view?usp=sharing) (1.9 MB)       
+[bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://drive.google.com/file/d/1CsboCg7HbfAMyDwDrO192Tv6k_uA1QkG/view?usp=sharing) (2.0 MB)      
+[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://drive.google.com/file/d/1mcfQ-ECk30H_YgT-mlcE26Eu8RIamE_t/view?usp=sharing) (2.0 MB)  
+
+_NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1<sup>_ 
 
 Unzip the files in linux as
 ```
@@ -35,6 +45,9 @@ bunzip2 -f bigQM7w_PM6.xyz.bz2
 bunzip2 -f bigQM7w_wB97XD_321G.xyz.bz2
 bunzip2 -f bigQM7w_wB97XD_def2SVP.xyz.bz2
 bunzip2 -f bigQM7w_wB97XD_def2TZVP.xyz.bz2
+bunzip2 -f bigQM7w_wB97XD_321G_freq.txt.bz2
+bunzip2 -f bigQM7w_wB97XD_def2SVP_freq.txt.bz2
+bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 ```
 
 ***
