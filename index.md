@@ -34,7 +34,7 @@ See Ref-1 for more details._
 [bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://drive.google.com/file/d/1AVERbOGRfW4mEqUFvmIZiQOJB1AglJHe/view?usp=sharing) (1.7 MB)      
 [bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://drive.google.com/file/d/11Yj6iiVUlAWG12G38K73uY0WK5p9s3_D/view?usp=sharing) (1.7 MB)  
 
-_NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1<sup>_ 
+_NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1<sup> _ 
 
 Unzip the files in linux as
 ```
