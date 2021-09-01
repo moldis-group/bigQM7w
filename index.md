@@ -12,8 +12,9 @@ Geometries at &omega;B97XD/def2SVP and &omega;B97XD/def2TZVP levels retain conne
 
 ## SMILES, Geometries and Frequencies
 
-_3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated. 
-NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 12883._
+_3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated._    
+
+_NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 12883._    
 
 
 #### SMILES from GDB11 universe for 12880 molecules and UFF geometries
