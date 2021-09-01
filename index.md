@@ -13,7 +13,7 @@ Geometries at &omega;B97XD/def2SVP and &omega;B97XD/def2TZVP levels retain conne
 ## SMILES, Geometries and Frequencies
 
 _3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- substructure in a ring are eliminated. 
-See Ref-1 for more details._
+NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 12883._
 
 
 #### SMILES from GDB11 universe for 12880 molecules and UFF geometries
@@ -67,7 +67,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 
 #### &omega;B97XD-level properties 
 
-**Column 01** Molecule index           
+**Column 01** Molecule index                 
 **Column 02** Dipole moment (in Debye)             
 **Column 03** Polarizability (in _a_<sub>0</sub><sup>3</sup>, bohr<sup>3</sup>)              
 **Column 04** HOMO energy (in _E_<sub>H</sub>, hartree)               
