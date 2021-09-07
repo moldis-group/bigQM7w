@@ -33,7 +33,7 @@ _NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 1288
 
 [bigQM7w_wB97XD_321G_freq.txt.bz2](https://ndownloader.figshare.com/files/30478362) (1.7 MB)       
 [bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://ndownloader.figshare.com/files/30478347) (1.7 MB)      
-[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](hhttps://ndownloader.figshare.com/files/30478359) (1.7 MB)  
+[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://ndownloader.figshare.com/files/30478359) (1.7 MB)  
 
 _NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1</sup>_ 
 
