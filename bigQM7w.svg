@@ -46,8 +46,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44722038"
-     inkscape:cx="790.45729"
-     inkscape:cy="927.95412"
+     inkscape:cx="672.39637"
+     inkscape:cy="999.50721"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -420,14 +420,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444017px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
-       x="-57.955616"
-       y="20.545006"
+       x="-57.902012"
+       y="17.370461"
        id="text866-6"
        transform="rotate(-0.96732735)"><tspan
          sodipodi:role="line"
          id="tspan864-7"
-         x="-57.955616"
-         y="20.545006"
+         x="-57.902012"
+         y="17.370461"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.75559998px;font-family:arial;-inkscape-font-specification:'arial Bold';stroke-width:0.26458299">Velocity</tspan></text>
     <text
        xml:space="preserve"
@@ -489,20 +489,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444017px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
-       x="-534.01837"
-       y="301.75684"
+       x="-524.4101"
+       y="315.11209"
        id="text866-9-3"
-       transform="rotate(-1.2290363)"><tspan
+       transform="rotate(0.51564634)"><tspan
          sodipodi:role="line"
-         x="-534.01837"
-         y="301.75684"
+         x="-524.4101"
+         y="315.11209"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
          id="tspan851-5">- 0.5 million CPU hrs</tspan><tspan
          sodipodi:role="line"
-         x="-534.01837"
-         y="326.45129"
+         x="-524.4101"
+         y="339.80655"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
-         id="tspan891">- data curation </tspan></text>
+         id="tspan891">- expert curation</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444017px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
@@ -512,35 +512,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444017px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
-       x="-210.4305"
-       y="308.76974"
+       x="-205.1738"
+       y="310.05792"
        id="text866-9-35"
-       transform="rotate(-1.2290363)"><tspan
+       transform="rotate(-0.2723693)"><tspan
          sodipodi:role="line"
-         x="-210.4305"
-         y="308.76974"
+         x="-205.1738"
+         y="310.05792"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
          id="tspan914">- propertywise structured data</tspan><tspan
          sodipodi:role="line"
-         x="-210.4305"
-         y="333.4642"
+         x="-205.1738"
+         y="334.75238"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
          id="tspan918">- raw unstructured data</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444017px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
-       x="-78.608894"
-       y="48.190403"
+       x="-78.540779"
+       y="45.016132"
        id="text866-9-35-1"
        transform="rotate(-1.2290363)"><tspan
          sodipodi:role="line"
-         x="-78.608894"
-         y="48.190403"
+         x="-78.540779"
+         y="45.016132"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
          id="tspan918-7">- data-mining </tspan><tspan
          sodipodi:role="line"
-         x="-78.608894"
-         y="72.88485"
+         x="-78.540779"
+         y="69.710579"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:arial;-inkscape-font-specification:'arial Italic';stroke-width:0.26458299"
          id="tspan943">- ML</tspan></text>
     <text
