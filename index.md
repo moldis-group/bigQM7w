@@ -109,7 +109,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2
 [bigQM7w_ZINDO_spectra.tar.gz](https://ndownloader.figshare.com/files/30478308) (76 MB)     
 [bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://ndownloader.figshare.com/files/30478335) (207 MB)       
 [bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz](https://ndownloader.figshare.com/files/30478338) (409 MB)      
-[bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz]() (791 MB)      
+[bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz](https://ndownloader.figshare.com/files/30791935) (791 MB)      
 
 Untar the folders in linux as
 
