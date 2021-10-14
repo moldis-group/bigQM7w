@@ -155,9 +155,7 @@ _15 September 2021: First upload_
 ***
 
 ## References
-[Ref-1] [_Machine Learning 
-Electronic Transition Probabilities across Chemical Space:
-The Resolution-vs-Accuracy Dilemma_](https://doi.org/10.1088/2632-2153/abe347)            
+[Ref-1] [_Quantum Machine Learning Electronic Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma_](https://doi.org/10.1088/2632-2153/abe347)            
 Prakriti Kayastha, Raghunathan Ramakrishnan     
 submitted (2021)  
 
