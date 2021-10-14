@@ -17,8 +17,9 @@ _3 uncharacterized molecules (indices: 7705, 7714, 7715) containing -N=N-O- subs
 _NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 12883._    
 
 
-#### SMILES from GDB11 universe for 12880 molecules and UFF geometries
+#### SMILES from GDB11 universe for 12880 molecules, [SELFIES](https://github.com/aspuru-guzik-group/selfies) and UFF geometries
 [bigQM7w.smi.bz2](https://ndownloader.figshare.com/files/30478341) (52 kB)     
+[bigQM7w.selfies.bz2](https://ndownloader.figshare.com/files/31084855) (32 kB)
 [bigQM7w_UFF.sdf.bz2](https://ndownloader.figshare.com/files/30478323) (1.5 MB)     
 [bigQM7w_UFF.xyz.bz2](https://ndownloader.figshare.com/files/30478326) (1.4 MB)      
 
