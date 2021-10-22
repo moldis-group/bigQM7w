@@ -143,7 +143,7 @@ To be announced
 
 ## Raw input/output files on NOMAD
 
-https://dx.doi.org/10.17172/NOMAD/2021.09.30-1
+[https://dx.doi.org/10.17172/NOMAD/2021.09.30-1](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
 
 
 ***
