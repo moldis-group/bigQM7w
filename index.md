@@ -41,6 +41,7 @@ _NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapi
 Unzip the files in linux as
 ```
 bunzip2 -f bigQM7w.smi.bz2
+bunzip2 -f bigQM7w.selfies.bz2
 bunzip2 -f bigQM7w_UFF.xyz.bz2
 bunzip2 -f bigQM7w_UFF.sdf.bz2
 bunzip2 -f bigQM7w_PM6.xyz.bz2
