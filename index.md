@@ -71,7 +71,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 #### &omega;B97XD-level properties 
 
 **Column 01** Molecule index                 
-**Column 02** Dipole moment (in Debye)             
+**Column 02** Dipole moment (in debye)             
 **Column 03** Polarizability (in _a_<sub>0</sub><sup>3</sup>, bohr<sup>3</sup>)              
 **Column 04** HOMO energy (in _E_<sub>H</sub>, hartree)               
 **Column 05** LUMO energy (in _E_<sub>H</sub>, hartree)                 
@@ -81,7 +81,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 **Column 09** Sum of electronic and zero-point energies, _U_<sub>0</sub> (in _E_<sub>H</sub>, hartree)                 
 **Column 10** Sum of electronic and thermal energies, _U_<sub>T</sub> at 298.15 K (in _E_<sub>H</sub>, hartree)              
 **Column 11** Sum of electronic and thermal enthalpies, _H_<sub>T</sub> at 298.15 K (in _E_<sub>H</sub>, hartree)                    
-**Column 12** Sum of electronic and thermal free Energies, _G_<sub>T</sub> at 298.15 K (in _E_<sub>H</sub>, hartree)                
+**Column 12** Sum of electronic and thermal free energies, _G_<sub>T</sub> at 298.15 K (in _E_<sub>H</sub>, hartree)                
 **Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
 **Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
  
