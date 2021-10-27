@@ -137,6 +137,10 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_000001.dat.bz2
 bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 ```
    
+### Mulliken charges
+[bigQM7w_wB97XD_321G_Mulliken.txt]()
+[bigQM7w_wB97XD_def2SVP_Mulliken.txt]()
+[bigQM7w_wB97XD_def2TZVP_Mulliken.txt]()
 
 ## Data-mining platform
 
