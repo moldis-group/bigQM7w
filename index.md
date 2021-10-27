@@ -97,7 +97,6 @@ bunzip2 -f bigQM7w_wB97XD_def2SVP_prop.txt.bz2
 bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2                         
 ```
 
-   
 ### Mulliken charges
 [bigQM7w_wB97XD_321G_Mulliken.txt.bz2]()        
 [bigQM7w_wB97XD_def2SVP_Mulliken.txt.bz2]()           
