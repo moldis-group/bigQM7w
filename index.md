@@ -103,9 +103,9 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2
 [bigQM7w_wB97XD_def2TZVP_Mulliken.txt.bz2](https://ndownloader.figshare.com/files/31212418)     
 
 ### APT charges
-[bigQM7w_wB97XD_321G_APT.txt.bz2]()        
-[bigQM7w_wB97XD_def2SVP_APT.txt.bz2]()           
-[bigQM7w_wB97XD_def2TZVP_APT.txt.bz2]()    
+[bigQM7w_wB97XD_321G_APT.txt.bz2](https://ndownloader.figshare.com/files/31212454)        
+[bigQM7w_wB97XD_def2SVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212457)           
+[bigQM7w_wB97XD_def2TZVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212451)    
 
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
