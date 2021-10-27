@@ -161,8 +161,8 @@ To be announced
 
 ## Revision notes
 
-_15 September 2021: First upload_
-_27 October 2021: Mulliken and APT charges uploaded_
+_15 September 2021: First upload_                     
+_27 October 2021: Mulliken and APT charges uploaded_                    
 
 ***
 
