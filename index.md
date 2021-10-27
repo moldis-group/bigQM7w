@@ -97,6 +97,13 @@ bunzip2 -f bigQM7w_wB97XD_def2SVP_prop.txt.bz2
 bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2                         
 ```
 
+   
+### Mulliken charges
+[bigQM7w_wB97XD_321G_Mulliken.txt.bz2]()        
+[bigQM7w_wB97XD_def2SVP_Mulliken.txt.bz2]()           
+[bigQM7w_wB97XD_def2TZVP_Mulliken.txt.bz2]()                  
+
+
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
 **Column 01** Excitation index, _k_, with respect to ground state   
@@ -136,11 +143,6 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_000001.dat.bz2
 ...
 bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 ```
-   
-### Mulliken charges
-[bigQM7w_wB97XD_321G_Mulliken.txt]()
-[bigQM7w_wB97XD_def2SVP_Mulliken.txt]()
-[bigQM7w_wB97XD_def2TZVP_Mulliken.txt]()
 
 ## Data-mining platform
 
