@@ -1,0 +1,2791 @@
+ Entering Gaussian System, Link 0=g16
+ Input=000003.com
+ Output=000003.log
+ Initial command:
+ /home/sabyasachi/g16/l1.exe "/scratch/sabyasachi/PBS_7976137.helios/Gau-26835.inp" -scrdir="/scratch/sabyasachi/PBS_7976137.helios/"
+ Entering Link 1 = /home/sabyasachi/g16/l1.exe PID=     26836.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  EM64L-G16RevC.01  3-Jul-2019
+                21-Mar-2022 
+ ******************************************
+ %mem=64gb
+ %nproc=8
+ Will use up to    8 processors via shared memory.
+ -------------------------------------------------------------------
+ #P TD(Nstates=10000) m11/Gen SCF(maxcycles=100) Int(Grid=ultrafine)
+ -------------------------------------------------------------------
+ 1/38=1,172=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=7,11=9,25=1,30=1,74=-64,75=-5/1,2,3,8;
+ 4//1;
+ 5/5=2,7=100,38=5/2;
+ 8/6=1,10=1,108=10000/1;
+ 9/41=10000,42=1,70=2/14;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/5=1,9=1/99;
+ Leave Link    1 at Mon Mar 21 20:08:55 2022, MaxMem=  8589934592 cpu:               0.4 elap:               0.1
+ (Enter /home/sabyasachi/g16/l101.exe)
+ ---------------------
+ xGDB7_00001_tier4.com
+ ---------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ 8                     0.        0.        0.11602 
+ 1                     0.        0.7619   -0.46406 
+ 1                     0.       -0.7619   -0.46406 
+ 
+ ITRead=  0  0  0
+ MicOpt= -1 -1 -1
+ NAtoms=      3 NQM=        3 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3
+ IAtWgt=          16           1           1
+ AtmWgt=  15.9949146   1.0078250   1.0078250
+ NucSpn=           0           1           1
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   2.7928460   2.7928460
+ AtZNuc=   8.0000000   1.0000000   1.0000000
+ Leave Link  101 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.6 elap:               0.1
+ (Enter /home/sabyasachi/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.116015
+      2          1           0        0.000000    0.761895   -0.464058
+      3          1           0        0.000000   -0.761895   -0.464058
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  O    0.000000
+     2  H    0.957585   0.000000
+     3  H    0.957585   1.523790   0.000000
+ Stoichiometry    H2O
+ Framework group  C2V[C2(O),SGV(H2)]
+ Deg. of freedom     2
+ Full point group                 C2V     NOp   4
+ Largest Abelian subgroup         C2V     NOp   4
+ Largest concise Abelian subgroup C2      NOp   2
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000   -0.000000    0.116015
+      2          1           0        0.000000    0.761895   -0.464058
+      3          1           0       -0.000000   -0.761895   -0.464058
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):         839.0390262         431.9284530         285.1409139
+ Leave Link  202 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.1 elap:               0.0
+ (Enter /home/sabyasachi/g16/l301.exe)
+ General basis read from cards:  (5D, 7F)
+ Centers:       2      3
+ S 3 1.00
+     Exponent=  1.3010701000D+01 Coefficients=  1.9682158000D-02
+     Exponent=  1.9622572000D+00 Coefficients=  1.3796524000D-01
+     Exponent=  4.4453796000D-01 Coefficients=  4.7831935000D-01
+ S 1 1.00
+     Exponent=  1.2194962000D-01 Coefficients=  1.0000000000D+00
+ P 1 1.00
+     Exponent=  8.0000000000D-01 Coefficients=  1.0000000000D+00
+ P 1 1.00
+     Exponent=  1.1704099050D-01 Coefficients=  1.0000000000D+00
+ ****
+ Centers:       1
+ S 5 1.00
+     Exponent=  2.2661767785D+03 Coefficients= -5.3431809926D-03
+     Exponent=  3.4087010191D+02 Coefficients= -3.9890039230D-02
+     Exponent=  7.7363135167D+01 Coefficients= -1.7853911985D-01
+     Exponent=  2.1479644940D+01 Coefficients= -4.6427684959D-01
+     Exponent=  6.6589433124D+00 Coefficients= -4.4309745172D-01
+ S 1 1.00
+     Exponent=  8.0975975668D-01 Coefficients=  1.0000000000D+00
+ S 1 1.00
+     Exponent=  2.5530772234D-01 Coefficients=  1.0000000000D+00
+ S 1 1.00
+     Exponent=  7.6572453250D-02 Coefficients=  1.0000000000D+00
+ P 3 1.00
+     Exponent=  1.7721504317D+01 Coefficients=  4.3394573193D-02
+     Exponent=  3.8635505440D+00 Coefficients=  2.3094120765D-01
+     Exponent=  1.0480920883D+00 Coefficients=  5.1375311064D-01
+ P 1 1.00
+     Exponent=  2.7641544411D-01 Coefficients=  1.0000000000D+00
+ P 1 1.00
+     Exponent=  6.9002276350D-02 Coefficients=  1.0000000000D+00
+ D 1 1.00
+     Exponent=  1.2000000000D+00 Coefficients=  1.0000000000D+00
+ D 1 1.00
+     Exponent=  1.7992024323D-01 Coefficients=  1.0000000000D+00
+ ****
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ There are    19 symmetry adapted cartesian basis functions of A1  symmetry.
+ There are     4 symmetry adapted cartesian basis functions of A2  symmetry.
+ There are     7 symmetry adapted cartesian basis functions of B1  symmetry.
+ There are    11 symmetry adapted cartesian basis functions of B2  symmetry.
+ There are    17 symmetry adapted basis functions of A1  symmetry.
+ There are     4 symmetry adapted basis functions of A2  symmetry.
+ There are     7 symmetry adapted basis functions of B1  symmetry.
+ There are    11 symmetry adapted basis functions of B2  symmetry.
+    39 basis functions,    55 primitive gaussians,    41 cartesian basis functions
+     5 alpha electrons        5 beta electrons
+       nuclear repulsion energy         9.1891417035 Hartrees.
+ IExCor= 5042 DFT=T Ex+Corr=M11 ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ HFx  wShort=  0.000000 wLong=  0.250000 cFull=  0.428000 cShort=  0.000000 cLong=  0.572000
+ DFx  wShort=  0.000000 wLong=  0.250000 cFull=  0.000000 cShort=  0.000000 cLong=  1.000000
+ NAtoms=    3 NActive=    3 NUniq=    2 SFac= 2.25D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.5 elap:               0.1
+ (Enter /home/sabyasachi/g16/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ One-electron integral symmetry used in STVInt
+ NBasis=    39 RedAO= T EigKep=  5.25D-03  NBF=    17     4     7    11
+ NBsUse=    39 1.00D-06 EigRej= -1.00D+00 NBFU=    17     4     7    11
+ Precomputing XC quadrature grid using
+ IXCGrd= 4 IRadAn=           5 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
+ Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
+ NSgBfM=    41    41    41    41    41 MxSgAt=     3 MxSgA2=     3.
+ Leave Link  302 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.9 elap:               0.1
+ (Enter /home/sabyasachi/g16/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.2 elap:               0.0
+ (Enter /home/sabyasachi/g16/l308.exe)
+ Leave Link  308 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               0.2 elap:               0.0
+ (Enter /home/sabyasachi/g16/l401.exe)
+ ExpMin= 6.90D-02 ExpMax= 2.27D+03 ExpMxC= 3.41D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor= 1009 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor= 1009 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Harris En= -74.8752820617303    
+ JPrj=0 DoOrth=F DoCkMO=F.
+ Initial guess orbital symmetries:
+       Occupied  (A1) (A1) (B2) (A1) (B1)
+       Virtual   (A1) (B2) (A1) (B1) (B2) (A1) (A2) (A1) (B1) (A1)
+                 (B2) (B2) (B2) (A1) (B1) (A1) (A2) (A1) (B2) (B1)
+                 (A1) (B2) (A1) (A2) (B1) (A1) (B2) (B2) (A1) (B1)
+                 (A2) (A1) (A1) (B2)
+ The electronic state of the initial guess is 1-A1.
+ Leave Link  401 at Mon Mar 21 20:08:56 2022, MaxMem=  8589934592 cpu:               1.2 elap:               0.2
+ (Enter /home/sabyasachi/g16/l502.exe)
+ Keep R1 ints in memory in symmetry-blocked form, NReq=7565352.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=    780 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Closed shell SCF:
+ Using DIIS extrapolation, IDIIS=  1040.
+ NGot=  8589934592 LenX=  8589846988 LenY=  8589844866
+ Requested convergence on RMS density matrix=1.00D-08 within 100 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ Integral accuracy reduced to 1.0D-05 until final iterations.
+
+ Cycle   1  Pass 0  IDiag  1:
+ E= -76.3011648193482    
+ DIIS: error= 3.73D-02 at cycle   1 NSaved=   1.
+ NSaved= 1 IEnMin= 1 EnMin= -76.3011648193482     IErMin= 1 ErrMin= 3.73D-02
+ ErrMax= 3.73D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.20D-02 BMatP= 6.20D-02
+ IDIUse=3 WtCom= 6.27D-01 WtEn= 3.73D-01
+ Coeff-Com:  0.100D+01
+ Coeff-En:   0.100D+01
+ Coeff:      0.100D+01
+ Gap=     0.376 Goal=   None    Shift=    0.000
+ GapD=    0.376 DampG=1.000 DampE=0.500 DampFc=0.5000 IDamp=-1.
+ Damping current iteration by 5.00D-01
+ RMSDP=6.51D-03 MaxDP=1.04D-01              OVMax= 1.14D-01
+
+ Cycle   2  Pass 0  IDiag  1:
+ E= -76.3229041939298     Delta-E=       -0.021739374582 Rises=F Damp=T
+ DIIS: error= 5.04D-03 at cycle   2 NSaved=   2.
+ NSaved= 2 IEnMin= 2 EnMin= -76.3229041939298     IErMin= 2 ErrMin= 5.04D-03
+ ErrMax= 5.04D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.19D-03 BMatP= 6.20D-02
+ IDIUse=3 WtCom= 9.50D-01 WtEn= 5.04D-02
+ Coeff-Com:  0.442D-01 0.956D+00
+ Coeff-En:   0.585D-01 0.942D+00
+ Coeff:      0.450D-01 0.955D+00
+ Gap=     0.491 Goal=   None    Shift=    0.000
+ RMSDP=1.12D-03 MaxDP=1.28D-02 DE=-2.17D-02 OVMax= 6.44D-02
+
+ Cycle   3  Pass 0  IDiag  1:
+ E= -76.3475837741642     Delta-E=       -0.024679580234 Rises=F Damp=F
+ DIIS: error= 9.51D-04 at cycle   3 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -76.3475837741642     IErMin= 3 ErrMin= 9.51D-04
+ ErrMax= 9.51D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.95D-05 BMatP= 1.19D-03
+ IDIUse=3 WtCom= 9.90D-01 WtEn= 9.51D-03
+ Coeff-Com: -0.471D-02-0.230D-01 0.103D+01
+ Coeff-En:   0.000D+00 0.000D+00 0.100D+01
+ Coeff:     -0.466D-02-0.228D-01 0.103D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=2.08D-04 MaxDP=1.76D-03 DE=-2.47D-02 OVMax= 2.18D-03
+
+ Cycle   4  Pass 0  IDiag  1:
+ E= -76.3476097524972     Delta-E=       -0.000025978333 Rises=F Damp=F
+ DIIS: error= 1.70D-04 at cycle   4 NSaved=   4.
+ NSaved= 4 IEnMin= 4 EnMin= -76.3476097524972     IErMin= 4 ErrMin= 1.70D-04
+ ErrMax= 1.70D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.32D-06 BMatP= 1.95D-05
+ IDIUse=3 WtCom= 9.98D-01 WtEn= 1.70D-03
+ Coeff-Com:  0.133D-03-0.196D-01 0.922D-01 0.927D+00
+ Coeff-En:   0.000D+00 0.000D+00 0.000D+00 0.100D+01
+ Coeff:      0.133D-03-0.196D-01 0.920D-01 0.927D+00
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=4.49D-05 MaxDP=3.90D-04 DE=-2.60D-05 OVMax= 4.21D-04
+
+ Cycle   5  Pass 0  IDiag  1:
+ E= -76.3476111731940     Delta-E=       -0.000001420697 Rises=F Damp=F
+ DIIS: error= 3.95D-05 at cycle   5 NSaved=   5.
+ NSaved= 5 IEnMin= 5 EnMin= -76.3476111731940     IErMin= 5 ErrMin= 3.95D-05
+ ErrMax= 3.95D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.42D-08 BMatP= 1.32D-06
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.131D-03 0.294D-02-0.405D-01-0.125D+00 0.116D+01
+ Coeff:      0.131D-03 0.294D-02-0.405D-01-0.125D+00 0.116D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=1.39D-05 MaxDP=1.19D-04 DE=-1.42D-06 OVMax= 1.40D-04
+
+ Cycle   6  Pass 0  IDiag  1:
+ E= -76.3476112620569     Delta-E=       -0.000000088863 Rises=F Damp=F
+ DIIS: error= 8.37D-06 at cycle   6 NSaved=   6.
+ NSaved= 6 IEnMin= 6 EnMin= -76.3476112620569     IErMin= 6 ErrMin= 8.37D-06
+ ErrMax= 8.37D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.18D-09 BMatP= 3.42D-08
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.132D-03-0.368D-03 0.769D-02 0.203D-01-0.280D+00 0.125D+01
+ Coeff:     -0.132D-03-0.368D-03 0.769D-02 0.203D-01-0.280D+00 0.125D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=1.83D-06 MaxDP=2.03D-05 DE=-8.89D-08 OVMax= 3.19D-05
+
+ Initial convergence to 1.0D-05 achieved.  Increase integral accuracy.
+ Cycle   7  Pass 1  IDiag  1:
+ E= -76.3476217557221     Delta-E=       -0.000010493665 Rises=F Damp=F
+ DIIS: error= 1.59D-05 at cycle   1 NSaved=   1.
+ NSaved= 1 IEnMin= 1 EnMin= -76.3476217557221     IErMin= 1 ErrMin= 1.59D-05
+ ErrMax= 1.59D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.38D-08 BMatP= 1.38D-08
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.100D+01
+ Coeff:      0.100D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=1.83D-06 MaxDP=2.03D-05 DE=-1.05D-05 OVMax= 2.57D-05
+
+ Cycle   8  Pass 1  IDiag  1:
+ E= -76.3476217675343     Delta-E=       -0.000000011812 Rises=F Damp=F
+ DIIS: error= 2.46D-06 at cycle   2 NSaved=   2.
+ NSaved= 2 IEnMin= 2 EnMin= -76.3476217675343     IErMin= 2 ErrMin= 2.46D-06
+ ErrMax= 2.46D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.85D-10 BMatP= 1.38D-08
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.108D+00 0.111D+01
+ Coeff:     -0.108D+00 0.111D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=4.50D-07 MaxDP=6.72D-06 DE=-1.18D-08 OVMax= 7.19D-06
+
+ Cycle   9  Pass 1  IDiag  1:
+ E= -76.3476217678321     Delta-E=       -0.000000000298 Rises=F Damp=F
+ DIIS: error= 1.84D-06 at cycle   3 NSaved=   3.
+ NSaved= 3 IEnMin= 3 EnMin= -76.3476217678321     IErMin= 3 ErrMin= 1.84D-06
+ ErrMax= 1.84D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.89D-11 BMatP= 2.85D-10
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.473D-01 0.406D+00 0.641D+00
+ Coeff:     -0.473D-01 0.406D+00 0.641D+00
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=1.42D-07 MaxDP=3.04D-06 DE=-2.98D-10 OVMax= 3.29D-06
+
+ Cycle  10  Pass 1  IDiag  1:
+ E= -76.3476217678822     Delta-E=       -0.000000000050 Rises=F Damp=F
+ DIIS: error= 4.08D-07 at cycle   4 NSaved=   4.
+ NSaved= 4 IEnMin= 4 EnMin= -76.3476217678822     IErMin= 4 ErrMin= 4.08D-07
+ ErrMax= 4.08D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.63D-12 BMatP= 6.89D-11
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.456D-02-0.764D-01 0.191D+00 0.880D+00
+ Coeff:      0.456D-02-0.764D-01 0.191D+00 0.880D+00
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=7.05D-08 MaxDP=1.01D-06 DE=-5.01D-11 OVMax= 1.39D-06
+
+ Cycle  11  Pass 1  IDiag  1:
+ E= -76.3476217678908     Delta-E=       -0.000000000009 Rises=F Damp=F
+ DIIS: error= 1.37D-07 at cycle   5 NSaved=   5.
+ NSaved= 5 IEnMin= 5 EnMin= -76.3476217678908     IErMin= 5 ErrMin= 1.37D-07
+ ErrMax= 1.37D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.14D-13 BMatP= 7.63D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.357D-02-0.347D-01-0.464D-01 0.874D-02 0.107D+01
+ Coeff:      0.357D-02-0.347D-01-0.464D-01 0.874D-02 0.107D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=2.22D-08 MaxDP=3.14D-07 DE=-8.57D-12 OVMax= 4.56D-07
+
+ Cycle  12  Pass 1  IDiag  1:
+ E= -76.3476217678916     Delta-E=       -0.000000000001 Rises=F Damp=F
+ DIIS: error= 1.69D-08 at cycle   6 NSaved=   6.
+ NSaved= 6 IEnMin= 6 EnMin= -76.3476217678916     IErMin= 6 ErrMin= 1.69D-08
+ ErrMax= 1.69D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.82D-15 BMatP= 2.14D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.627D-03 0.759D-02-0.188D-02-0.370D-01-0.151D+00 0.118D+01
+ Coeff:     -0.627D-03 0.759D-02-0.188D-02-0.370D-01-0.151D+00 0.118D+01
+ Gap=     0.490 Goal=   None    Shift=    0.000
+ RMSDP=4.64D-09 MaxDP=4.34D-08 DE=-7.82D-13 OVMax= 1.03D-07
+
+ SCF Done:  E(RM11) =  -76.3476217679     A.U. after   12 cycles
+            NFock= 12  Conv=0.46D-08     -V/T= 2.0095
+ KE= 7.563137150563D+01 PE=-1.984919036297D+02 EE= 3.732376865271D+01
+ Leave Link  502 at Mon Mar 21 20:08:57 2022, MaxMem=  8589934592 cpu:               3.2 elap:               0.4
+ (Enter /home/sabyasachi/g16/l801.exe)
+ DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
+ ExpMin= 6.90D-02 ExpMax= 2.27D+03 ExpMxC= 3.41D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV=-2 UseB2=F ITyADJ=14
+ ICtDFT= 12500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ Largest valence mixing into a core orbital is  3.63D-05
+ Largest core mixing into a valence orbital is  5.01D-06
+ Range of M.O.s used for correlation:     2    39
+ NBasis=    39 NAE=     5 NBE=     5 NFC=     1 NFV=     0
+ NROrb=     38 NOA=     4 NOB=     4 NVA=    34 NVB=    34
+ Leave Link  801 at Mon Mar 21 20:08:57 2022, MaxMem=  8589934592 cpu:               0.4 elap:               0.1
+ (Enter /home/sabyasachi/g16/l914.exe)
+ RHF ground state
+ Keep R1, R2, and R3 ints in memory in symmetry-blocked form, NReq=35791924.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=    780 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ MDV=  8589934592 DFT=T DoStab=F Mixed=T DoRPA=T DoScal=F NonHer=T
+ Making orbital integer symmetry assigments:
+ Orbital symmetries:
+       Occupied  (A1) (A1) (B2) (A1) (B1)
+       Virtual   (A1) (B2) (A1) (B1) (B2) (A1) (A2) (A1) (B1) (B2)
+                 (A1) (B2) (B2) (A1) (B1) (A1) (A2) (A1) (B2) (B1)
+                 (A1) (B2) (A1) (A2) (B1) (B2) (A1) (B2) (A1) (B1)
+                 (A2) (A1) (A1) (B2)
+   136 initial guesses have been made.
+ Convergence on wavefunction:    0.001000000000000
+ Davidson Disk Diagonalization:  ConvIn= 1.00D-03 SkipCon=T Conv= 1.00D-03.
+ Max sub-space:   816 roots to seek:   272 dimension of matrix:          272
+ *** WARNING: Number of orthogonal guesses is          136
+ Iteration     1 Dimension   136 NMult     0 NNew    136
+ CISAX will form   136 AO SS matrices at one time.
+ NMat=   136 NSing=   136 JSym2X=-1.
+ New state      5 was old state      6
+ New state      6 was old state      5
+ New state      8 was old state     10
+ New state     10 was old state      8
+ New state     13 was old state     16
+ New state     14 was old state     13
+ New state     15 was old state     14
+ New state     16 was old state     17
+ New state     17 was old state     18
+ New state     18 was old state     21
+ New state     19 was old state     24
+ New state     21 was old state     19
+ New state     22 was old state     26
+ New state     23 was old state     15
+ New state     24 was old state     23
+ New state     25 was old state     22
+ New state     26 was old state     25
+ New state     28 was old state     29
+ New state     29 was old state     28
+ New state     30 was old state     31
+ New state     31 was old state     30
+ New state     36 was old state     38
+ New state     38 was old state     42
+ New state     40 was old state     41
+ New state     41 was old state     36
+ New state     42 was old state     43
+ New state     43 was old state     44
+ New state     44 was old state     40
+ New state     45 was old state     46
+ New state     46 was old state     45
+ New state     48 was old state     50
+ New state     50 was old state     48
+ New state     51 was old state     53
+ New state     52 was old state     55
+ New state     53 was old state     51
+ New state     55 was old state     52
+ New state     58 was old state     59
+ New state     59 was old state     58
+ New state     63 was old state     65
+ New state     64 was old state     63
+ New state     65 was old state     64
+ New state     66 was old state     67
+ New state     67 was old state     66
+ New state     68 was old state     70
+ New state     69 was old state     68
+ New state     70 was old state     69
+ New state     71 was old state     73
+ New state     73 was old state     71
+ New state     76 was old state     78
+ New state     78 was old state     79
+ New state     79 was old state     80
+ New state     80 was old state     81
+ New state     81 was old state     76
+ New state     87 was old state     88
+ New state     88 was old state     89
+ New state     89 was old state     87
+ New state     93 was old state     95
+ New state     95 was old state     97
+ New state     97 was old state     93
+ New state    101 was old state    102
+ New state    102 was old state    101
+ New state    105 was old state    106
+ New state    106 was old state    105
+ New state    110 was old state    111
+ New state    111 was old state    110
+ New state    117 was old state    119
+ New state    118 was old state    120
+ New state    119 was old state    117
+ New state    120 was old state    118
+ Excitation Energies [eV] at current iteration:
+ Root      1 :     7.710261941293968
+ Root      2 :     8.986143871789029
+ Root      3 :     9.762968290228315
+ Root      4 :    10.503107510494590
+ Root      5 :    11.017575954020030
+ Root      6 :    11.438115093613050
+ Root      7 :    11.548544326152240
+ Root      8 :    12.510363427089590
+ Root      9 :    12.554776932822540
+ Root     10 :    13.204480585605470
+ Root     11 :    13.385222657679960
+ Root     12 :    13.717370633914410
+ Root     13 :    13.997008229676660
+ Root     14 :    14.418359713879760
+ Root     15 :    14.579550340020480
+ Root     16 :    14.945684906942740
+ Root     17 :    15.564844571499760
+ Root     18 :    15.600080662410200
+ Root     19 :    16.240931183765430
+ Root     20 :    16.400869416282100
+ Root     21 :    16.525186244892730
+ Root     22 :    16.531725541887220
+ Root     23 :    16.810329883013180
+ Root     24 :    16.921702464806120
+ Root     25 :    17.268552491436220
+ Root     26 :    18.242145825267260
+ Root     27 :    18.524315124102950
+ Root     28 :    18.817372335334270
+ Root     29 :    18.824229611667570
+ Root     30 :    19.475534548827310
+ Root     31 :    19.560817533549890
+ Root     32 :    19.671794160806410
+ Root     33 :    20.495504839252230
+ Root     34 :    20.794306009384050
+ Root     35 :    21.328910674930150
+ Root     36 :    22.166921669741380
+ Root     37 :    22.431510457395310
+ Root     38 :    22.731593559174040
+ Root     39 :    22.851533354074430
+ Root     40 :    22.897331976176580
+ Root     41 :    23.254231419683790
+ Root     42 :    23.617690213281620
+ Root     43 :    23.995101672747190
+ Root     44 :    24.406111396535600
+ Root     45 :    24.780658385096760
+ Root     46 :    24.897600048678370
+ Root     47 :    26.788429773126320
+ Root     48 :    27.402487859442790
+ Root     49 :    27.721932079882900
+ Root     50 :    27.800873297626570
+ Root     51 :    28.151656025005520
+ Root     52 :    29.066819839160380
+ Root     53 :    29.426738101856310
+ Root     54 :    29.689826744352990
+ Root     55 :    29.804502651479660
+ Root     56 :    30.422654477374920
+ Root     57 :    31.124629318365710
+ Root     58 :    31.180431155151040
+ Root     59 :    32.159960339986750
+ Root     60 :    32.597521956017390
+ Root     61 :    33.382696124444490
+ Root     62 :    33.690977743503490
+ Root     63 :    33.914561537997740
+ Root     64 :    35.344279047251530
+ Root     65 :    35.572345337176810
+ Root     66 :    36.021881239021820
+ Root     67 :    36.073461257573510
+ Root     68 :    37.343982375243710
+ Root     69 :    37.862914577191190
+ Root     70 :    38.068792556169850
+ Root     71 :    38.785540933461110
+ Root     72 :    39.943232781625130
+ Root     73 :    40.015116265069950
+ Root     74 :    40.318340539736250
+ Root     75 :    41.261466216320090
+ Root     76 :    41.856707818682890
+ Root     77 :    42.120665416563890
+ Root     78 :    42.850450135651600
+ Root     79 :    43.971049036662130
+ Root     80 :    45.796270986247850
+ Root     81 :    46.185110292705990
+ Root     82 :    48.246677613137150
+ Root     83 :    49.091723244412830
+ Root     84 :    50.648303280955330
+ Root     85 :    50.910450737342850
+ Root     86 :    51.577511317157840
+ Root     87 :    53.026400569874630
+ Root     88 :    53.050858534114480
+ Root     89 :    54.677934497784320
+ Root     90 :    55.172599320115490
+ Root     91 :    55.517214433197460
+ Root     92 :    56.154573844052190
+ Root     93 :    57.135239632081340
+ Root     94 :    57.172342681474040
+ Root     95 :    57.691115927327030
+ Root     96 :    57.887831234922360
+ Root     97 :    58.679065583374390
+ Root     98 :    60.496692265319070
+ Root     99 :    61.051360507108950
+ Root    100 :    61.283549261417240
+ Root    101 :    64.590649634115280
+ Root    102 :    64.592069419622400
+ Root    103 :    65.461733316165710
+ Root    104 :    65.615480072306780
+ Root    105 :    68.725646658141260
+ Root    106 :    69.819814671824660
+ Root    107 :    69.999600851499320
+ Root    108 :    70.107612430859800
+ Root    109 :    70.933389435621920
+ Root    110 :    73.965908135672000
+ Root    111 :    74.044261943143750
+ Root    112 :    75.969949214819560
+ Root    113 :    76.990247158404870
+ Root    114 :    77.295499784466830
+ Root    115 :    85.320886685196290
+ Root    116 :    86.612328217269140
+ Root    117 :    87.904463611024110
+ Root    118 :    88.910039425057160
+ Root    119 :    88.914344345550460
+ Root    120 :    89.013870435444900
+ Root    121 :    90.639180430663250
+ Root    122 :    91.350522020865780
+ Root    123 :    95.635073415970440
+ Root    124 :    95.643037555797760
+ Root    125 :    97.970623372948110
+ Root    126 :   103.781037608951700
+ Root    127 :   104.140771998971800
+ Root    128 :   105.441464126797500
+ Root    129 :   106.538748062658800
+ Root    130 :   109.338996364253700
+ Root    131 :   110.815032571258500
+ Root    132 :   112.562957527397300
+ Root    133 :   115.999797887823700
+ Root    134 :   120.658179778269200
+ Root    135 :   121.374018249321100
+ Root    136 :   132.291719861292700
+ Convergence achieved for final wavefunctions.
+ ***********************************************************************
+ Excited states from <AA,BB:AA,BB> singles matrix:
+ ***********************************************************************
+ 
+ 1PDM for each excited state written to RWF  633
+ Ground to excited state transition densities written to RWF  633
+ Ground to excited state transition electric dipole moments (Au):
+       state          X           Y           Z        Dip. S.      Osc.
+         1        -0.4868      0.0000     -0.0000      0.2369      0.0448
+         2         0.0000      0.0000      0.0000      0.0000      0.0000
+         3         0.0000      0.0000     -0.5712      0.3263      0.0781
+         4        -0.1307     -0.0000     -0.0000      0.0171      0.0044
+         5        -0.0000     -0.1312     -0.0000      0.0172      0.0046
+         6        -0.0000     -0.0000      0.0712      0.0051      0.0014
+         7        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+         8        -0.1721      0.0000      0.0000      0.0296      0.0091
+         9        -0.3218      0.0000      0.0000      0.1035      0.0318
+        10        -0.0000      0.0000     -0.3512      0.1233      0.0399
+        11        -0.0000     -0.2765     -0.0000      0.0764      0.0251
+        12        -0.0000      0.0643      0.0000      0.0041      0.0014
+        13        -0.4186     -0.0000     -0.0000      0.1752      0.0601
+        14         0.0000     -1.0539      0.0000      1.1107      0.3923
+        15         0.0000     -0.0000     -0.2774      0.0770      0.0275
+        16         0.0000     -0.0000     -0.4241      0.1799      0.0659
+        17         0.0000      0.0000      0.0000      0.0000      0.0000
+        18         0.0000      0.0000      0.0964      0.0093      0.0035
+        19         0.6444      0.0000     -0.0000      0.4152      0.1652
+        20         0.0000      0.0000      0.0000      0.0000      0.0000
+        21         0.0000     -0.3222      0.0000      0.1038      0.0420
+        22         0.0000      0.0000     -0.0000      0.0000      0.0000
+        23        -0.0000      0.0000      0.3138      0.0985      0.0405
+        24        -0.4765     -0.0000      0.0000      0.2271      0.0941
+        25        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        26        -0.0000      0.0000     -0.6752      0.4559      0.2037
+        27         0.0000      0.6923      0.0000      0.4793      0.2175
+        28        -0.0000      0.0000     -0.5501      0.3026      0.1395
+        29         0.0000      0.1775      0.0000      0.0315      0.0145
+        30        -0.0000      0.1842      0.0000      0.0339      0.0162
+        31        -0.3978      0.0000      0.0000      0.1582      0.0758
+        32         0.0000      0.0886     -0.0000      0.0079      0.0038
+        33         0.0000      0.0000      0.0000      0.0000      0.0000
+        34        -0.0000      0.0000     -0.0000      0.0000      0.0000
+        35         0.6401     -0.0000      0.0000      0.4098      0.2141
+        36         0.0000      0.0000      0.3281      0.1076      0.0584
+        37         0.0000      0.1471     -0.0000      0.0216      0.0119
+        38        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        39         0.0000     -0.1389      0.0000      0.0193      0.0108
+        40        -0.0000      0.0000     -0.1526      0.0233      0.0131
+        41         0.0000     -0.0000     -0.1637      0.0268      0.0153
+        42        -0.0000     -0.7428     -0.0000      0.5518      0.3193
+        43         0.6669      0.0000     -0.0000      0.4448      0.2615
+        44        -0.0000     -0.0000      0.4411      0.1945      0.1163
+        45        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        46        -0.0000      0.0000     -0.6345      0.4026      0.2456
+        47         0.0000      0.0000      0.1551      0.0241      0.0158
+        48        -0.0000     -0.4714      0.0000      0.2222      0.1492
+        49         0.0000      0.0000     -0.6366      0.4053      0.2753
+        50        -0.0000      0.0347      0.0000      0.0012      0.0008
+        51         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        52        -0.4319      0.0000      0.0000      0.1865      0.1328
+        53        -0.0000     -0.0000      0.1659      0.0275      0.0198
+        54        -0.0000      0.6266      0.0000      0.3927      0.2856
+        55         0.4095      0.0000      0.0000      0.1677      0.1225
+        56        -0.0000      0.1044      0.0000      0.0109      0.0081
+        57         0.0000      0.0000      0.0489      0.0024      0.0018
+        58         0.0328      0.0000     -0.0000      0.0011      0.0008
+        59         0.0000      0.0000      0.0000      0.0000      0.0000
+        60         0.0000      0.0000     -0.0696      0.0048      0.0039
+        61         0.0821     -0.0000     -0.0000      0.0067      0.0055
+        62        -0.0000      0.0000     -0.1513      0.0229      0.0189
+        63        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        64        -0.0000     -0.0677     -0.0000      0.0046      0.0040
+        65        -0.0000      0.0000     -0.0948      0.0090      0.0078
+        66        -0.0000      0.0230     -0.0000      0.0005      0.0005
+        67        -0.0000     -0.0779      0.0000      0.0061      0.0054
+        68        -0.0685      0.0000      0.0000      0.0047      0.0043
+        69         0.0000     -0.2580     -0.0000      0.0666      0.0618
+        70         0.0000     -0.0000      0.1128      0.0127      0.0119
+        71        -0.0454     -0.0000      0.0000      0.0021      0.0020
+        72         0.0000     -0.0000      0.0461      0.0021      0.0021
+        73         0.0000     -0.0047      0.0000      0.0000      0.0000
+        74        -0.0000     -0.0000     -0.1391      0.0194      0.0191
+        75        -0.0376     -0.0000     -0.0000      0.0014      0.0014
+        76        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        77        -0.0000     -0.0000      0.1016      0.0103      0.0107
+        78        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        79        -0.0000     -0.2336      0.0000      0.0546      0.0588
+        80        -0.0000      0.0000      0.0000      0.0000      0.0000
+        81         0.0000      0.0000      0.1282      0.0164      0.0186
+        82        -0.0000      0.2283     -0.0000      0.0521      0.0616
+        83        -0.2643     -0.0000      0.0000      0.0698      0.0840
+        84         0.0000     -0.0000      0.2871      0.0825      0.1023
+        85         0.0000     -0.0000     -0.0754      0.0057      0.0071
+        86         0.0000     -0.2974     -0.0000      0.0884      0.1117
+        87        -0.0000      0.2053     -0.0000      0.0422      0.0548
+        88         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        89         0.0000     -0.0000     -0.0523      0.0027      0.0037
+        90        -0.0000      0.0804      0.0000      0.0065      0.0087
+        91         0.0000     -0.0000     -0.2035      0.0414      0.0563
+        92        -0.3007     -0.0000      0.0000      0.0904      0.1244
+        93         0.0380     -0.0000     -0.0000      0.0014      0.0020
+        94        -0.0000     -0.0000     -0.2420      0.0586      0.0820
+        95        -0.2439     -0.0000      0.0000      0.0595      0.0841
+        96        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        97         0.4562     -0.0000     -0.0000      0.2081      0.2991
+        98         0.0000      0.0990      0.0000      0.0098      0.0145
+        99         0.0000      0.0000     -0.3936      0.1549      0.2317
+       100         0.0000     -0.0000      0.0000      0.0000      0.0000
+       101        -0.0000      0.2439      0.0000      0.0595      0.0941
+       102        -0.0000      0.0000     -0.0580      0.0034      0.0053
+       103        -0.0000      0.1824     -0.0000      0.0333      0.0534
+       104        -0.0000      0.0000     -0.0000      0.0000      0.0000
+       105        -0.0000      0.0672      0.0000      0.0045      0.0076
+       106        -0.0000     -0.0000      0.0645      0.0042      0.0071
+       107         0.0000      0.0000      0.0000      0.0000      0.0000
+       108        -0.2847     -0.0000     -0.0000      0.0811      0.1392
+       109        -0.0000      0.0000      0.0661      0.0044      0.0076
+       110         0.1245     -0.0000     -0.0000      0.0155      0.0281
+       111         0.0000      0.0000      0.1097      0.0120      0.0218
+       112         0.0000      0.0782      0.0000      0.0061      0.0114
+       113        -0.0000     -0.0157     -0.0000      0.0002      0.0005
+       114        -0.0000     -0.0000      0.0469      0.0022      0.0042
+       115         0.0000     -0.0747     -0.0000      0.0056      0.0117
+       116         0.0000     -0.0000     -0.2745      0.0754      0.1599
+       117        -0.1994      0.0000     -0.0000      0.0397      0.0856
+       118        -0.0000      0.0000     -0.0000      0.0000      0.0000
+       119        -0.0000     -0.0000     -0.0232      0.0005      0.0012
+       120        -0.0000     -0.3048      0.0000      0.0929      0.2026
+       121         0.0850      0.0000     -0.0000      0.0072      0.0160
+       122         0.0000      0.0000     -0.0000      0.0000      0.0000
+       123        -0.0000      0.0000     -0.3529      0.1245      0.2918
+       124        -0.2619      0.0000      0.0000      0.0686      0.1607
+       125        -0.0000      0.1597      0.0000      0.0255      0.0612
+       126         0.3185     -0.0000     -0.0000      0.1014      0.2579
+       127        -0.0000     -0.0000     -0.0425      0.0018      0.0046
+       128         0.1599      0.0000     -0.0000      0.0256      0.0661
+       129        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+       130         0.0000     -0.1335      0.0000      0.0178      0.0477
+       131        -0.0000      0.0000      0.0619      0.0038      0.0104
+       132         0.0000     -0.0000      0.0000      0.0000      0.0000
+       133         0.0000      0.2399      0.0000      0.0576      0.1636
+       134         0.0000      0.0000      0.1647      0.0271      0.0801
+       135        -0.0000      0.0000     -0.0785      0.0062      0.0183
+       136         0.0000      0.0163     -0.0000      0.0003      0.0009
+ Ground to excited state transition velocity dipole moments (Au):
+       state          X           Y           Z        Dip. S.      Osc.
+         1         0.1503     -0.0000      0.0000      0.0226      0.0531
+         2        -0.0000      0.0000      0.0000      0.0000      0.0000
+         3        -0.0000     -0.0000      0.2223      0.0494      0.0918
+         4         0.0699     -0.0000      0.0000      0.0049      0.0084
+         5        -0.0000      0.0620      0.0000      0.0038      0.0063
+         6         0.0000      0.0000     -0.0268      0.0007      0.0011
+         7         0.0000      0.0000     -0.0000      0.0000      0.0000
+         8         0.0756      0.0000     -0.0000      0.0057      0.0083
+         9         0.1355     -0.0000     -0.0000      0.0184      0.0265
+        10         0.0000     -0.0000      0.1700      0.0289      0.0397
+        11        -0.0000      0.1582      0.0000      0.0250      0.0339
+        12        -0.0000     -0.0326     -0.0000      0.0011      0.0014
+        13         0.2012      0.0000      0.0000      0.0405      0.0525
+        14        -0.0000      0.5617     -0.0000      0.3155      0.3970
+        15        -0.0000      0.0000      0.1511      0.0228      0.0284
+        16        -0.0000      0.0000      0.2256      0.0509      0.0618
+        17        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        18         0.0000     -0.0000     -0.0634      0.0040      0.0047
+        19        -0.4052     -0.0000      0.0000      0.1642      0.1834
+        20         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        21        -0.0000      0.2044      0.0000      0.0418      0.0459
+        22        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        23         0.0000     -0.0000     -0.2141      0.0459      0.0495
+        24         0.3010      0.0000     -0.0000      0.0906      0.0971
+        25        -0.0000      0.0000     -0.0000      0.0000      0.0000
+        26         0.0000      0.0000      0.4736      0.2243      0.2230
+        27         0.0000     -0.4725     -0.0000      0.2233      0.2187
+        28         0.0000     -0.0000      0.3677      0.1352      0.1304
+        29        -0.0000     -0.1406     -0.0000      0.0198      0.0191
+        30         0.0000     -0.1411      0.0000      0.0199      0.0186
+        31         0.3109     -0.0000     -0.0000      0.0966      0.0896
+        32        -0.0000     -0.0630      0.0000      0.0040      0.0037
+        33         0.0000      0.0000     -0.0000      0.0000      0.0000
+        34         0.0000     -0.0000      0.0000      0.0000      0.0000
+        35        -0.5300      0.0000     -0.0000      0.2809      0.2389
+        36        -0.0000     -0.0000     -0.2902      0.0842      0.0689
+        37        -0.0000     -0.1504     -0.0000      0.0226      0.0183
+        38         0.0139      0.0000     -0.0000      0.0002      0.0002
+        39        -0.0000      0.1080     -0.0000      0.0117      0.0093
+        40         0.0000     -0.0000      0.1321      0.0175      0.0138
+        41        -0.0000      0.0000      0.1592      0.0253      0.0198
+        42         0.0000      0.7009      0.0000      0.4913      0.3774
+        43        -0.6218     -0.0000      0.0000      0.3866      0.2923
+        44         0.0000      0.0000     -0.4282      0.1834      0.1363
+        45         0.0000      0.0000     -0.0000      0.0000      0.0000
+        46         0.0000     -0.0000      0.6502      0.4227      0.3080
+        47        -0.0000      0.0000     -0.1461      0.0214      0.0145
+        48         0.0000      0.4885     -0.0000      0.2387      0.1580
+        49        -0.0000     -0.0000      0.6676      0.4457      0.2917
+        50         0.0000     -0.0457     -0.0000      0.0021      0.0014
+        51        -0.0000      0.0000      0.0000      0.0000      0.0000
+        52         0.4724     -0.0000     -0.0000      0.2232      0.1393
+        53         0.0000      0.0000     -0.1817      0.0330      0.0204
+        54         0.0000     -0.7196     -0.0000      0.5178      0.3164
+        55        -0.5109     -0.0000     -0.0000      0.2611      0.1589
+        56         0.0000     -0.0882     -0.0000      0.0078      0.0046
+        57        -0.0000      0.0000     -0.0726      0.0053      0.0031
+        58        -0.0385     -0.0000      0.0000      0.0015      0.0009
+        59        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        60        -0.0000     -0.0000      0.0550      0.0030      0.0017
+        61        -0.0866      0.0000      0.0000      0.0075      0.0041
+        62         0.0000     -0.0000      0.1991      0.0396      0.0213
+        63         0.0000      0.0000      0.0000      0.0000      0.0000
+        64         0.0000      0.0730      0.0000      0.0053      0.0027
+        65         0.0000     -0.0000      0.1214      0.0147      0.0075
+        66         0.0000     -0.0458      0.0000      0.0021      0.0011
+        67         0.0000      0.0645     -0.0000      0.0042      0.0021
+        68         0.1235     -0.0000     -0.0000      0.0153      0.0074
+        69        -0.0000      0.3355      0.0000      0.1125      0.0539
+        70        -0.0000      0.0000     -0.2091      0.0437      0.0208
+        71         0.0813      0.0000     -0.0000      0.0066      0.0031
+        72        -0.0000      0.0000     -0.0751      0.0056      0.0026
+        73        -0.0000      0.0082      0.0000      0.0001      0.0000
+        74         0.0000      0.0000      0.2251      0.0507      0.0228
+        75         0.0890      0.0000      0.0000      0.0079      0.0035
+        76        -0.0000      0.0000     -0.0000      0.0000      0.0000
+        77         0.0000      0.0000     -0.1953      0.0381      0.0164
+        78         0.0000      0.0000      0.0000      0.0000      0.0000
+        79         0.0000      0.3946     -0.0000      0.1557      0.0642
+        80         0.0000     -0.0000      0.0000      0.0000      0.0000
+        81        -0.0000     -0.0000     -0.1918      0.0368      0.0145
+        82         0.0000     -0.4474     -0.0000      0.2002      0.0753
+        83         0.5447      0.0000     -0.0000      0.2967      0.1097
+        84        -0.0000      0.0000     -0.5591      0.3125      0.1119
+        85        -0.0000      0.0000      0.1536      0.0236      0.0084
+        86        -0.0000      0.5113      0.0000      0.2615      0.0920
+        87         0.0000     -0.4320      0.0000      0.1866      0.0639
+        88        -0.0000      0.0000      0.0000      0.0000      0.0000
+        89        -0.0000     -0.0000      0.0583      0.0034      0.0011
+        90         0.0000     -0.0963      0.0000      0.0093      0.0030
+        91        -0.0000      0.0000      0.3941      0.1553      0.0508
+        92         0.7048      0.0000     -0.0000      0.4968      0.1605
+        93        -0.0685     -0.0000      0.0000      0.0047      0.0015
+        94         0.0000      0.0000      0.5483      0.3006      0.0954
+        95         0.4678     -0.0000     -0.0000      0.2189      0.0688
+        96         0.0000      0.0000      0.0000      0.0000      0.0000
+        97        -0.9131      0.0000      0.0000      0.8338      0.2578
+        98        -0.0000     -0.2512     -0.0000      0.0631      0.0189
+        99        -0.0000     -0.0000      0.7680      0.5899      0.1753
+       100         0.0000      0.0000     -0.0000      0.0000      0.0000
+       101         0.0000     -0.5344     -0.0000      0.2856      0.0802
+       102         0.0000     -0.0000      0.1029      0.0106      0.0030
+       103        -0.0000     -0.4477      0.0000      0.2005      0.0556
+       104         0.0000     -0.0000     -0.0000      0.0000      0.0000
+       105         0.0000     -0.1321     -0.0000      0.0175      0.0046
+       106         0.0000      0.0000     -0.1538      0.0236      0.0061
+       107        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+       108         0.5896     -0.0000      0.0000      0.3476      0.0899
+       109         0.0000     -0.0000     -0.1690      0.0286      0.0073
+       110        -0.2674      0.0000      0.0000      0.0715      0.0175
+       111        -0.0000     -0.0000     -0.3108      0.0966      0.0237
+       112        -0.0000     -0.3028     -0.0000      0.0917      0.0219
+       113        -0.0000      0.0497      0.0000      0.0025      0.0006
+       114         0.0000      0.0000     -0.0573      0.0033      0.0008
+       115        -0.0000      0.3094      0.0000      0.0957      0.0204
+       116        -0.0000      0.0000      0.7934      0.6295      0.1319
+       117         0.5535     -0.0000      0.0000      0.3063      0.0632
+       118         0.0000     -0.0000      0.0000      0.0000      0.0000
+       119         0.0000      0.0000      0.1408      0.0198      0.0040
+       120         0.0000      0.9274     -0.0000      0.8600      0.1753
+       121        -0.2626     -0.0000      0.0000      0.0690      0.0138
+       122        -0.0000     -0.0000      0.0000      0.0000      0.0000
+       123         0.0000     -0.0000      1.1582      1.3414      0.2545
+       124         0.8147     -0.0000     -0.0000      0.6637      0.1259
+       125         0.0000     -0.5642     -0.0000      0.3183      0.0589
+       126        -1.1243      0.0000      0.0000      1.2641      0.2210
+       127         0.0000     -0.0000      0.1038      0.0108      0.0019
+       128        -0.5597     -0.0000      0.0000      0.3132      0.0539
+       129         0.0000     -0.0000     -0.0000      0.0000      0.0000
+       130         0.0000      0.4871     -0.0000      0.2373      0.0394
+       131         0.0000     -0.0000     -0.2374      0.0563      0.0092
+       132         0.0000     -0.0000     -0.0000      0.0000      0.0000
+       133        -0.0000     -0.9509      0.0000      0.9042      0.1414
+       134        -0.0000     -0.0000     -0.6778      0.4594      0.0691
+       135        -0.0000     -0.0000      0.3295      0.1086      0.0162
+       136        -0.0000     -0.0574      0.0000      0.0033      0.0005
+ Ground to excited state transition magnetic dipole moments (Au):
+       state          X           Y           Z
+         1         0.0000     -0.0602      0.0000
+         2         0.0000     -0.0000      0.0518
+         3         0.0000      0.0000     -0.0000
+         4        -0.0000     -0.0258     -0.0000
+         5        -0.0569     -0.0000      0.0000
+         6        -0.0000      0.0000     -0.0000
+         7        -0.0000     -0.0000      0.1984
+         8         0.0000      0.0825      0.0000
+         9         0.0000      0.0786      0.0000
+        10         0.0000      0.0000      0.0000
+        11         0.1440     -0.0000      0.0000
+        12         0.2174      0.0000     -0.0000
+        13        -0.0000      0.1063     -0.0000
+        14        -0.2386     -0.0000     -0.0000
+        15         0.0000     -0.0000     -0.0000
+        16        -0.0000     -0.0000      0.0000
+        17         0.0000      0.0000      0.1898
+        18         0.0000     -0.0000     -0.0000
+        19         0.0000      0.0026     -0.0000
+        20         0.0000     -0.0000      0.0684
+        21         0.0206      0.0000     -0.0000
+        22        -0.0000     -0.0000     -0.0681
+        23        -0.0000      0.0000     -0.0000
+        24        -0.0000     -0.0555      0.0000
+        25         0.0000     -0.0000      0.1096
+        26        -0.0000     -0.0000      0.0000
+        27        -0.2986      0.0000      0.0000
+        28        -0.0000     -0.0000      0.0000
+        29        -0.1716     -0.0000     -0.0000
+        30         0.1374      0.0000      0.0000
+        31        -0.0000     -0.1670     -0.0000
+        32         0.1772     -0.0000     -0.0000
+        33         0.0000     -0.0000      0.2385
+        34        -0.0000      0.0000      0.1038
+        35         0.0000     -0.1085      0.0000
+        36        -0.0000     -0.0000      0.0000
+        37        -0.0916     -0.0000      0.0000
+        38        -0.0000      0.0253     -0.0000
+        39        -0.1082     -0.0000      0.0000
+        40         0.0000     -0.0000     -0.0000
+        41        -0.0000     -0.0000     -0.0000
+        42        -0.2583     -0.0000     -0.0000
+        43        -0.0000     -0.0515      0.0000
+        44        -0.0000      0.0000     -0.0000
+        45        -0.0000      0.0000      0.1078
+        46        -0.0000      0.0000     -0.0000
+        47        -0.0000      0.0000     -0.0000
+        48         0.0319      0.0000     -0.0000
+        49        -0.0000     -0.0000      0.0000
+        50         0.0088      0.0000      0.0000
+        51         0.0000      0.0000     -0.0856
+        52        -0.0000     -0.0225     -0.0000
+        53         0.0000     -0.0000     -0.0000
+        54        -0.2934      0.0000      0.0000
+        55        -0.0000      0.0660      0.0000
+        56         0.1445      0.0000      0.0000
+        57         0.0000     -0.0000     -0.0000
+        58         0.0000     -0.1072     -0.0000
+        59        -0.0000      0.0000     -0.1061
+        60         0.0000      0.0000     -0.0000
+        61         0.0000      0.0433      0.0000
+        62         0.0000     -0.0000     -0.0000
+        63        -0.0000     -0.0000      0.1176
+        64        -0.0332      0.0000     -0.0000
+        65        -0.0000      0.0000      0.0000
+        66        -0.1216      0.0000     -0.0000
+        67        -0.1438      0.0000     -0.0000
+        68         0.0000     -0.0221     -0.0000
+        69        -0.0663     -0.0000      0.0000
+        70        -0.0000     -0.0000     -0.0000
+        71        -0.0000      0.0885      0.0000
+        72         0.0000     -0.0000     -0.0000
+        73         0.0782     -0.0000     -0.0000
+        74        -0.0000      0.0000     -0.0000
+        75         0.0000     -0.0514     -0.0000
+        76         0.0000      0.0000     -0.1887
+        77         0.0000      0.0000      0.0000
+        78         0.0000      0.0000     -0.1050
+        79         0.1891      0.0000      0.0000
+        80        -0.0000      0.0000     -0.0470
+        81        -0.0000     -0.0000      0.0000
+        82         0.3033      0.0000     -0.0000
+        83        -0.0000      0.1473     -0.0000
+        84        -0.0000     -0.0000     -0.0000
+        85        -0.0000     -0.0000     -0.0000
+        86        -0.1410     -0.0000     -0.0000
+        87         0.1190      0.0000      0.0000
+        88        -0.0000     -0.0000      0.2690
+        89        -0.0000      0.0000      0.0000
+        90        -0.1499      0.0000      0.0000
+        91         0.0000      0.0000      0.0000
+        92         0.0000      0.1175      0.0000
+        93        -0.0000      0.1048     -0.0000
+        94        -0.0000     -0.0000     -0.0000
+        95         0.0000     -0.1769      0.0000
+        96         0.0000     -0.0000     -0.0494
+        97         0.0000      0.1630      0.0000
+        98        -0.1985      0.0000      0.0000
+        99        -0.0000     -0.0000      0.0000
+       100         0.0000      0.0000      0.4771
+       101        -0.4184      0.0000      0.0000
+       102        -0.0000      0.0000      0.0000
+       103        -0.0895     -0.0000      0.0000
+       104        -0.0000     -0.0000     -0.1034
+       105         0.0467      0.0000      0.0000
+       106         0.0000      0.0000      0.0000
+       107        -0.0000     -0.0000     -0.3096
+       108        -0.0000      0.1263     -0.0000
+       109        -0.0000      0.0000      0.0000
+       110        -0.0000      0.1574     -0.0000
+       111        -0.0000      0.0000      0.0000
+       112         0.1213      0.0000     -0.0000
+       113         0.2761      0.0000      0.0000
+       114         0.0000      0.0000      0.0000
+       115        -0.0858     -0.0000     -0.0000
+       116        -0.0000     -0.0000     -0.0000
+       117         0.0000      0.1161      0.0000
+       118         0.0000      0.0000     -0.0561
+       119        -0.0000      0.0000      0.0000
+       120        -0.1275      0.0000     -0.0000
+       121         0.0000     -0.0373      0.0000
+       122         0.0000      0.0000     -0.0785
+       123         0.0000      0.0000      0.0000
+       124         0.0000      0.1963      0.0000
+       125         0.2041      0.0000     -0.0000
+       126        -0.0000     -0.1872      0.0000
+       127        -0.0000      0.0000     -0.0000
+       128         0.0000     -0.1053     -0.0000
+       129         0.0000      0.0000     -0.0004
+       130        -0.1096      0.0000     -0.0000
+       131         0.0000      0.0000     -0.0000
+       132         0.0000      0.0000      0.0249
+       133         0.1531     -0.0000      0.0000
+       134         0.0000     -0.0000      0.0000
+       135         0.0000     -0.0000      0.0000
+       136         0.0068      0.0000     -0.0000
+ Ground to excited state transition velocity quadrupole moments (Au):
+       state          XX          YY          ZZ          XY          XZ          YZ
+         1         0.0000      0.0000      0.0000     -0.0000     -0.0620     -0.0000
+         2        -0.0000      0.0000     -0.0000     -0.2330     -0.0000      0.0000
+         3         0.1262     -0.1292     -0.1355      0.0000     -0.0000      0.0000
+         4         0.0000      0.0000     -0.0000     -0.0000      0.3424     -0.0000
+         5         0.0000     -0.0000      0.0000     -0.0000     -0.0000     -0.3209
+         6         0.8879      0.0148     -0.0704     -0.0000     -0.0000     -0.0000
+         7         0.0000      0.0000      0.0000      0.2486      0.0000     -0.0000
+         8        -0.0000      0.0000     -0.0000     -0.0000     -0.2337      0.0000
+         9        -0.0000      0.0000     -0.0000      0.0000      0.2911      0.0000
+        10         0.5106     -0.1393      0.8226     -0.0000     -0.0000      0.0000
+        11         0.0000      0.0000      0.0000      0.0000     -0.0000     -0.2372
+        12        -0.0000     -0.0000      0.0000     -0.0000      0.0000     -0.0942
+        13        -0.0000      0.0000     -0.0000      0.0000      0.0240      0.0000
+        14        -0.0000     -0.0000     -0.0000      0.0000     -0.0000     -0.3617
+        15         0.0861      0.1124     -0.1203      0.0000      0.0000      0.0000
+        16         0.1018      0.2552      0.1296     -0.0000      0.0000     -0.0000
+        17        -0.0000     -0.0000     -0.0000     -0.2327      0.0000      0.0000
+        18        -0.2873     -0.7056     -0.1519      0.0000     -0.0000      0.0000
+        19         0.0000      0.0000      0.0000     -0.0000      0.0633     -0.0000
+        20         0.0000      0.0000     -0.0000      0.1459     -0.0000     -0.0000
+        21         0.0000     -0.0000      0.0000      0.0000      0.0000      0.1678
+        22         0.0000     -0.0000     -0.0000      0.3187      0.0000     -0.0000
+        23         0.5088      0.5931      0.5008      0.0000     -0.0000      0.0000
+        24        -0.0000     -0.0000      0.0000     -0.0000     -0.1080     -0.0000
+        25        -0.0000      0.0000      0.0000     -0.3710     -0.0000      0.0000
+        26        -0.0267     -0.1515     -0.4801      0.0000     -0.0000      0.0000
+        27         0.0000      0.0000      0.0000     -0.0000      0.0000      0.4135
+        28        -0.1632     -0.6779     -0.4835     -0.0000     -0.0000     -0.0000
+        29         0.0000      0.0000      0.0000      0.0000     -0.0000     -0.1003
+        30        -0.0000      0.0000     -0.0000     -0.0000      0.0000      0.3873
+        31         0.0000      0.0000      0.0000      0.0000     -0.3511      0.0000
+        32        -0.0000     -0.0000      0.0000      0.0000     -0.0000      0.5893
+        33        -0.0000      0.0000      0.0000     -0.5113     -0.0000      0.0000
+        34        -0.0000     -0.0000      0.0000      0.3208     -0.0000     -0.0000
+        35         0.0000      0.0000     -0.0000      0.0000      0.0609     -0.0000
+        36        -0.1800      0.2077     -0.1048     -0.0000     -0.0000     -0.0000
+        37         0.0000     -0.0000      0.0000     -0.0000      0.0000     -0.0788
+        38         0.0000     -0.0000      0.0000     -0.0000      0.0423      0.0000
+        39        -0.0000     -0.0000      0.0000     -0.0000      0.0000      0.3621
+        40        -0.1466     -0.5499      0.6394      0.0000     -0.0000     -0.0000
+        41        -0.1130      1.4612     -0.1364      0.0000     -0.0000      0.0000
+        42        -0.0000     -0.0000     -0.0000      0.0000     -0.0000      0.6206
+        43        -0.0000     -0.0000      0.0000      0.0000     -0.5551     -0.0000
+        44         0.4798      0.3383      0.2726     -0.0000     -0.0000      0.0000
+        45         0.0000      0.0000     -0.0000      0.4891      0.0000      0.0000
+        46        -0.1936     -0.0504      0.6738     -0.0000      0.0000     -0.0000
+        47         0.3773      0.7831      0.7036      0.0000     -0.0000     -0.0000
+        48         0.0000     -0.0000     -0.0000     -0.0000      0.0000      0.5228
+        49         0.1973      0.7381      0.8567      0.0000     -0.0000      0.0000
+        50        -0.0000     -0.0000     -0.0000      0.0000     -0.0000      0.4243
+        51         0.0000      0.0000      0.0000     -0.3690     -0.0000      0.0000
+        52         0.0000      0.0000     -0.0000     -0.0000      0.1855     -0.0000
+        53         0.0440      0.3617     -0.1277      0.0000      0.0000     -0.0000
+        54        -0.0000      0.0000      0.0000     -0.0000      0.0000     -0.2535
+        55         0.0000      0.0000      0.0000      0.0000     -0.3534     -0.0000
+        56        -0.0000      0.0000     -0.0000     -0.0000      0.0000      0.7094
+        57         0.2527     -0.8970      0.3248      0.0000      0.0000      0.0000
+        58        -0.0000      0.0000     -0.0000      0.0000      0.1834      0.0000
+        59        -0.0000      0.0000      0.0000      0.6651     -0.0000     -0.0000
+        60         0.2905     -0.1022     -0.9867      0.0000     -0.0000      0.0000
+        61         0.0000     -0.0000     -0.0000      0.0000      0.6682     -0.0000
+        62         0.5891     -0.7249      0.1801     -0.0000     -0.0000     -0.0000
+        63         0.0000     -0.0000     -0.0000      0.4069     -0.0000     -0.0000
+        64        -0.0000     -0.0000     -0.0000     -0.0000      0.0000     -0.0983
+        65        -0.4657     -0.7198     -0.2292      0.0000      0.0000     -0.0000
+        66        -0.0000      0.0000      0.0000      0.0000      0.0000     -0.3411
+        67         0.0000      0.0000      0.0000      0.0000      0.0000     -0.2887
+        68         0.0000     -0.0000      0.0000      0.0000      0.3965      0.0000
+        69        -0.0000     -0.0000      0.0000     -0.0000     -0.0000     -0.9646
+        70         0.9524      0.2832     -0.3973      0.0000     -0.0000     -0.0000
+        71         0.0000      0.0000     -0.0000     -0.0000      0.3351     -0.0000
+        72        -0.9550      0.8729     -0.1801      0.0000      0.0000     -0.0000
+        73         0.0000     -0.0000      0.0000      0.0000     -0.0000      0.5741
+        74         0.4502     -0.1975      0.3512      0.0000      0.0000     -0.0000
+        75        -0.0000      0.0000     -0.0000      0.0000     -0.6918     -0.0000
+        76        -0.0000     -0.0000      0.0000      0.9026      0.0000     -0.0000
+        77        -0.1381     -0.6807      0.9092     -0.0000     -0.0000     -0.0000
+        78         0.0000      0.0000      0.0000     -0.0630     -0.0000     -0.0000
+        79         0.0000      0.0000      0.0000     -0.0000      0.0000     -0.2374
+        80         0.0000      0.0000      0.0000     -0.4434      0.0000      0.0000
+        81         0.6702      0.5801      1.4047      0.0000     -0.0000      0.0000
+        82        -0.0000      0.0000      0.0000      0.0000      0.0000      0.1965
+        83         0.0000      0.0000      0.0000      0.0000      0.0775     -0.0000
+        84        -0.0397      0.1536      0.5159     -0.0000     -0.0000     -0.0000
+        85         0.0451      0.5724      0.0066      0.0000      0.0000      0.0000
+        86         0.0000      0.0000     -0.0000      0.0000     -0.0000     -0.6802
+        87         0.0000      0.0000      0.0000     -0.0000     -0.0000      0.1668
+        88        -0.0000      0.0000      0.0000     -0.7156     -0.0000     -0.0000
+        89        -0.3601     -1.5033     -0.2572     -0.0000      0.0000      0.0000
+        90         0.0000      0.0000      0.0000     -0.0000      0.0000      0.7081
+        91         1.1971     -0.1896     -0.0438     -0.0000     -0.0000     -0.0000
+        92        -0.0000     -0.0000      0.0000     -0.0000     -0.0155     -0.0000
+        93         0.0000      0.0000      0.0000      0.0000      0.3769      0.0000
+        94         0.4023      1.1169      0.3136      0.0000     -0.0000      0.0000
+        95        -0.0000     -0.0000     -0.0000     -0.0000     -0.1282     -0.0000
+        96         0.0000     -0.0000      0.0000     -0.3186     -0.0000     -0.0000
+        97         0.0000      0.0000      0.0000     -0.0000      0.8928     -0.0000
+        98         0.0000     -0.0000      0.0000     -0.0000      0.0000     -0.6983
+        99         0.6420      0.2644     -0.1521     -0.0000     -0.0000     -0.0000
+       100        -0.0000     -0.0000      0.0000     -1.1602      0.0000      0.0000
+       101         0.0000     -0.0000      0.0000     -0.0000     -0.0000     -0.4513
+       102        -0.5395      1.3628     -1.1905     -0.0000     -0.0000     -0.0000
+       103         0.0000     -0.0000      0.0000     -0.0000     -0.0000     -0.6520
+       104        -0.0000      0.0000     -0.0000      0.3618     -0.0000     -0.0000
+       105         0.0000      0.0000      0.0000     -0.0000     -0.0000     -0.4188
+       106         1.2423      0.4073      1.0575     -0.0000     -0.0000      0.0000
+       107         0.0000     -0.0000      0.0000      0.7964     -0.0000      0.0000
+       108        -0.0000     -0.0000     -0.0000      0.0000     -0.0271     -0.0000
+       109         0.0670     -0.3568      0.1343     -0.0000      0.0000      0.0000
+       110        -0.0000      0.0000      0.0000      0.0000      0.5831      0.0000
+       111         0.6169     -0.2913     -0.1906     -0.0000      0.0000     -0.0000
+       112        -0.0000     -0.0000      0.0000      0.0000      0.0000     -0.4516
+       113         0.0000      0.0000     -0.0000     -0.0000     -0.0000      0.1369
+       114        -0.5130     -0.6644      0.6388     -0.0000      0.0000      0.0000
+       115         0.0000     -0.0000     -0.0000      0.0000     -0.0000     -0.0443
+       116        -0.1156      0.4267      0.1924     -0.0000     -0.0000      0.0000
+       117        -0.0000      0.0000      0.0000     -0.0000      0.2997     -0.0000
+       118         0.0000     -0.0000     -0.0000      0.5448      0.0000     -0.0000
+       119         0.3710     -0.2166     -0.3187     -0.0000      0.0000      0.0000
+       120        -0.0000      0.0000      0.0000      0.0000      0.0000      0.5099
+       121         0.0000     -0.0000     -0.0000     -0.0000     -0.1844     -0.0000
+       122         0.0000     -0.0000      0.0000      0.5149     -0.0000     -0.0000
+       123        -0.2800     -0.2185      1.2129     -0.0000      0.0000      0.0000
+       124         0.0000      0.0000     -0.0000     -0.0000      0.6261      0.0000
+       125         0.0000      0.0000     -0.0000     -0.0000     -0.0000     -0.0890
+       126        -0.0000      0.0000     -0.0000      0.0000     -0.6870      0.0000
+       127        -0.2238      0.4653     -0.1146      0.0000      0.0000     -0.0000
+       128        -0.0000      0.0000     -0.0000     -0.0000      0.2145      0.0000
+       129         0.0000     -0.0000      0.0000      0.3374      0.0000     -0.0000
+       130         0.0000     -0.0000     -0.0000      0.0000     -0.0000      0.3423
+       131        -0.1081     -0.0712      0.1087     -0.0000     -0.0000     -0.0000
+       132        -0.0000     -0.0000      0.0000      0.2863      0.0000     -0.0000
+       133         0.0000      0.0000      0.0000     -0.0000      0.0000     -0.5565
+       134         0.1158     -0.1743     -0.5933      0.0000     -0.0000     -0.0000
+       135        -0.4413      0.2217      0.2704     -0.0000     -0.0000     -0.0000
+       136         0.0000      0.0000     -0.0000      0.0000      0.0000     -0.2209
+ <0|del|b> * <b|rxdel|0> + <0|del|b> * <b|delr+rdel|0>
+ Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
+       state          XX          YY          ZZ    R(velocity)    E-M Angle
+         1        -0.0000      0.0000      0.0000      0.0000       90.00
+         2        -0.0000      0.0000     -0.0000      0.0000       90.00
+         3        -0.0000     -0.0000      0.0000     -0.0000       90.00
+         4         0.0000     -0.0000      0.0000     -0.0000       90.00
+         5         0.0000      0.0000     -0.0000      0.0000       90.00
+         6         0.0000     -0.0000      0.0000      0.0000       90.00
+         7        -0.0000      0.0000      0.0000     -0.0000       90.00
+         8         0.0000      0.0000     -0.0000      0.0000       90.00
+         9         0.0000      0.0000     -0.0000      0.0000       90.00
+        10        -0.0000      0.0000     -0.0000      0.0000       90.00
+        11        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        12         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        13         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        14         0.0000      0.0000     -0.0000      0.0000       90.00
+        15        -0.0000     -0.0000      0.0000     -0.0000       90.00
+        16        -0.0000      0.0000     -0.0000      0.0000       90.00
+        17         0.0000     -0.0000      0.0000     -0.0000       90.00
+        18        -0.0000      0.0000      0.0000      0.0000       90.00
+        19         0.0000      0.0000     -0.0000     -0.0000       90.00
+        20        -0.0000      0.0000      0.0000     -0.0000       90.00
+        21        -0.0000     -0.0000      0.0000      0.0000       90.00
+        22        -0.0000      0.0000     -0.0000      0.0000       90.00
+        23        -0.0000      0.0000     -0.0000      0.0000       90.00
+        24         0.0000     -0.0000      0.0000     -0.0000       90.00
+        25         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        26         0.0000     -0.0000     -0.0000      0.0000       90.00
+        27         0.0000      0.0000     -0.0000     -0.0000       90.00
+        28        -0.0000      0.0000      0.0000      0.0000       90.00
+        29        -0.0000      0.0000      0.0000      0.0000       90.00
+        30         0.0000      0.0000     -0.0000      0.0000       90.00
+        31        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        32        -0.0000     -0.0000      0.0000     -0.0000       90.00
+        33         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        34         0.0000     -0.0000      0.0000      0.0000       90.00
+        35        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        36         0.0000     -0.0000      0.0000     -0.0000       90.00
+        37         0.0000      0.0000     -0.0000      0.0000       90.00
+        38        -0.0000      0.0000      0.0000      0.0000       90.00
+        39        -0.0000     -0.0000      0.0000      0.0000       90.00
+        40         0.0000     -0.0000      0.0000     -0.0000       90.00
+        41         0.0000     -0.0000      0.0000     -0.0000       90.00
+        42         0.0000      0.0000     -0.0000     -0.0000       90.00
+        43        -0.0000      0.0000      0.0000      0.0000       90.00
+        44         0.0000     -0.0000     -0.0000      0.0000       90.00
+        45        -0.0000      0.0000      0.0000     -0.0000       90.00
+        46        -0.0000     -0.0000      0.0000     -0.0000       90.00
+        47        -0.0000      0.0000     -0.0000      0.0000       90.00
+        48        -0.0000      0.0000     -0.0000      0.0000       90.00
+        49         0.0000     -0.0000      0.0000      0.0000       90.00
+        50        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        51        -0.0000      0.0000      0.0000     -0.0000       90.00
+        52         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        53        -0.0000      0.0000      0.0000      0.0000       90.00
+        54         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        55        -0.0000      0.0000      0.0000      0.0000       90.00
+        56         0.0000      0.0000     -0.0000      0.0000       90.00
+        57        -0.0000      0.0000      0.0000      0.0000       90.00
+        58         0.0000     -0.0000     -0.0000      0.0000       90.00
+        59        -0.0000      0.0000      0.0000      0.0000       90.00
+        60         0.0000     -0.0000      0.0000     -0.0000       90.00
+        61        -0.0000      0.0000      0.0000     -0.0000       90.00
+        62        -0.0000      0.0000      0.0000     -0.0000       90.00
+        63         0.0000     -0.0000     -0.0000      0.0000       90.00
+        64        -0.0000     -0.0000      0.0000     -0.0000       90.00
+        65         0.0000     -0.0000     -0.0000      0.0000       90.00
+        66         0.0000     -0.0000      0.0000     -0.0000       90.00
+        67        -0.0000     -0.0000      0.0000     -0.0000       90.00
+        68         0.0000      0.0000     -0.0000      0.0000       90.00
+        69         0.0000      0.0000     -0.0000     -0.0000       90.00
+        70         0.0000      0.0000     -0.0000      0.0000       90.00
+        71        -0.0000     -0.0000      0.0000      0.0000       90.00
+        72        -0.0000      0.0000      0.0000      0.0000       90.00
+        73         0.0000     -0.0000      0.0000     -0.0000       90.00
+        74         0.0000     -0.0000      0.0000     -0.0000       90.00
+        75         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        76        -0.0000      0.0000      0.0000      0.0000       90.00
+        77         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        78        -0.0000     -0.0000     -0.0000     -0.0000       90.00
+        79        -0.0000     -0.0000      0.0000      0.0000       90.00
+        80        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        81        -0.0000      0.0000      0.0000     -0.0000       90.00
+        82        -0.0000      0.0000     -0.0000      0.0000       90.00
+        83         0.0000     -0.0000      0.0000     -0.0000       90.00
+        84         0.0000     -0.0000     -0.0000      0.0000       90.00
+        85         0.0000     -0.0000      0.0000     -0.0000       90.00
+        86         0.0000      0.0000     -0.0000     -0.0000       90.00
+        87        -0.0000      0.0000     -0.0000      0.0000       90.00
+        88        -0.0000      0.0000     -0.0000      0.0000       90.00
+        89        -0.0000      0.0000      0.0000      0.0000       90.00
+        90         0.0000      0.0000     -0.0000     -0.0000       90.00
+        91        -0.0000      0.0000     -0.0000      0.0000       90.00
+        92         0.0000     -0.0000      0.0000      0.0000       90.00
+        93         0.0000     -0.0000      0.0000      0.0000       90.00
+        94         0.0000     -0.0000     -0.0000     -0.0000       90.00
+        95         0.0000     -0.0000      0.0000      0.0000       90.00
+        96        -0.0000      0.0000      0.0000     -0.0000       90.00
+        97        -0.0000      0.0000     -0.0000     -0.0000       90.00
+        98         0.0000      0.0000     -0.0000      0.0000       90.00
+        99        -0.0000      0.0000     -0.0000      0.0000       90.00
+       100         0.0000     -0.0000      0.0000     -0.0000       90.00
+       101        -0.0000     -0.0000      0.0000     -0.0000       90.00
+       102        -0.0000      0.0000      0.0000      0.0000       90.00
+       103        -0.0000      0.0000      0.0000      0.0000       90.00
+       104        -0.0000      0.0000      0.0000      0.0000       90.00
+       105        -0.0000     -0.0000      0.0000      0.0000       90.00
+       106         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       107        -0.0000      0.0000      0.0000      0.0000       90.00
+       108        -0.0000     -0.0000      0.0000     -0.0000       90.00
+       109         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       110        -0.0000     -0.0000      0.0000      0.0000       90.00
+       111         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       112         0.0000      0.0000     -0.0000     -0.0000       90.00
+       113         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       114        -0.0000     -0.0000      0.0000     -0.0000       90.00
+       115         0.0000      0.0000     -0.0000     -0.0000       90.00
+       116        -0.0000      0.0000     -0.0000     -0.0000       90.00
+       117         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       118         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       119        -0.0000      0.0000      0.0000      0.0000       90.00
+       120        -0.0000      0.0000     -0.0000      0.0000       90.00
+       121        -0.0000      0.0000      0.0000     -0.0000       90.00
+       122         0.0000     -0.0000      0.0000     -0.0000       90.00
+       123        -0.0000      0.0000     -0.0000      0.0000       90.00
+       124         0.0000      0.0000     -0.0000      0.0000       90.00
+       125        -0.0000      0.0000      0.0000      0.0000       90.00
+       126         0.0000      0.0000     -0.0000      0.0000       90.00
+       127         0.0000     -0.0000     -0.0000     -0.0000       90.00
+       128         0.0000     -0.0000      0.0000     -0.0000       90.00
+       129        -0.0000      0.0000      0.0000      0.0000       90.00
+       130         0.0000      0.0000     -0.0000      0.0000       90.00
+       131         0.0000     -0.0000      0.0000      0.0000       90.00
+       132        -0.0000      0.0000     -0.0000     -0.0000       90.00
+       133         0.0000      0.0000     -0.0000      0.0000       90.00
+       134        -0.0000     -0.0000      0.0000     -0.0000       90.00
+       135        -0.0000      0.0000      0.0000      0.0000       90.00
+       136         0.0000      0.0000     -0.0000     -0.0000       90.00
+ 1/2[<0|r|b>*<b|rxdel|0> + (<0|rxdel|b>*<b|r|0>)*]
+ Rotatory Strengths (R) in cgs (10**-40 erg-esu-cm/Gauss)
+       state          XX          YY          ZZ     R(length)
+         1         0.0000      0.0000      0.0000      0.0000
+         2        -0.0000      0.0000     -0.0000     -0.0000
+         3        -0.0000     -0.0000     -0.0000     -0.0000
+         4        -0.0000     -0.0000     -0.0000     -0.0000
+         5        -0.0000     -0.0000      0.0000     -0.0000
+         6        -0.0000      0.0000      0.0000      0.0000
+         7        -0.0000     -0.0000      0.0000      0.0000
+         8         0.0000     -0.0000     -0.0000      0.0000
+         9         0.0000     -0.0000     -0.0000     -0.0000
+        10         0.0000     -0.0000      0.0000      0.0000
+        11         0.0000     -0.0000      0.0000     -0.0000
+        12         0.0000     -0.0000      0.0000      0.0000
+        13        -0.0000      0.0000     -0.0000     -0.0000
+        14         0.0000     -0.0000      0.0000     -0.0000
+        15        -0.0000     -0.0000     -0.0000     -0.0000
+        16         0.0000     -0.0000      0.0000      0.0000
+        17        -0.0000     -0.0000     -0.0000     -0.0000
+        18        -0.0000      0.0000      0.0000      0.0000
+        19        -0.0000     -0.0000     -0.0000     -0.0000
+        20        -0.0000      0.0000     -0.0000     -0.0000
+        21        -0.0000      0.0000      0.0000      0.0000
+        22         0.0000      0.0000     -0.0000     -0.0000
+        23        -0.0000     -0.0000      0.0000      0.0000
+        24        -0.0000     -0.0000     -0.0000     -0.0000
+        25         0.0000     -0.0000     -0.0000     -0.0000
+        26        -0.0000      0.0000      0.0000      0.0000
+        27         0.0000     -0.0000     -0.0000     -0.0000
+        28        -0.0000      0.0000      0.0000      0.0000
+        29         0.0000      0.0000      0.0000      0.0000
+        30         0.0000     -0.0000     -0.0000      0.0000
+        31        -0.0000      0.0000      0.0000      0.0000
+        32        -0.0000      0.0000     -0.0000     -0.0000
+        33        -0.0000      0.0000     -0.0000     -0.0000
+        34        -0.0000     -0.0000      0.0000      0.0000
+        35        -0.0000     -0.0000     -0.0000     -0.0000
+        36         0.0000      0.0000     -0.0000     -0.0000
+        37         0.0000      0.0000      0.0000      0.0000
+        38        -0.0000      0.0000      0.0000      0.0000
+        39         0.0000     -0.0000     -0.0000      0.0000
+        40         0.0000      0.0000     -0.0000     -0.0000
+        41         0.0000     -0.0000     -0.0000     -0.0000
+        42        -0.0000     -0.0000     -0.0000     -0.0000
+        43         0.0000      0.0000      0.0000      0.0000
+        44        -0.0000      0.0000      0.0000      0.0000
+        45        -0.0000      0.0000     -0.0000     -0.0000
+        46        -0.0000     -0.0000     -0.0000     -0.0000
+        47         0.0000     -0.0000      0.0000      0.0000
+        48         0.0000      0.0000      0.0000      0.0000
+        49         0.0000      0.0000      0.0000      0.0000
+        50         0.0000     -0.0000     -0.0000     -0.0000
+        51        -0.0000      0.0000     -0.0000     -0.0000
+        52        -0.0000      0.0000      0.0000     -0.0000
+        53         0.0000     -0.0000      0.0000      0.0000
+        54        -0.0000     -0.0000     -0.0000     -0.0000
+        55         0.0000     -0.0000     -0.0000      0.0000
+        56         0.0000     -0.0000     -0.0000     -0.0000
+        57        -0.0000      0.0000      0.0000      0.0000
+        58        -0.0000      0.0000     -0.0000      0.0000
+        59         0.0000     -0.0000      0.0000      0.0000
+        60        -0.0000     -0.0000     -0.0000     -0.0000
+        61        -0.0000      0.0000      0.0000     -0.0000
+        62         0.0000      0.0000     -0.0000     -0.0000
+        63        -0.0000     -0.0000      0.0000      0.0000
+        64        -0.0000      0.0000     -0.0000      0.0000
+        65        -0.0000     -0.0000      0.0000      0.0000
+        66        -0.0000     -0.0000     -0.0000     -0.0000
+        67        -0.0000      0.0000      0.0000     -0.0000
+        68         0.0000      0.0000      0.0000      0.0000
+        69         0.0000     -0.0000      0.0000     -0.0000
+        70         0.0000     -0.0000      0.0000      0.0000
+        71        -0.0000      0.0000     -0.0000      0.0000
+        72        -0.0000     -0.0000      0.0000      0.0000
+        73        -0.0000     -0.0000      0.0000     -0.0000
+        74        -0.0000      0.0000     -0.0000     -0.0000
+        75         0.0000     -0.0000     -0.0000     -0.0000
+        76         0.0000      0.0000      0.0000      0.0000
+        77         0.0000      0.0000     -0.0000     -0.0000
+        78         0.0000      0.0000     -0.0000     -0.0000
+        79         0.0000      0.0000     -0.0000      0.0000
+        80        -0.0000     -0.0000      0.0000      0.0000
+        81         0.0000      0.0000     -0.0000     -0.0000
+        82         0.0000     -0.0000     -0.0000      0.0000
+        83        -0.0000      0.0000      0.0000     -0.0000
+        84         0.0000     -0.0000      0.0000      0.0000
+        85         0.0000     -0.0000     -0.0000     -0.0000
+        86         0.0000     -0.0000     -0.0000     -0.0000
+        87         0.0000     -0.0000      0.0000      0.0000
+        88         0.0000     -0.0000      0.0000      0.0000
+        89         0.0000      0.0000      0.0000      0.0000
+        90        -0.0000     -0.0000     -0.0000     -0.0000
+        91        -0.0000      0.0000      0.0000      0.0000
+        92         0.0000      0.0000     -0.0000      0.0000
+        93         0.0000      0.0000     -0.0000      0.0000
+        94        -0.0000     -0.0000     -0.0000     -0.0000
+        95         0.0000     -0.0000     -0.0000     -0.0000
+        96         0.0000     -0.0000     -0.0000     -0.0000
+        97        -0.0000      0.0000      0.0000      0.0000
+        98         0.0000     -0.0000     -0.0000      0.0000
+        99         0.0000      0.0000      0.0000      0.0000
+       100        -0.0000      0.0000     -0.0000     -0.0000
+       101        -0.0000     -0.0000     -0.0000     -0.0000
+       102        -0.0000     -0.0000      0.0000      0.0000
+       103        -0.0000      0.0000      0.0000      0.0000
+       104        -0.0000      0.0000     -0.0000     -0.0000
+       105         0.0000     -0.0000     -0.0000      0.0000
+       106         0.0000      0.0000     -0.0000     -0.0000
+       107         0.0000      0.0000      0.0000      0.0000
+       108        -0.0000      0.0000     -0.0000     -0.0000
+       109        -0.0000     -0.0000     -0.0000     -0.0000
+       110         0.0000      0.0000     -0.0000      0.0000
+       111         0.0000     -0.0000     -0.0000     -0.0000
+       112        -0.0000     -0.0000      0.0000     -0.0000
+       113         0.0000      0.0000      0.0000      0.0000
+       114         0.0000      0.0000     -0.0000     -0.0000
+       115         0.0000     -0.0000     -0.0000     -0.0000
+       116         0.0000     -0.0000     -0.0000     -0.0000
+       117         0.0000     -0.0000      0.0000      0.0000
+       118         0.0000     -0.0000     -0.0000     -0.0000
+       119        -0.0000      0.0000      0.0000      0.0000
+       120        -0.0000      0.0000      0.0000      0.0000
+       121        -0.0000      0.0000      0.0000     -0.0000
+       122        -0.0000     -0.0000     -0.0000     -0.0000
+       123         0.0000     -0.0000      0.0000      0.0000
+       124         0.0000     -0.0000     -0.0000     -0.0000
+       125         0.0000     -0.0000      0.0000      0.0000
+       126         0.0000     -0.0000      0.0000      0.0000
+       127        -0.0000      0.0000     -0.0000     -0.0000
+       128        -0.0000      0.0000     -0.0000     -0.0000
+       129         0.0000      0.0000     -0.0000     -0.0000
+       130         0.0000      0.0000      0.0000      0.0000
+       131         0.0000     -0.0000      0.0000      0.0000
+       132        -0.0000      0.0000     -0.0000     -0.0000
+       133        -0.0000      0.0000     -0.0000      0.0000
+       134        -0.0000      0.0000     -0.0000     -0.0000
+       135         0.0000      0.0000      0.0000      0.0000
+       136        -0.0000     -0.0000     -0.0000     -0.0000
+  1/2[<0|del|b>*<b|r|0> + (<0|r|b>*<b|del|0>)*] (Au)
+       state          X           Y           Z        Dip. S.   Osc.(frdel)
+         1        -0.0732     -0.0000     -0.0000      0.0732      0.0488
+         2        -0.0000      0.0000      0.0000      0.0000      0.0000
+         3        -0.0000     -0.0000     -0.1270      0.1270      0.0847
+         4        -0.0091      0.0000     -0.0000      0.0091      0.0061
+         5         0.0000     -0.0081     -0.0000      0.0081      0.0054
+         6        -0.0000     -0.0000     -0.0019      0.0019      0.0013
+         7        -0.0000     -0.0000      0.0000     -0.0000     -0.0000
+         8        -0.0130      0.0000     -0.0000      0.0130      0.0087
+         9        -0.0436     -0.0000     -0.0000      0.0436      0.0291
+        10        -0.0000     -0.0000     -0.0597      0.0597      0.0398
+        11         0.0000     -0.0437     -0.0000      0.0437      0.0292
+        12         0.0000     -0.0021     -0.0000      0.0021      0.0014
+        13        -0.0842     -0.0000     -0.0000      0.0842      0.0562
+        14        -0.0000     -0.5920     -0.0000      0.5920      0.3946
+        15        -0.0000     -0.0000     -0.0419      0.0419      0.0280
+        16        -0.0000     -0.0000     -0.0957      0.0957      0.0638
+        17        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        18         0.0000     -0.0000     -0.0061      0.0061      0.0041
+        19        -0.2611     -0.0000     -0.0000      0.2611      0.1741
+        20         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        21        -0.0000     -0.0659      0.0000      0.0659      0.0439
+        22        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        23        -0.0000     -0.0000     -0.0672      0.0672      0.0448
+        24        -0.1434     -0.0000     -0.0000      0.1434      0.0956
+        25         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        26        -0.0000      0.0000     -0.3197      0.3197      0.2132
+        27         0.0000     -0.3272     -0.0000      0.3272      0.2181
+        28        -0.0000     -0.0000     -0.2023      0.2023      0.1349
+        29        -0.0000     -0.0250     -0.0000      0.0250      0.0166
+        30        -0.0000     -0.0260      0.0000      0.0260      0.0173
+        31        -0.1237     -0.0000     -0.0000      0.1237      0.0824
+        32        -0.0000     -0.0056     -0.0000      0.0056      0.0037
+        33         0.0000      0.0000     -0.0000      0.0000      0.0000
+        34        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        35        -0.3393     -0.0000     -0.0000      0.3393      0.2262
+        36        -0.0000     -0.0000     -0.0952      0.0952      0.0635
+        37        -0.0000     -0.0221      0.0000      0.0221      0.0147
+        38        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        39        -0.0000     -0.0150     -0.0000      0.0150      0.0100
+        40        -0.0000     -0.0000     -0.0202      0.0202      0.0134
+        41        -0.0000     -0.0000     -0.0260      0.0260      0.0174
+        42        -0.0000     -0.5206     -0.0000      0.5206      0.3471
+        43        -0.4147     -0.0000     -0.0000      0.4147      0.2765
+        44        -0.0000     -0.0000     -0.1889      0.1889      0.1259
+        45        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        46        -0.0000     -0.0000     -0.4125      0.4125      0.2750
+        47        -0.0000      0.0000     -0.0227      0.0227      0.0151
+        48        -0.0000     -0.2303     -0.0000      0.2303      0.1535
+        49        -0.0000     -0.0000     -0.4250      0.4250      0.2833
+        50        -0.0000     -0.0016     -0.0000      0.0016      0.0011
+        51        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        52        -0.2040     -0.0000     -0.0000      0.2040      0.1360
+        53        -0.0000     -0.0000     -0.0301      0.0301      0.0201
+        54        -0.0000     -0.4509     -0.0000      0.4509      0.3006
+        55        -0.2092     -0.0000     -0.0000      0.2092      0.1395
+        56        -0.0000     -0.0092     -0.0000      0.0092      0.0061
+        57        -0.0000      0.0000     -0.0036      0.0036      0.0024
+        58        -0.0013     -0.0000     -0.0000      0.0013      0.0008
+        59        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        60        -0.0000     -0.0000     -0.0038      0.0038      0.0025
+        61        -0.0071     -0.0000     -0.0000      0.0071      0.0047
+        62        -0.0000     -0.0000     -0.0301      0.0301      0.0201
+        63        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        64        -0.0000     -0.0049     -0.0000      0.0049      0.0033
+        65        -0.0000     -0.0000     -0.0115      0.0115      0.0077
+        66        -0.0000     -0.0011     -0.0000      0.0011      0.0007
+        67        -0.0000     -0.0050     -0.0000      0.0050      0.0033
+        68        -0.0085     -0.0000     -0.0000      0.0085      0.0056
+        69        -0.0000     -0.0866     -0.0000      0.0866      0.0577
+        70        -0.0000     -0.0000     -0.0236      0.0236      0.0157
+        71        -0.0037     -0.0000     -0.0000      0.0037      0.0025
+        72        -0.0000     -0.0000     -0.0035      0.0035      0.0023
+        73        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        74        -0.0000     -0.0000     -0.0313      0.0313      0.0209
+        75        -0.0033     -0.0000     -0.0000      0.0033      0.0022
+        76         0.0000     -0.0000     -0.0000      0.0000      0.0000
+        77        -0.0000     -0.0000     -0.0198      0.0198      0.0132
+        78        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        79        -0.0000     -0.0922     -0.0000      0.0922      0.0615
+        80        -0.0000     -0.0000      0.0000      0.0000      0.0000
+        81        -0.0000     -0.0000     -0.0246      0.0246      0.0164
+        82        -0.0000     -0.1022      0.0000      0.1022      0.0681
+        83        -0.1440     -0.0000     -0.0000      0.1440      0.0960
+        84        -0.0000     -0.0000     -0.1605      0.1605      0.1070
+        85        -0.0000     -0.0000     -0.0116      0.0116      0.0077
+        86        -0.0000     -0.1521     -0.0000      0.1521      0.1014
+        87        -0.0000     -0.0887     -0.0000      0.0887      0.0591
+        88        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        89        -0.0000      0.0000     -0.0031      0.0031      0.0020
+        90        -0.0000     -0.0077      0.0000      0.0077      0.0052
+        91        -0.0000     -0.0000     -0.0802      0.0802      0.0535
+        92        -0.2120     -0.0000     -0.0000      0.2120      0.1413
+        93        -0.0026      0.0000     -0.0000      0.0026      0.0017
+        94        -0.0000     -0.0000     -0.1327      0.1327      0.0884
+        95        -0.1141      0.0000     -0.0000      0.1141      0.0761
+        96        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+        97        -0.4165     -0.0000     -0.0000      0.4165      0.2777
+        98        -0.0000     -0.0249     -0.0000      0.0249      0.0166
+        99        -0.0000     -0.0000     -0.3023      0.3023      0.2015
+       100         0.0000     -0.0000     -0.0000      0.0000      0.0000
+       101        -0.0000     -0.1303     -0.0000      0.1303      0.0869
+       102        -0.0000     -0.0000     -0.0060      0.0060      0.0040
+       103         0.0000     -0.0817     -0.0000      0.0817      0.0545
+       104        -0.0000     -0.0000      0.0000      0.0000      0.0000
+       105        -0.0000     -0.0089     -0.0000      0.0089      0.0059
+       106        -0.0000     -0.0000     -0.0099      0.0099      0.0066
+       107        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+       108        -0.1679      0.0000     -0.0000      0.1679      0.1119
+       109        -0.0000     -0.0000     -0.0112      0.0112      0.0075
+       110        -0.0333     -0.0000     -0.0000      0.0333      0.0222
+       111        -0.0000     -0.0000     -0.0341      0.0341      0.0227
+       112        -0.0000     -0.0237     -0.0000      0.0237      0.0158
+       113         0.0000     -0.0008     -0.0000      0.0008      0.0005
+       114        -0.0000     -0.0000     -0.0027      0.0027      0.0018
+       115        -0.0000     -0.0231     -0.0000      0.0231      0.0154
+       116        -0.0000     -0.0000     -0.2178      0.2178      0.1452
+       117        -0.1103     -0.0000     -0.0000      0.1103      0.0736
+       118        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+       119        -0.0000     -0.0000     -0.0033      0.0033      0.0022
+       120        -0.0000     -0.2827     -0.0000      0.2827      0.1884
+       121        -0.0223     -0.0000     -0.0000      0.0223      0.0149
+       122        -0.0000     -0.0000     -0.0000      0.0000      0.0000
+       123        -0.0000     -0.0000     -0.4087      0.4087      0.2725
+       124        -0.2134     -0.0000     -0.0000      0.2134      0.1422
+       125        -0.0000     -0.0901     -0.0000      0.0901      0.0601
+       126        -0.3581     -0.0000     -0.0000      0.3581      0.2387
+       127        -0.0000      0.0000     -0.0044      0.0044      0.0029
+       128        -0.0895     -0.0000     -0.0000      0.0895      0.0597
+       129        -0.0000      0.0000      0.0000      0.0000      0.0000
+       130         0.0000     -0.0650     -0.0000      0.0650      0.0434
+       131        -0.0000     -0.0000     -0.0147      0.0147      0.0098
+       132         0.0000      0.0000     -0.0000      0.0000      0.0000
+       133        -0.0000     -0.2281      0.0000      0.2281      0.1521
+       134        -0.0000     -0.0000     -0.1116      0.1116      0.0744
+       135         0.0000     -0.0000     -0.0259      0.0259      0.0172
+       136        -0.0000     -0.0009     -0.0000      0.0009      0.0006
+
+ Excitation energies and oscillator strengths:
+ 
+ Excited State   1:      Singlet-B1     7.7103 eV  160.80 nm  f=0.0448  <S**2>=0.000
+       5 ->  6         0.68326
+       5 -> 13        -0.11806
+       5 -> 16        -0.10166
+ This state for optimization and/or second-order correction.
+ Total Energy, E(TD-HF/TD-DFT) =  -76.0642748551    
+ Copying the excited state density for this state as the 1-particle RhoCI density.
+ 
+ Excited State   2:      Singlet-A2     8.9861 eV  137.97 nm  f=0.0000  <S**2>=0.000
+       5 ->  7         0.67139
+       5 -> 10         0.17563
+       5 -> 17        -0.12387
+ 
+ Excited State   3:      Singlet-A1     9.7630 eV  126.99 nm  f=0.0781  <S**2>=0.000
+       4 ->  6         0.67501
+       4 -> 16        -0.11245
+ 
+ Excited State   4:      Singlet-B1    10.5031 eV  118.05 nm  f=0.0044  <S**2>=0.000
+       5 ->  8         0.68372
+       5 -> 13         0.12745
+ 
+ Excited State   5:      Singlet-B2    11.0176 eV  112.53 nm  f=0.0046  <S**2>=0.000
+       4 ->  7         0.68657
+       4 -> 10         0.10158
+       4 -> 17        -0.10414
+ 
+ Excited State   6:      Singlet-A1    11.4381 eV  108.40 nm  f=0.0014  <S**2>=0.000
+       4 ->  8        -0.21267
+       5 ->  9         0.65476
+ 
+ Excited State   7:      Singlet-A2    11.5485 eV  107.36 nm  f=0.0000  <S**2>=0.000
+       5 ->  7        -0.19383
+       5 -> 10         0.66264
+       5 -> 17        -0.11904
+ 
+ Excited State   8:      Singlet-B1    12.5104 eV   99.11 nm  f=0.0091  <S**2>=0.000
+       4 ->  9        -0.42105
+       5 -> 11         0.55599
+ 
+ Excited State   9:      Singlet-B1    12.5548 eV   98.75 nm  f=0.0318  <S**2>=0.000
+       4 ->  9         0.54335
+       4 -> 14        -0.10901
+       5 -> 11         0.41886
+ 
+ Excited State  10:      Singlet-A1    13.2045 eV   93.90 nm  f=0.0399  <S**2>=0.000
+       3 ->  7         0.16978
+       4 ->  6        -0.12193
+       4 ->  8         0.63276
+       4 -> 11        -0.10070
+       5 ->  9         0.18539
+ 
+ Excited State  11:      Singlet-B2    13.3852 eV   92.63 nm  f=0.0251  <S**2>=0.000
+       3 ->  6         0.63152
+       4 -> 10        -0.20933
+       5 -> 12        -0.18686
+ 
+ Excited State  12:      Singlet-B2    13.7174 eV   90.38 nm  f=0.0014  <S**2>=0.000
+       4 ->  7         0.11000
+       4 -> 10        -0.48105
+       5 -> 12         0.49020
+ 
+ Excited State  13:      Singlet-B1    13.9970 eV   88.58 nm  f=0.0601  <S**2>=0.000
+       5 ->  6         0.13442
+       5 ->  8        -0.11912
+       5 -> 13         0.67390
+ 
+ Excited State  14:      Singlet-B2    14.4184 eV   85.99 nm  f=0.3923  <S**2>=0.000
+       3 ->  6         0.27966
+       4 -> 10         0.43799
+       5 -> 12         0.46240
+ 
+ Excited State  15:      Singlet-A1    14.5796 eV   85.04 nm  f=0.0275  <S**2>=0.000
+       3 ->  7         0.18127
+       4 -> 11         0.63714
+       5 -> 14        -0.16766
+ 
+ Excited State  16:      Singlet-A1    14.9457 eV   82.96 nm  f=0.0659  <S**2>=0.000
+       3 ->  7        -0.23920
+       4 -> 11         0.20774
+       4 -> 13         0.11198
+       5 ->  9         0.14202
+       5 -> 14         0.58633
+ 
+ Excited State  17:      Singlet-A2    15.5648 eV   79.66 nm  f=0.0000  <S**2>=0.000
+       4 -> 12         0.69767
+ 
+ Excited State  18:      Singlet-A1    15.6001 eV   79.48 nm  f=0.0035  <S**2>=0.000
+       3 ->  7         0.45530
+       4 ->  8        -0.16659
+       4 -> 11        -0.15063
+       4 -> 13         0.43906
+       5 -> 14         0.17038
+ 
+ Excited State  19:      Singlet-B1    16.2409 eV   76.34 nm  f=0.1652  <S**2>=0.000
+       5 -> 16         0.69153
+ 
+ Excited State  20:      Singlet-A2    16.4009 eV   75.60 nm  f=0.0000  <S**2>=0.000
+       3 ->  9         0.61013
+       3 -> 14        -0.10503
+       5 -> 15        -0.16406
+       5 -> 17        -0.27909
+ 
+ Excited State  21:      Singlet-B2    16.5252 eV   75.03 nm  f=0.0420  <S**2>=0.000
+       3 ->  8         0.69489
+       3 -> 13         0.10591
+ 
+ Excited State  22:      Singlet-A2    16.5317 eV   75.00 nm  f=0.0000  <S**2>=0.000
+       3 ->  9         0.32970
+       5 -> 15         0.37979
+       5 -> 17         0.46765
+ 
+ Excited State  23:      Singlet-A1    16.8103 eV   73.75 nm  f=0.0405  <S**2>=0.000
+       3 ->  7        -0.40111
+       3 -> 10         0.25438
+       4 -> 13         0.44758
+       5 -> 14        -0.20104
+ 
+ Excited State  24:      Singlet-B1    16.9217 eV   73.27 nm  f=0.0941  <S**2>=0.000
+       4 ->  9         0.11015
+       4 -> 14         0.68947
+ 
+ Excited State  25:      Singlet-A2    17.2686 eV   71.80 nm  f=0.0000  <S**2>=0.000
+       5 -> 15         0.56733
+       5 -> 17        -0.40408
+ 
+ Excited State  26:      Singlet-A1    18.2421 eV   67.97 nm  f=0.2037  <S**2>=0.000
+       3 -> 10         0.50626
+       4 -> 13        -0.11483
+       4 -> 16        -0.45264
+       5 -> 14         0.10812
+ 
+ Excited State  27:      Singlet-B2    18.5243 eV   66.93 nm  f=0.2175  <S**2>=0.000
+       3 -> 11         0.62320
+       3 -> 13         0.12618
+       4 -> 15        -0.10852
+       4 -> 17        -0.24918
+ 
+ Excited State  28:      Singlet-A1    18.8174 eV   65.89 nm  f=0.1395  <S**2>=0.000
+       3 -> 10         0.39055
+       4 -> 13        -0.20881
+       4 -> 16         0.51429
+       5 -> 14         0.12896
+ 
+ Excited State  29:      Singlet-B2    18.8242 eV   65.86 nm  f=0.0145  <S**2>=0.000
+       3 -> 11         0.25063
+       4 -> 15         0.53572
+       4 -> 17         0.35269
+ 
+ Excited State  30:      Singlet-B2    19.4755 eV   63.66 nm  f=0.0162  <S**2>=0.000
+       3 -> 11         0.16735
+       3 -> 13        -0.17787
+       4 -> 15        -0.43730
+       4 -> 17         0.48170
+ 
+ Excited State  31:      Singlet-B1    19.5608 eV   63.38 nm  f=0.0758  <S**2>=0.000
+       3 -> 12         0.68880
+       5 -> 19         0.13227
+ 
+ Excited State  32:      Singlet-B2    19.6718 eV   63.03 nm  f=0.0038  <S**2>=0.000
+       3 ->  6         0.10795
+       3 -> 13         0.64515
+       4 -> 17         0.21233
+ 
+ Excited State  33:      Singlet-A2    20.4955 eV   60.49 nm  f=0.0000  <S**2>=0.000
+       3 ->  9         0.11946
+       3 -> 14         0.68374
+       5 -> 18         0.10880
+ 
+ Excited State  34:      Singlet-A2    20.7943 eV   59.62 nm  f=0.0000  <S**2>=0.000
+       3 -> 14        -0.10705
+       5 -> 18         0.68956
+ 
+ Excited State  35:      Singlet-B1    21.3289 eV   58.13 nm  f=0.2141  <S**2>=0.000
+       3 -> 12        -0.13119
+       4 -> 20        -0.11911
+       5 -> 19         0.66910
+ 
+ Excited State  36:      Singlet-A1    22.1669 eV   55.93 nm  f=0.0584  <S**2>=0.000
+       3 -> 15         0.10833
+       4 -> 19         0.28237
+       4 -> 21         0.10944
+       5 -> 20         0.61275
+ 
+ Excited State  37:      Singlet-B2    22.4315 eV   55.27 nm  f=0.0119  <S**2>=0.000
+       3 -> 16         0.62273
+       4 -> 18         0.25320
+       5 -> 22        -0.16580
+ 
+ Excited State  38:      Singlet-B1    22.7316 eV   54.54 nm  f=0.0000  <S**2>=0.000
+       4 -> 20        -0.13867
+       5 -> 21         0.68671
+ 
+ Excited State  39:      Singlet-B2    22.8515 eV   54.26 nm  f=0.0108  <S**2>=0.000
+       3 -> 16        -0.30021
+       4 -> 18         0.48252
+       5 -> 22        -0.40728
+ 
+ Excited State  40:      Singlet-A1    22.8973 eV   54.15 nm  f=0.0131  <S**2>=0.000
+       3 -> 15        -0.47596
+       4 -> 19         0.49276
+       5 -> 20        -0.14119
+ 
+ Excited State  41:      Singlet-A1    23.2542 eV   53.32 nm  f=0.0153  <S**2>=0.000
+       3 -> 15         0.49215
+       4 -> 19         0.40230
+       4 -> 21        -0.11957
+       5 -> 20        -0.25013
+ 
+ Excited State  42:      Singlet-B2    23.6177 eV   52.50 nm  f=0.3193  <S**2>=0.000
+       3 -> 19        -0.12671
+       4 -> 18         0.41913
+       5 -> 22         0.52293
+ 
+ Excited State  43:      Singlet-B1    23.9951 eV   51.67 nm  f=0.2615  <S**2>=0.000
+       4 -> 20         0.67431
+       5 -> 19         0.11757
+       5 -> 21         0.13683
+ 
+ Excited State  44:      Singlet-A1    24.4061 eV   50.80 nm  f=0.1163  <S**2>=0.000
+       2 ->  6        -0.10564
+       3 -> 17         0.66869
+ 
+ Excited State  45:      Singlet-A2    24.7807 eV   50.03 nm  f=0.0000  <S**2>=0.000
+       4 -> 22         0.70135
+ 
+ Excited State  46:      Singlet-A1    24.8976 eV   49.80 nm  f=0.2456  <S**2>=0.000
+       2 ->  6        -0.16384
+       3 -> 18        -0.15358
+       4 -> 21         0.64706
+       5 -> 20        -0.11115
+ 
+ Excited State  47:      Singlet-A1    26.7884 eV   46.28 nm  f=0.0158  <S**2>=0.000
+       2 ->  6         0.65214
+       3 -> 17         0.11174
+       3 -> 18        -0.17740
+       4 -> 21         0.10545
+ 
+ Excited State  48:      Singlet-B2    27.4025 eV   45.25 nm  f=0.1492  <S**2>=0.000
+       2 ->  7        -0.18312
+       3 -> 19         0.65215
+       3 -> 21         0.14076
+ 
+ Excited State  49:      Singlet-A1    27.7219 eV   44.72 nm  f=0.2753  <S**2>=0.000
+       2 ->  6         0.13752
+       2 ->  8         0.14621
+       3 -> 18         0.64387
+       4 -> 21         0.16268
+ 
+ Excited State  50:      Singlet-B2    27.8009 eV   44.60 nm  f=0.0008  <S**2>=0.000
+       2 ->  7         0.64976
+       2 -> 10         0.13835
+       3 -> 19         0.13992
+       3 -> 21         0.16070
+ 
+ Excited State  51:      Singlet-A2    28.1517 eV   44.04 nm  f=0.0000  <S**2>=0.000
+       3 -> 20         0.70264
+ 
+ Excited State  52:      Singlet-B1    29.0668 eV   42.65 nm  f=0.1328  <S**2>=0.000
+       2 ->  9         0.47282
+       2 -> 14        -0.10194
+       3 -> 22         0.50750
+ 
+ Excited State  53:      Singlet-A1    29.4267 eV   42.13 nm  f=0.0198  <S**2>=0.000
+       2 ->  8         0.67320
+       2 -> 11        -0.10639
+       3 -> 18        -0.13006
+ 
+ Excited State  54:      Singlet-B2    29.6898 eV   41.76 nm  f=0.2856  <S**2>=0.000
+       2 ->  7        -0.12888
+       3 -> 19        -0.15609
+       3 -> 21         0.66070
+ 
+ Excited State  55:      Singlet-B1    29.8045 eV   41.60 nm  f=0.1225  <S**2>=0.000
+       2 ->  9         0.50198
+       3 -> 22        -0.47999
+ 
+ Excited State  56:      Singlet-B2    30.4227 eV   40.75 nm  f=0.0081  <S**2>=0.000
+       2 ->  7        -0.13387
+       2 -> 10         0.68239
+ 
+ Excited State  57:      Singlet-A1    31.1246 eV   39.83 nm  f=0.0018  <S**2>=0.000
+       2 ->  8         0.10878
+       2 -> 11         0.69372
+ 
+ Excited State  58:      Singlet-B1    31.1804 eV   39.76 nm  f=0.0008  <S**2>=0.000
+       5 -> 23         0.69382
+ 
+ Excited State  59:      Singlet-A2    32.1600 eV   38.55 nm  f=0.0000  <S**2>=0.000
+       2 -> 12         0.70162
+ 
+ Excited State  60:      Singlet-A1    32.5975 eV   38.03 nm  f=0.0039  <S**2>=0.000
+       2 -> 13         0.65178
+       4 -> 23        -0.22997
+ 
+ Excited State  61:      Singlet-B1    33.3827 eV   37.14 nm  f=0.0055  <S**2>=0.000
+       2 ->  9         0.10437
+       2 -> 14         0.68939
+ 
+ Excited State  62:      Singlet-A1    33.6910 eV   36.80 nm  f=0.0189  <S**2>=0.000
+       2 -> 13         0.21797
+       2 -> 16        -0.16323
+       4 -> 23         0.63209
+       5 -> 25         0.12429
+ 
+ Excited State  63:      Singlet-A2    33.9146 eV   36.56 nm  f=0.0000  <S**2>=0.000
+       5 -> 24         0.70129
+ 
+ Excited State  64:      Singlet-B2    35.3443 eV   35.08 nm  f=0.0040  <S**2>=0.000
+       2 -> 15         0.59722
+       2 -> 17         0.26313
+       3 -> 23        -0.12052
+       4 -> 24         0.22730
+ 
+ Excited State  65:      Singlet-A1    35.5723 eV   34.85 nm  f=0.0078  <S**2>=0.000
+       2 -> 16         0.66247
+       4 -> 23         0.12897
+       5 -> 25         0.17670
+ 
+ Excited State  66:      Singlet-B2    36.0219 eV   34.42 nm  f=0.0005  <S**2>=0.000
+       2 -> 15        -0.23593
+       3 -> 23        -0.11981
+       4 -> 24         0.64566
+ 
+ Excited State  67:      Singlet-B2    36.0735 eV   34.37 nm  f=0.0054  <S**2>=0.000
+       2 -> 10         0.10065
+       2 -> 15        -0.28877
+       2 -> 17         0.61891
+       3 -> 23        -0.12059
+ 
+ Excited State  68:      Singlet-B1    37.3440 eV   33.20 nm  f=0.0043  <S**2>=0.000
+       4 -> 25        -0.18644
+       5 -> 26         0.67640
+ 
+ Excited State  69:      Singlet-B2    37.8629 eV   32.75 nm  f=0.0618  <S**2>=0.000
+       2 -> 17         0.15162
+       3 -> 23         0.66546
+       4 -> 24         0.14227
+ 
+ Excited State  70:      Singlet-A1    38.0688 eV   32.57 nm  f=0.0119  <S**2>=0.000
+       2 -> 19        -0.16300
+       3 -> 24         0.22083
+       4 -> 26        -0.33345
+       5 -> 25         0.53479
+ 
+ Excited State  71:      Singlet-B1    38.7855 eV   31.97 nm  f=0.0020  <S**2>=0.000
+       4 -> 25         0.67671
+       5 -> 26         0.18121
+ 
+ Excited State  72:      Singlet-A1    39.9432 eV   31.04 nm  f=0.0021  <S**2>=0.000
+       2 -> 19         0.64596
+       3 -> 24        -0.10853
+       4 -> 26        -0.22944
+ 
+ Excited State  73:      Singlet-B2    40.0151 eV   30.98 nm  f=0.0000  <S**2>=0.000
+       2 -> 18         0.69868
+ 
+ Excited State  74:      Singlet-A1    40.3183 eV   30.75 nm  f=0.0191  <S**2>=0.000
+       2 -> 19         0.21578
+       3 -> 24         0.56102
+       4 -> 26         0.35729
+ 
+ Excited State  75:      Singlet-B1    41.2615 eV   30.05 nm  f=0.0014  <S**2>=0.000
+       2 -> 20         0.69919
+ 
+ Excited State  76:      Singlet-A2    41.8567 eV   29.62 nm  f=0.0000  <S**2>=0.000
+       2 -> 22         0.67904
+       3 -> 25         0.18511
+ 
+ Excited State  77:      Singlet-A1    42.1207 eV   29.44 nm  f=0.0107  <S**2>=0.000
+       2 -> 21         0.69983
+ 
+ Excited State  78:      Singlet-A2    42.8505 eV   28.93 nm  f=0.0000  <S**2>=0.000
+       2 -> 22        -0.18462
+       3 -> 25         0.67868
+ 
+ Excited State  79:      Singlet-B2    43.9710 eV   28.20 nm  f=0.0588  <S**2>=0.000
+       3 -> 26         0.69641
+ 
+ Excited State  80:      Singlet-A2    45.7963 eV   27.07 nm  f=0.0000  <S**2>=0.000
+       5 -> 27         0.70384
+ 
+ Excited State  81:      Singlet-A1    46.1851 eV   26.85 nm  f=0.0186  <S**2>=0.000
+       2 -> 16        -0.11940
+       2 -> 23        -0.22170
+       3 -> 24        -0.31649
+       3 -> 27         0.17053
+       4 -> 26         0.40732
+       5 -> 25         0.32690
+ 
+ Excited State  82:      Singlet-B2    48.2467 eV   25.70 nm  f=0.0616  <S**2>=0.000
+       4 -> 27         0.69323
+       5 -> 29         0.10948
+ 
+ Excited State  83:      Singlet-B1    49.0917 eV   25.26 nm  f=0.0840  <S**2>=0.000
+       5 -> 28         0.70239
+ 
+ Excited State  84:      Singlet-A1    50.6483 eV   24.48 nm  f=0.1023  <S**2>=0.000
+       2 -> 23         0.63536
+       3 -> 27         0.25815
+ 
+ Excited State  85:      Singlet-A1    50.9105 eV   24.35 nm  f=0.0071  <S**2>=0.000
+       3 -> 27         0.10528
+       4 -> 28         0.69261
+ 
+ Excited State  86:      Singlet-B2    51.5775 eV   24.04 nm  f=0.1117  <S**2>=0.000
+       4 -> 27        -0.10046
+       5 -> 29         0.69214
+ 
+ Excited State  87:      Singlet-B2    53.0264 eV   23.38 nm  f=0.0548  <S**2>=0.000
+       2 -> 24         0.70210
+ 
+ Excited State  88:      Singlet-A2    53.0509 eV   23.37 nm  f=0.0000  <S**2>=0.000
+       4 -> 29         0.70616
+ 
+ Excited State  89:      Singlet-A1    54.6779 eV   22.68 nm  f=0.0037  <S**2>=0.000
+       2 -> 23        -0.18048
+       2 -> 26         0.19365
+       3 -> 27         0.55926
+       4 -> 26        -0.12361
+       5 -> 25        -0.13103
+       5 -> 30         0.24134
+ 
+ Excited State  90:      Singlet-B2    55.1726 eV   22.47 nm  f=0.0087  <S**2>=0.000
+       3 -> 28         0.69985
+ 
+ Excited State  91:      Singlet-A1    55.5172 eV   22.33 nm  f=0.0563  <S**2>=0.000
+       3 -> 27        -0.21851
+       5 -> 30         0.65754
+ 
+ Excited State  92:      Singlet-B1    56.1546 eV   22.08 nm  f=0.1244  <S**2>=0.000
+       2 -> 25         0.70079
+ 
+ Excited State  93:      Singlet-B1    57.1352 eV   21.70 nm  f=0.0020  <S**2>=0.000
+       3 -> 29        -0.46545
+       4 -> 30         0.52004
+       5 -> 32        -0.10714
+ 
+ Excited State  94:      Singlet-A1    57.1723 eV   21.69 nm  f=0.0820  <S**2>=0.000
+       2 -> 26         0.66900
+       3 -> 27        -0.13958
+ 
+ Excited State  95:      Singlet-B1    57.6911 eV   21.49 nm  f=0.0841  <S**2>=0.000
+       3 -> 29         0.29672
+       4 -> 30         0.37470
+       5 -> 32         0.51724
+ 
+ Excited State  96:      Singlet-A2    57.8878 eV   21.42 nm  f=0.0000  <S**2>=0.000
+       5 -> 31         0.70411
+ 
+ Excited State  97:      Singlet-B1    58.6791 eV   21.13 nm  f=0.2991  <S**2>=0.000
+       3 -> 29        -0.43158
+       4 -> 30        -0.29239
+       5 -> 32         0.46869
+ 
+ Excited State  98:      Singlet-B2    60.4967 eV   20.49 nm  f=0.0145  <S**2>=0.000
+       4 -> 31         0.70344
+ 
+ Excited State  99:      Singlet-A1    61.0514 eV   20.31 nm  f=0.2317  <S**2>=0.000
+       4 -> 32         0.69226
+ 
+ Excited State 100:      Singlet-A2    61.2835 eV   20.23 nm  f=0.0000  <S**2>=0.000
+       3 -> 30         0.70294
+ 
+ Excited State 101:      Singlet-B2    64.5906 eV   19.20 nm  f=0.0941  <S**2>=0.000
+       3 -> 32         0.69900
+ 
+ Excited State 102:      Singlet-A1    64.5921 eV   19.19 nm  f=0.0053  <S**2>=0.000
+       3 -> 31         0.70094
+ 
+ Excited State 103:      Singlet-B2    65.4617 eV   18.94 nm  f=0.0534  <S**2>=0.000
+       2 -> 27         0.70057
+ 
+ Excited State 104:      Singlet-A2    65.6155 eV   18.90 nm  f=0.0000  <S**2>=0.000
+       5 -> 33         0.70544
+ 
+ Excited State 105:      Singlet-B2    68.7256 eV   18.04 nm  f=0.0076  <S**2>=0.000
+       4 -> 33         0.69433
+ 
+ Excited State 106:      Singlet-A1    69.8198 eV   17.76 nm  f=0.0071  <S**2>=0.000
+       2 -> 28         0.67804
+       3 -> 33        -0.10558
+ 
+ Excited State 107:      Singlet-A2    69.9996 eV   17.71 nm  f=0.0000  <S**2>=0.000
+       2 -> 29         0.70643
+ 
+ Excited State 108:      Singlet-B1    70.1076 eV   17.68 nm  f=0.1392  <S**2>=0.000
+       5 -> 34         0.69614
+ 
+ Excited State 109:      Singlet-A1    70.9334 eV   17.48 nm  f=0.0076  <S**2>=0.000
+       3 -> 33        -0.21515
+       4 -> 34         0.67111
+ 
+ Excited State 110:      Singlet-B1    73.9659 eV   16.76 nm  f=0.0281  <S**2>=0.000
+       2 -> 30         0.70465
+ 
+ Excited State 111:      Singlet-A1    74.0443 eV   16.74 nm  f=0.0218  <S**2>=0.000
+       2 -> 28         0.11589
+       3 -> 33         0.65607
+       4 -> 34         0.20038
+ 
+ Excited State 112:      Singlet-B2    75.9699 eV   16.32 nm  f=0.0114  <S**2>=0.000
+       2 -> 31         0.17823
+       3 -> 34         0.67549
+ 
+ Excited State 113:      Singlet-B2    76.9902 eV   16.10 nm  f=0.0005  <S**2>=0.000
+       2 -> 31         0.68363
+       3 -> 34        -0.17499
+ 
+ Excited State 114:      Singlet-A1    77.2955 eV   16.04 nm  f=0.0042  <S**2>=0.000
+       2 -> 32         0.70530
+ 
+ Excited State 115:      Singlet-B2    85.3209 eV   14.53 nm  f=0.0117  <S**2>=0.000
+       2 -> 33         0.70093
+ 
+ Excited State 116:      Singlet-A1    86.6123 eV   14.31 nm  f=0.1599  <S**2>=0.000
+       2 -> 34         0.11004
+       4 -> 37        -0.21459
+       5 -> 35         0.65877
+ 
+ Excited State 117:      Singlet-B1    87.9045 eV   14.10 nm  f=0.0856  <S**2>=0.000
+       3 -> 36        -0.14822
+       4 -> 35         0.66073
+       5 -> 37         0.17405
+ 
+ Excited State 118:      Singlet-A2    88.9100 eV   13.94 nm  f=0.0000  <S**2>=0.000
+       4 -> 36         0.70589
+ 
+ Excited State 119:      Singlet-A1    88.9143 eV   13.94 nm  f=0.0012  <S**2>=0.000
+       2 -> 34         0.69508
+       5 -> 35        -0.11950
+ 
+ Excited State 120:      Singlet-B2    89.0139 eV   13.93 nm  f=0.2026  <S**2>=0.000
+       3 -> 37         0.11649
+       5 -> 36         0.68633
+ 
+ Excited State 121:      Singlet-B1    90.6392 eV   13.68 nm  f=0.0160  <S**2>=0.000
+       3 -> 36         0.21104
+       4 -> 35        -0.12533
+       5 -> 37         0.66196
+ 
+ Excited State 122:      Singlet-A2    91.3505 eV   13.57 nm  f=0.0000  <S**2>=0.000
+       3 -> 35         0.70597
+ 
+ Excited State 123:      Singlet-A1    95.6351 eV   12.96 nm  f=0.2918  <S**2>=0.000
+       4 -> 37         0.67006
+       5 -> 35         0.20367
+ 
+ Excited State 124:      Singlet-B1    95.6430 eV   12.96 nm  f=0.1607  <S**2>=0.000
+       3 -> 36         0.63797
+       4 -> 35         0.16192
+       5 -> 37        -0.16444
+       5 -> 38         0.18961
+ 
+ Excited State 125:      Singlet-B2    97.9706 eV   12.66 nm  f=0.0612  <S**2>=0.000
+       3 -> 37         0.69266
+       5 -> 36        -0.10565
+ 
+ Excited State 126:      Singlet-B1   103.7810 eV   11.95 nm  f=0.2579  <S**2>=0.000
+       2 -> 35        -0.22470
+       3 -> 36        -0.15113
+       5 -> 38         0.64207
+ 
+ Excited State 127:      Singlet-A1   104.1408 eV   11.91 nm  f=0.0046  <S**2>=0.000
+       4 -> 38         0.70381
+ 
+ Excited State 128:      Singlet-B1   105.4415 eV   11.76 nm  f=0.0661  <S**2>=0.000
+       2 -> 35         0.66786
+       5 -> 38         0.21350
+ 
+ Excited State 129:      Singlet-A2   106.5387 eV   11.64 nm  f=0.0000  <S**2>=0.000
+       2 -> 36         0.70528
+ 
+ Excited State 130:      Singlet-B2   109.3390 eV   11.34 nm  f=0.0477  <S**2>=0.000
+       3 -> 38         0.69041
+       4 -> 39         0.13375
+ 
+ Excited State 131:      Singlet-A1   110.8150 eV   11.19 nm  f=0.0104  <S**2>=0.000
+       2 -> 37         0.70413
+ 
+ Excited State 132:      Singlet-A2   112.5630 eV   11.01 nm  f=0.0000  <S**2>=0.000
+       5 -> 39         0.70529
+ 
+ Excited State 133:      Singlet-B2   115.9998 eV   10.69 nm  f=0.1636  <S**2>=0.000
+       3 -> 38        -0.12757
+       4 -> 39         0.69158
+ 
+ Excited State 134:      Singlet-A1   120.6582 eV   10.28 nm  f=0.0801  <S**2>=0.000
+       2 -> 38         0.12455
+       3 -> 39         0.69282
+ 
+ Excited State 135:      Singlet-A1   121.3740 eV   10.22 nm  f=0.0183  <S**2>=0.000
+       2 -> 38         0.69547
+       3 -> 39        -0.12473
+ 
+ Excited State 136:      Singlet-B2   132.2917 eV    9.37 nm  f=0.0009  <S**2>=0.000
+       2 -> 39         0.70645
+ SavETr:  write IOETrn=   770 NScale= 10 NData=  16 NLR=1 NState=  136 LETran=    2458.
+ Leave Link  914 at Mon Mar 21 20:08:58 2022, MaxMem=  8589934592 cpu:              14.1 elap:               1.8
+ (Enter /home/sabyasachi/g16/l601.exe)
+ Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (A1) (A1) (B2) (A1) (B1)
+       Virtual   (A1) (B2) (A1) (B1) (B2) (A1) (A2) (A1) (B1) (B2)
+                 (A1) (B2) (B2) (A1) (B1) (A1) (A2) (A1) (B2) (B1)
+                 (A1) (B2) (A1) (A2) (B1) (B2) (A1) (B2) (A1) (B1)
+                 (A2) (A1) (A1) (B2)
+ The electronic state is 1-A1.
+ Alpha  occ. eigenvalues --  -19.47006  -1.13856  -0.66258  -0.51453  -0.44422
+ Alpha virt. eigenvalues --    0.04569   0.07850   0.13864   0.14261   0.20266
+ Alpha virt. eigenvalues --    0.22511   0.26519   0.30185   0.32906   0.38248
+ Alpha virt. eigenvalues --    0.40100   0.43342   0.58068   0.59176   0.63723
+ Alpha virt. eigenvalues --    0.66674   0.66893   0.99174   1.10335   1.25086
+ Alpha virt. eigenvalues --    1.27158   1.56279   1.66483   1.74294   1.89704
+ Alpha virt. eigenvalues --    2.00327   2.01250   2.32239   2.43776   3.08212
+ Alpha virt. eigenvalues --    3.14614   3.27858   3.68468   4.08508
+          Condensed to atoms (all electrons):
+               1          2          3
+     1  O    7.624122   0.348680   0.348680
+     2  H    0.348680   0.486879   0.003699
+     3  H    0.348680   0.003699   0.486879
+ Mulliken charges:
+               1
+     1  O   -0.321482
+     2  H    0.160741
+     3  H    0.160741
+ Sum of Mulliken charges =  -0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  O   -0.000000
+ Electronic spatial extent (au):  <R**2>=             19.9344
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0000    Y=             -0.0000    Z=             -1.9749  Tot=              1.9749
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -7.7678   YY=             -4.4267   ZZ=             -6.4557
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -1.5511   YY=              1.7900   ZZ=             -0.2389
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              0.0000  YYY=              0.0000  ZZZ=             -1.1766  XYY=             -0.0000
+  XXY=             -0.0000  XXZ=             -0.2651  XZZ=              0.0000  YZZ=             -0.0000
+  YYZ=             -1.3518  XYZ=             -0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=             -7.7262 YYYY=             -6.5633 ZZZZ=             -7.9187 XXXY=             -0.0000
+ XXXZ=             -0.0000 YYYX=             -0.0000 YYYZ=             -0.0000 ZZZX=             -0.0000
+ ZZZY=              0.0000 XXYY=             -2.6775 XXZZ=             -2.6539 YYZZ=             -2.1538
+ XXYZ=             -0.0000 YYXZ=              0.0000 ZZXY=             -0.0000
+ N-N= 9.189141703487D+00 E-N=-1.984919035912D+02  KE= 7.563137150563D+01
+ Symmetry A1   KE= 6.749492667242D+01
+ Symmetry A2   KE= 6.526074655072D-22
+ Symmetry B1   KE= 4.467149785114D+00
+ Symmetry B2   KE= 3.669295048102D+00
+ Leave Link  601 at Mon Mar 21 20:08:58 2022, MaxMem=  8589934592 cpu:               0.2 elap:               0.0
+ (Enter /home/sabyasachi/g16/l9999.exe)
+ Electronic transition elements 
+                 1             2             3             4             5 
+      1  -0.760643D+02 -0.760174D+02 -0.759888D+02 -0.759616D+02 -0.759427D+02
+      2  -0.486754D+00  0.000000D+00  0.000000D+00 -0.130665D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.131172D+00
+      4   0.000000D+00  0.000000D+00 -0.571240D+00  0.000000D+00  0.000000D+00
+      5   0.150298D+00  0.000000D+00  0.000000D+00  0.698874D-01  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.619943D-01
+      7   0.000000D+00  0.000000D+00  0.222316D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.568685D-01
+      9  -0.602324D-01  0.000000D+00  0.000000D+00 -0.258245D-01  0.000000D+00
+     10   0.000000D+00  0.517595D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.126207D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00 -0.129223D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00 -0.135515D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00 -0.232997D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15  -0.620138D-01  0.000000D+00  0.000000D+00  0.342443D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.320864D+00
+                 6             7             8             9            10 
+      1  -0.759273D+02 -0.759232D+02 -0.758879D+02 -0.758862D+02 -0.758624D+02
+      2   0.000000D+00  0.000000D+00 -0.172054D+00 -0.321767D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.712242D-01  0.000000D+00  0.000000D+00  0.000000D+00 -0.351212D+00
+      5   0.000000D+00  0.000000D+00  0.755540D-01  0.135535D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  -0.267726D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.169967D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.824531D-01  0.785563D-01  0.000000D+00
+     10   0.000000D+00  0.198376D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.887927D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.510645D+00
+     12   0.148347D-01  0.000000D+00  0.000000D+00  0.000000D+00 -0.139336D+00
+     13  -0.703622D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.822560D+00
+     14   0.000000D+00  0.248633D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00 -0.233698D+00  0.291077D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                11            12            13            14            15 
+      1  -0.758557D+02 -0.758435D+02 -0.758332D+02 -0.758178D+02 -0.758118D+02
+      2   0.000000D+00  0.000000D+00 -0.418580D+00  0.000000D+00  0.000000D+00
+      3  -0.276469D+00  0.642522D-01  0.000000D+00 -0.105390D+01  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.277432D+00
+      5   0.000000D+00  0.000000D+00  0.201249D+00  0.000000D+00  0.000000D+00
+      6   0.158222D+00 -0.326173D-01  0.000000D+00  0.561696D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.151134D+00
+      8   0.144032D+00  0.217432D+00  0.000000D+00 -0.238553D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.106286D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.861010D-01
+     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.112395D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.120291D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.240231D-01  0.000000D+00  0.000000D+00
+     16  -0.237173D+00 -0.941727D-01  0.000000D+00 -0.361739D+00  0.000000D+00
+                16            17            18            19            20 
+      1  -0.757984D+02 -0.757756D+02 -0.757743D+02 -0.757508D+02 -0.757449D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.644373D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4  -0.424138D+00  0.000000D+00  0.963757D-01  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00 -0.405206D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.225628D+00  0.000000D+00 -0.634325D-01  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.260107D-02  0.000000D+00
+     10   0.000000D+00  0.189758D+00  0.000000D+00  0.000000D+00  0.683695D-01
+     11   0.101799D+00  0.000000D+00 -0.287317D+00  0.000000D+00  0.000000D+00
+     12   0.255194D+00  0.000000D+00 -0.705612D+00  0.000000D+00  0.000000D+00
+     13   0.129574D+00  0.000000D+00 -0.151921D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00 -0.232694D+00  0.000000D+00  0.000000D+00  0.145931D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.632819D-01  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                21            22            23            24            25 
+      1  -0.757403D+02 -0.757401D+02 -0.757299D+02 -0.757258D+02 -0.757130D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00 -0.476532D+00  0.000000D+00
+      3  -0.322191D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.313774D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.300959D+00  0.000000D+00
+      6   0.204387D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00 -0.214136D+00  0.000000D+00  0.000000D+00
+      8   0.205670D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00 -0.554960D-01  0.000000D+00
+     10   0.000000D+00 -0.681150D-01  0.000000D+00  0.000000D+00  0.109629D+00
+     11   0.000000D+00  0.000000D+00  0.508807D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.593145D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.500767D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.318729D+00  0.000000D+00  0.000000D+00 -0.371041D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00 -0.108035D+00  0.000000D+00
+     16   0.167837D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                26            27            28            29            30 
+      1  -0.756772D+02 -0.756669D+02 -0.756561D+02 -0.756558D+02 -0.756319D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.692331D+00  0.000000D+00  0.177495D+00  0.184221D+00
+      4  -0.675197D+00  0.000000D+00 -0.550133D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00 -0.472545D+00  0.000000D+00 -0.140636D+00 -0.141123D+00
+      7   0.473563D+00  0.000000D+00  0.367730D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00 -0.298599D+00  0.000000D+00 -0.171609D+00  0.137368D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11  -0.266506D-01  0.000000D+00 -0.163223D+00  0.000000D+00  0.000000D+00
+     12  -0.151477D+00  0.000000D+00 -0.677874D+00  0.000000D+00  0.000000D+00
+     13  -0.480070D+00  0.000000D+00 -0.483540D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.413467D+00  0.000000D+00 -0.100329D+00  0.387261D+00
+                31            32            33            34            35 
+      1  -0.756288D+02 -0.756247D+02 -0.755944D+02 -0.755834D+02 -0.755638D+02
+      2  -0.397771D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.640121D+00
+      3   0.000000D+00  0.886212D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      5   0.310865D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.530026D+00
+      6   0.000000D+00 -0.630386D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.177193D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9  -0.167019D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.108473D+00
+     10   0.000000D+00  0.000000D+00  0.238513D+00  0.103758D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00 -0.511305D+00  0.320844D+00  0.000000D+00
+     15  -0.351065D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.608773D-01
+     16   0.000000D+00  0.589300D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                36            37            38            39            40 
+      1  -0.755330D+02 -0.755233D+02 -0.755123D+02 -0.755078D+02 -0.755062D+02
+      2   0.000000D+00  0.000000D+00 -0.220134D-04  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.147071D+00  0.000000D+00 -0.138854D+00  0.000000D+00
+      4   0.328055D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.152554D+00
+      5   0.000000D+00  0.000000D+00  0.138614D-01  0.000000D+00  0.000000D+00
+      6   0.000000D+00 -0.150422D+00  0.000000D+00  0.108047D+00  0.000000D+00
+      7  -0.290151D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.132144D+00
+      8   0.000000D+00 -0.915564D-01  0.000000D+00 -0.108171D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.253067D-01  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11  -0.180026D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.146577D+00
+     12   0.207728D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.549878D+00
+     13  -0.104769D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.639386D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.422705D-01  0.000000D+00  0.000000D+00
+     16   0.000000D+00 -0.788348D-01  0.000000D+00  0.362081D+00  0.000000D+00
+                41            42            43            44            45 
+      1  -0.754930D+02 -0.754797D+02 -0.754658D+02 -0.754507D+02 -0.754369D+02
+      2   0.000000D+00  0.000000D+00  0.666930D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00 -0.742816D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4  -0.163675D+00  0.000000D+00  0.000000D+00  0.441075D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00 -0.621792D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.700914D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.159154D+00  0.000000D+00  0.000000D+00 -0.428206D+00  0.000000D+00
+      8   0.000000D+00 -0.258323D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00 -0.514990D-01  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.107835D+00
+     11  -0.113007D+00  0.000000D+00  0.000000D+00  0.479766D+00  0.000000D+00
+     12   0.146124D+01  0.000000D+00  0.000000D+00  0.338332D+00  0.000000D+00
+     13  -0.136402D+00  0.000000D+00  0.000000D+00  0.272620D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.489058D+00
+     15   0.000000D+00  0.000000D+00 -0.555135D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.620610D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                46            47            48            49            50 
+      1  -0.754327D+02 -0.753632D+02 -0.753406D+02 -0.753289D+02 -0.753260D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00 -0.471404D+00  0.000000D+00  0.347418D-01
+      4  -0.634493D+00  0.155117D+00  0.000000D+00 -0.636618D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.488523D+00  0.000000D+00 -0.456847D-01
+      7   0.650185D+00 -0.146119D+00  0.000000D+00  0.667614D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.318695D-01  0.000000D+00  0.884924D-02
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11  -0.193585D+00  0.377263D+00  0.000000D+00  0.197322D+00  0.000000D+00
+     12  -0.503710D-01  0.783073D+00  0.000000D+00  0.738138D+00  0.000000D+00
+     13   0.673789D+00  0.703569D+00  0.000000D+00  0.856728D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.522841D+00  0.000000D+00  0.424288D+00
+                51            52            53            54            55 
+      1  -0.753131D+02 -0.752794D+02 -0.752662D+02 -0.752565D+02 -0.752523D+02
+      2   0.000000D+00 -0.431877D+00  0.000000D+00  0.000000D+00  0.409541D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.626628D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.165901D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.472449D+00  0.000000D+00  0.000000D+00 -0.510935D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00 -0.719561D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00 -0.181708D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00 -0.293403D+00  0.000000D+00
+      9   0.000000D+00 -0.224900D-01  0.000000D+00  0.000000D+00  0.659850D-01
+     10  -0.855986D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.440042D-01  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.361694D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00 -0.127673D+00  0.000000D+00  0.000000D+00
+     14  -0.369021D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.185542D+00  0.000000D+00  0.000000D+00 -0.353365D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00 -0.253491D+00  0.000000D+00
+                56            57            58            59            60 
+      1  -0.752296D+02 -0.752038D+02 -0.752018D+02 -0.751658D+02 -0.751497D+02
+      2   0.000000D+00  0.000000D+00  0.328287D-01  0.000000D+00  0.000000D+00
+      3   0.104385D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.488921D-01  0.000000D+00  0.000000D+00 -0.695873D-01
+      5   0.000000D+00  0.000000D+00 -0.384933D-01  0.000000D+00  0.000000D+00
+      6  -0.881819D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.000000D+00 -0.726210D-01  0.000000D+00  0.000000D+00  0.549645D-01
+      8   0.144529D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00 -0.107198D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00 -0.106143D+00  0.000000D+00
+     11   0.000000D+00  0.252741D+00  0.000000D+00  0.000000D+00  0.290534D+00
+     12   0.000000D+00 -0.896997D+00  0.000000D+00  0.000000D+00 -0.102236D+00
+     13   0.000000D+00  0.324804D+00  0.000000D+00  0.000000D+00 -0.986709D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.665111D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.183384D+00  0.000000D+00  0.000000D+00
+     16   0.709394D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                61            62            63            64            65 
+      1  -0.751208D+02 -0.751095D+02 -0.751013D+02 -0.750487D+02 -0.750404D+02
+      2   0.820566D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00 -0.676691D-01  0.000000D+00
+      4   0.000000D+00 -0.151260D+00  0.000000D+00  0.000000D+00 -0.948340D-01
+      5  -0.866180D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.730467D-01  0.000000D+00
+      7   0.000000D+00  0.199075D+00  0.000000D+00  0.000000D+00  0.121385D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00 -0.331902D-01  0.000000D+00
+      9   0.432675D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.117577D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.589070D+00  0.000000D+00  0.000000D+00 -0.465710D+00
+     12   0.000000D+00 -0.724899D+00  0.000000D+00  0.000000D+00 -0.719807D+00
+     13   0.000000D+00  0.180146D+00  0.000000D+00  0.000000D+00 -0.229243D+00
+     14   0.000000D+00  0.000000D+00  0.406899D+00  0.000000D+00  0.000000D+00
+     15   0.668183D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00 -0.983289D-01  0.000000D+00
+                66            67            68            69            70 
+      1  -0.750238D+02 -0.750219D+02 -0.749753D+02 -0.749562D+02 -0.749486D+02
+      2   0.000000D+00  0.000000D+00 -0.685067D-01  0.000000D+00  0.000000D+00
+      3   0.229680D-01 -0.778503D-01  0.000000D+00 -0.258025D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.112833D+00
+      5   0.000000D+00  0.000000D+00  0.123504D+00  0.000000D+00  0.000000D+00
+      6  -0.458074D-01  0.644679D-01  0.000000D+00  0.335467D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.209088D+00
+      8  -0.121609D+00 -0.143821D+00  0.000000D+00 -0.663131D-01  0.000000D+00
+      9   0.000000D+00  0.000000D+00 -0.220882D-01  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.952409D+00
+     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.283167D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.397287D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.396523D+00  0.000000D+00  0.000000D+00
+     16  -0.341120D+00 -0.288653D+00  0.000000D+00 -0.964558D+00  0.000000D+00
+                71            72            73            74            75 
+      1  -0.749223D+02 -0.748797D+02 -0.748771D+02 -0.748660D+02 -0.748313D+02
+      2  -0.454036D-01  0.000000D+00  0.000000D+00  0.000000D+00 -0.375531D-01
+      3   0.000000D+00  0.000000D+00 -0.466584D-02  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.460971D-01  0.000000D+00 -0.139107D+00  0.000000D+00
+      5   0.812509D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.889683D-01
+      6   0.000000D+00  0.000000D+00  0.818575D-02  0.000000D+00  0.000000D+00
+      7   0.000000D+00 -0.751350D-01  0.000000D+00  0.225114D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.782085D-01  0.000000D+00  0.000000D+00
+      9   0.884600D-01  0.000000D+00  0.000000D+00  0.000000D+00 -0.513559D-01
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00 -0.955031D+00  0.000000D+00  0.450159D+00  0.000000D+00
+     12   0.000000D+00  0.872899D+00  0.000000D+00 -0.197457D+00  0.000000D+00
+     13   0.000000D+00 -0.180126D+00  0.000000D+00  0.351213D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.335082D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.691826D+00
+     16   0.000000D+00  0.000000D+00  0.574119D+00  0.000000D+00  0.000000D+00
+                76            77            78            79            80 
+      1  -0.748094D+02 -0.747997D+02 -0.747729D+02 -0.747317D+02 -0.746646D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00 -0.233642D+00  0.000000D+00
+      4   0.000000D+00  0.101600D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.394568D+00  0.000000D+00
+      7   0.000000D+00 -0.195274D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.189104D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  -0.188726D+00  0.000000D+00 -0.104994D+00  0.000000D+00 -0.470248D-01
+     11   0.000000D+00 -0.138073D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00 -0.680714D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.909229D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     14   0.902565D+00  0.000000D+00 -0.629510D-01  0.000000D+00 -0.443419D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00 -0.237395D+00  0.000000D+00
+                81            82            83            84            85 
+      1  -0.746504D+02 -0.745746D+02 -0.745435D+02 -0.744863D+02 -0.744767D+02
+      2   0.000000D+00  0.000000D+00 -0.264283D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.228330D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.128163D+00  0.000000D+00  0.000000D+00  0.287147D+00 -0.754243D-01
+      5   0.000000D+00  0.000000D+00  0.544737D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00 -0.447386D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  -0.191850D+00  0.000000D+00  0.000000D+00 -0.559060D+00  0.153556D+00
+      8   0.000000D+00  0.303323D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.147276D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.670217D+00  0.000000D+00  0.000000D+00 -0.397488D-01  0.450985D-01
+     12   0.580092D+00  0.000000D+00  0.000000D+00  0.153564D+00  0.572387D+00
+     13   0.140469D+01  0.000000D+00  0.000000D+00  0.515866D+00  0.656205D-02
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.775083D-01  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.196469D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                86            87            88            89            90 
+      1  -0.744522D+02 -0.743989D+02 -0.743980D+02 -0.743382D+02 -0.743201D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3  -0.297372D+00  0.205325D+00  0.000000D+00  0.000000D+00  0.803776D-01
+      4   0.000000D+00  0.000000D+00  0.000000D+00 -0.523347D-01  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.511338D+00 -0.432017D+00  0.000000D+00  0.000000D+00 -0.963092D-01
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.583074D-01  0.000000D+00
+      8  -0.140951D+00  0.119043D+00  0.000000D+00  0.000000D+00 -0.149864D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.268960D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00 -0.360086D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.000000D+00 -0.150334D+01  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00 -0.257210D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00 -0.715605D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16  -0.680222D+00  0.166825D+00  0.000000D+00  0.000000D+00  0.708139D+00
+                91            92            93            94            95 
+      1  -0.743074D+02 -0.742840D+02 -0.742479D+02 -0.742466D+02 -0.742275D+02
+      2   0.000000D+00 -0.300745D+00  0.379939D-01  0.000000D+00 -0.243894D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4  -0.203532D+00  0.000000D+00  0.000000D+00 -0.241981D+00  0.000000D+00
+      5   0.000000D+00  0.704842D+00 -0.685231D-01  0.000000D+00  0.467845D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.394134D+00  0.000000D+00  0.000000D+00  0.548276D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.117469D+00  0.104792D+00  0.000000D+00 -0.176908D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.119712D+01  0.000000D+00  0.000000D+00  0.402325D+00  0.000000D+00
+     12  -0.189642D+00  0.000000D+00  0.000000D+00  0.111690D+01  0.000000D+00
+     13  -0.437895D-01  0.000000D+00  0.000000D+00  0.313572D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00 -0.154724D-01  0.376915D+00  0.000000D+00 -0.128177D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                96            97            98            99           100 
+      1  -0.742203D+02 -0.741912D+02 -0.741244D+02 -0.741040D+02 -0.740955D+02
+      2   0.000000D+00  0.456165D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.989853D-01  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00 -0.393617D+00  0.000000D+00
+      5   0.000000D+00 -0.913118D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00 -0.251247D+00  0.000000D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.768043D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00 -0.198456D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.163049D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  -0.494493D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.477147D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.641973D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.000000D+00  0.264429D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00 -0.152058D+00  0.000000D+00
+     14  -0.318592D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.116019D+01
+     15   0.000000D+00  0.892847D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00 -0.698280D+00  0.000000D+00  0.000000D+00
+               101           102           103           104           105 
+      1  -0.739740D+02 -0.739739D+02 -0.739419D+02 -0.739363D+02 -0.738220D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.243869D+00  0.000000D+00  0.182441D+00  0.000000D+00  0.671946D-01
+      4   0.000000D+00 -0.580219D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6  -0.534442D+00  0.000000D+00 -0.447728D+00  0.000000D+00 -0.132103D+00
+      7   0.000000D+00  0.102903D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8  -0.418400D+00  0.000000D+00 -0.894718D-01  0.000000D+00  0.467029D-01
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00 -0.103399D+00  0.000000D+00
+     11   0.000000D+00 -0.539509D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.136277D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00 -0.119046D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.361849D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16  -0.451264D+00  0.000000D+00 -0.652000D+00  0.000000D+00 -0.418819D+00
+               106           107           108           109           110 
+      1  -0.737818D+02 -0.737752D+02 -0.737712D+02 -0.737409D+02 -0.736294D+02
+      2   0.000000D+00  0.000000D+00 -0.284723D+00  0.000000D+00  0.124490D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.645241D-01  0.000000D+00  0.000000D+00  0.661412D-01  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.589564D+00  0.000000D+00 -0.267389D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  -0.153784D+00  0.000000D+00  0.000000D+00 -0.168983D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.126314D+00  0.000000D+00  0.157433D+00
+     10   0.000000D+00 -0.309566D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.124225D+01  0.000000D+00  0.000000D+00  0.669501D-01  0.000000D+00
+     12   0.407277D+00  0.000000D+00  0.000000D+00 -0.356770D+00  0.000000D+00
+     13   0.105748D+01  0.000000D+00  0.000000D+00  0.134342D+00  0.000000D+00
+     14   0.000000D+00  0.796447D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00 -0.270948D-01  0.000000D+00  0.583092D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+               111           112           113           114           115 
+      1  -0.736265D+02 -0.735558D+02 -0.735183D+02 -0.735071D+02 -0.732121D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.782438D-01 -0.156924D-01  0.000000D+00 -0.746717D-01
+      4   0.109659D+00  0.000000D+00  0.000000D+00  0.468579D-01  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00 -0.302774D+00  0.497366D-01  0.000000D+00  0.309396D+00
+      7  -0.310805D+00  0.000000D+00  0.000000D+00 -0.573163D-01  0.000000D+00
+      8   0.000000D+00  0.121304D+00  0.276127D+00  0.000000D+00 -0.858177D-01
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.616906D+00  0.000000D+00  0.000000D+00 -0.513030D+00  0.000000D+00
+     12  -0.291271D+00  0.000000D+00  0.000000D+00 -0.664395D+00  0.000000D+00
+     13  -0.190650D+00  0.000000D+00  0.000000D+00  0.638789D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00 -0.451551D+00  0.136915D+00  0.000000D+00 -0.443473D-01
+               116           117           118           119           120 
+      1  -0.731647D+02 -0.731172D+02 -0.730802D+02 -0.730801D+02 -0.730764D+02
+      2   0.000000D+00 -0.199364D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.304805D+00
+      4  -0.274537D+00  0.000000D+00  0.000000D+00 -0.231780D-01  0.000000D+00
+      5   0.000000D+00  0.553477D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.927361D+00
+      7   0.793434D+00  0.000000D+00  0.000000D+00  0.140765D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.127460D+00
+      9   0.000000D+00  0.116073D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00 -0.561176D-01  0.000000D+00  0.000000D+00
+     11  -0.115640D+00  0.000000D+00  0.000000D+00  0.370959D+00  0.000000D+00
+     12   0.426702D+00  0.000000D+00  0.000000D+00 -0.216556D+00  0.000000D+00
+     13   0.192387D+00  0.000000D+00  0.000000D+00 -0.318698D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.544807D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.299702D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.509935D+00
+               121           122           123           124           125 
+      1  -0.730167D+02 -0.729906D+02 -0.728331D+02 -0.728328D+02 -0.727473D+02
+      2   0.850114D-01  0.000000D+00  0.000000D+00 -0.261904D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.159720D+00
+      4   0.000000D+00  0.000000D+00 -0.352876D+00  0.000000D+00  0.000000D+00
+      5  -0.262647D+00  0.000000D+00  0.000000D+00  0.814697D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.564207D+00
+      7   0.000000D+00  0.000000D+00  0.115819D+01  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.204140D+00
+      9  -0.372722D-01  0.000000D+00  0.000000D+00  0.196333D+00  0.000000D+00
+     10   0.000000D+00 -0.784603D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00 -0.279998D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00 -0.218457D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.121292D+01  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.514935D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15  -0.184417D+00  0.000000D+00  0.000000D+00  0.626143D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.889723D-01
+               126           127           128           129           130 
+      1  -0.725337D+02 -0.725205D+02 -0.724727D+02 -0.724324D+02 -0.723295D+02
+      2   0.318476D+00  0.000000D+00  0.159944D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.133497D+00
+      4   0.000000D+00 -0.425209D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      5  -0.112433D+01  0.000000D+00 -0.559652D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.487132D+00
+      7   0.000000D+00  0.103769D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.109586D+00
+      9  -0.187188D+00  0.000000D+00 -0.105285D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00 -0.375737D-03  0.000000D+00
+     11   0.000000D+00 -0.223754D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.465348D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00 -0.114594D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     14   0.000000D+00  0.000000D+00  0.000000D+00  0.337440D+00  0.000000D+00
+     15  -0.687031D+00  0.000000D+00  0.214469D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.342331D+00
+               131           132           133           134           135 
+      1  -0.722752D+02 -0.722110D+02 -0.720847D+02 -0.719135D+02 -0.718872D+02
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.239908D+00  0.000000D+00  0.000000D+00
+      4   0.619254D-01  0.000000D+00  0.000000D+00  0.164652D+00 -0.785254D-01
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00 -0.950901D+00  0.000000D+00  0.000000D+00
+      7  -0.237356D+00  0.000000D+00  0.000000D+00 -0.677766D+00  0.329510D+00
+      8   0.000000D+00  0.000000D+00  0.153106D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.248540D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     11  -0.108100D+00  0.000000D+00  0.000000D+00  0.115849D+00 -0.441299D+00
+     12  -0.711808D-01  0.000000D+00  0.000000D+00 -0.174299D+00  0.221681D+00
+     13   0.108747D+00  0.000000D+00  0.000000D+00 -0.593330D+00  0.270359D+00
+     14   0.000000D+00  0.286320D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     15   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     16   0.000000D+00  0.000000D+00 -0.556490D+00  0.000000D+00  0.000000D+00
+               136 
+      1  -0.714860D+02
+      2   0.000000D+00
+      3   0.162727D-01
+      4   0.000000D+00
+      5   0.000000D+00
+      6  -0.573789D-01
+      7   0.000000D+00
+      8   0.675792D-02
+      9   0.000000D+00
+     10   0.000000D+00
+     11   0.000000D+00
+     12   0.000000D+00
+     13   0.000000D+00
+     14   0.000000D+00
+     15   0.000000D+00
+     16  -0.220897D+00
+ Unable to Open any file for archive entry.
+ 1\1\GINC-HEL11\SP\RM11 TD-FC\Gen\H2O1\SABYASACHI\21-Mar-2022\0\\#P TD(
+ Nstates=10000) m11/Gen SCF(maxcycles=100) Int(Grid=ultrafine)\\xGDB7_0
+ 0001_tier4.com\\0,1\O,0,0.,0.,0.116015\H,0,0.,0.761895,-0.464058\H,0,0
+ .,-0.761895,-0.464058\\Version=EM64L-G16RevC.01\State=1-A1\HF=-76.3476
+ 218\RMSD=4.636e-09\PG=C02V [C2(O1),SGV(H2)]\\@
+ The archive entry for this job was punched.
+
+
+ THE MORE PROGRESS PHYSICAL SCIENCES MAKE, THE MORE THEY TEND TO ENTER
+ THE DOMAIN OF MATHEMATICS, WHICH IS A KIND OF CENTRE TO WHICH THEY ALL
+ CONVERGE.  WE MAY EVEN JUDGE THE DEGREE OF PERFECTION TO WHICH A 
+ SCIENCE HAS ARRIVED BY THE FACILITY WITH WHICH IT MAY BE SUBMITTED
+ TO CALCULATION.
+
+                               -- ADOLPHE QUETELET, 1796-1874
+ Job cpu time:       0 days  0 hours  0 minutes 22.2 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  3.1 seconds.
+ File lengths (MBytes):  RWF=     27 Int=      0 D2E=      0 Chk=      6 Scr=      1
+ Normal termination of Gaussian 16 at Mon Mar 21 20:08:59 2022.
