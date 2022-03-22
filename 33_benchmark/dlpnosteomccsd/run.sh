@@ -1,6 +1,6 @@
 #!/bin/bash             
 #PBS -V                 
-#PBS -N 000024.com              
+#PBS -N 000013.com              
 #PBS -q workqb          
 #PBS -l nodes=1:ncpus=8
 export OMP_NUM_THREADS=1                                               
@@ -11,10 +11,10 @@ mkdir $WORKDIR
 cd $WORKDIR                       
 mydir=/home/sabyasachi/bigQM7w/33_benchmark/DLPNOSTEOMCCSD_example                         
 cp  $mydir/*xyz  .                
-cp  $mydir/000024.com .                   
+cp  $mydir/000013.com .                   
 echo $HOSTNAME  > scrpath.txt                
 echo $PWD      >> scrpath.txt                
 cp scrpath.txt $mydir/                       
-/home/Lib/ORCA_500/orca 000024.com > 000024.out
+/home/Lib/ORCA_500/orca 000013.com > 000013.out
 cp *.out $mydir/                             
 rm -rf $WORKDIR                              

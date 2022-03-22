@@ -7,7 +7,7 @@
  MaxIter 150
 end
 
-%pal nprocs 8
+%pal nprocs 2
 end
 
 %mdci
