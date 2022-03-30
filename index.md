@@ -151,10 +151,11 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 ## Data-mining platform
 
 Available at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.res.in/datasets.html).      
-"Access def2SVP" takes you to a platform for querying ωB97XD/def2SVP-level structures/properties and electronic spectra at the TDωB97XD/def2SVPD level.      
-"Access def2TZVP" takes you to a platform for querying ωB97XD/def2TZVP-level structures/properties and electronic spectra at the TDωB97XD/def2TZVPD level.     
 
-NOTE: TDωB97XD/def2TZVPD level electronic spectra are available for 3,081 out of 12,880 molecules as of 30/03/2022.    
+![](https://moldis.tifrh.res.in/datasets.html)
+<a href="https://moldis.tifrh.res.in/datasets.html">
+<img src="moldis_datasets.png"  height="100">
+</a>  
 
 
 ## Raw input/output files on NOMAD
