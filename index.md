@@ -154,7 +154,7 @@ Available at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.re
 
 ![](https://moldis.tifrh.res.in/datasets.html)
 <a href="https://moldis.tifrh.res.in/datasets.html">
-<img src="moldis_datasets.png"  height="100">
+<img src="moldis_datasets.png"  height="300">
 </a>  
 
 
