@@ -150,8 +150,11 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 
 ## Data-mining platform
 
-To be announced
+Available at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.res.in/datasets.html). 
+"Access def2SVP" takes you to a platform for querying ωB97XD/def2SVP-level structures/properties and electronic spectra at the TDωB97XD/def2SVPD level.
+"Access def2TZVP" takes you to a platform for querying ωB97XD/def2TZVP-level structures/properties and electronic spectra at the TDωB97XD/def2TZVPD level.
 
+NOTE: TDωB97XD/def2TZVPD level electronic spectra are available for 3,081 out of 12,880 molecules as of 30/03/2022. 
 ## Raw input/output files on NOMAD
 
 [https://dx.doi.org/10.17172/NOMAD/2021.09.30-1](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
@@ -162,13 +165,14 @@ To be announced
 ## Revision notes
 
 _15 September 2021: First upload_                     
-_27 October 2021: Mulliken and APT charges uploaded_                    
+_27 October 2021: Mulliken and APT charges uploaded_  
+_30 March 2022: TBA_
 
 ***
 
 ## References
 [Ref-1] [_Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma_](https://arxiv.org/abs/2110.11798)            
-Prakriti Kayastha, Raghunathan Ramakrishnan 
-(2021)  
+Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan 
+(2022)  
 
 ***
