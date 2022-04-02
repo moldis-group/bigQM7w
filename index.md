@@ -150,7 +150,7 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 
 ## Data-mining platform
 
-Available at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.res.in/datasets.html).      
+You can access a data-mining platform to query this dataset at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.res.in/datasets.html).      
 
 ![](https://moldis.tifrh.res.in/datasets.html)
 <a href="https://moldis.tifrh.res.in/datasets.html">
@@ -169,7 +169,7 @@ Available at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.re
 
 _15 September 2021: First upload_                     
 _27 October 2021: Mulliken and APT charges uploaded_  
-_30 March 2022: TBA_
+_30 March 2022: Data-mining platform at MolDis announced_
 
 ***
 
