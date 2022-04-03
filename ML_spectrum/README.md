@@ -5,4 +5,4 @@ layout: default
 
 
 ## Screenshot of sample execution
-![image](./output_screenshot.png)
+![image](sample_output/output_screenshot.png)
