@@ -41,7 +41,10 @@ If you scroll through the results, you will be able to find the entry for cycloh
 The agreement between ML predicted and DFT results should improve if the DFT results are binned with a resolution of 0.94 nm (120 nm / 128), which is the whole point of our article [Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma](https://doi.org/10.48550/arXiv.2110.11798).
 
 ## Reference
-If you are using the program distributed here or any part of the bigQM7ω dataset, including its MolDis interface, please consider citing the following article.      
+If you are using the program distributed here or any part of the bigQM7ω dataset, including its MolDis interface, please consider citing the following article and the QML code.        
+
 [Ref-1] [_Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma_](https://arxiv.org/abs/2110.11798)                
-Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan (2022)      
+Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan (2022)     
+
+[Ref-2] [_AS Christensen, FA Faber, B Huang, LA Bratholm, A Tkatchenko, KR Muller, OA von Lilienfeld (2017) "QML: A Python Toolkit for Quantum Machine Learning, https://github.com/qmlcode/qml"_](https://github.com/qmlcode/qml)     
 
