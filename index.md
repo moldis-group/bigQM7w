@@ -107,6 +107,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2
 [bigQM7w_wB97XD_def2SVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212457)           
 [bigQM7w_wB97XD_def2TZVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212451)    
 
+***
 
 ## Excited state properties at ZINDO and TD-&omega;B97XD levels
 
@@ -148,6 +149,8 @@ bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_000001.dat.bz2
 bunzip2 -f bigQM7w_TDwB97XD_def2TZVP_012880.dat.bz2
 ```
 
+***
+
 ## Data-mining platform
 
 You can access a data-mining platform to query this dataset at [https://moldis.tifrh.res.in/datasets.html](https://moldis.tifrh.res.in/datasets.html).      
@@ -157,14 +160,17 @@ You can access a data-mining platform to query this dataset at [https://moldis.t
 <img src="moldis_datasets.png"  height="300">
 </a>  
 
+***
 
 ## Raw input/output files on NOMAD
 
 [https://dx.doi.org/10.17172/NOMAD/2021.09.30-1](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
 
-## Machine learning model for resconstruction of TDωB97XD/def2SVPD @ ωB97XD/def2SVP level electronic spectra 
+***
 
-Please see the material collected at [https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum](https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum)    
+## Machine learning model for electronic spectra
+
+To learn about the machine learning model for reconstruction of TDωB97XD/def2SVPD@ωB97XD/def2SVP-level electronic spectra, please see the material collected at [https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum](https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum)    
 
 ***
 
