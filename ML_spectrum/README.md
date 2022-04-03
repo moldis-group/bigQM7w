@@ -27,7 +27,7 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
    </tr> 
    <tr>
       <td><img src="./example_2/query_spec_reconstructed_1000.png" alt="3" width = 360px></td>
-      <td><img src="./example_2/query_spec_reconstructed_5000.png" align="right" alt="4" width = 360px></td>
+      <td><img src="./example_2/query_spec_reconstructed_5000.png" alt="4" width = 360px></td>
   </tr>
 </table>
 
