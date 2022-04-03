@@ -31,7 +31,7 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
  
 If you scroll through the results, you will be able to find the entry for cyclohexanone.  
 
-![image](./example_2/query_spec_reconstructed.png)
+![image](./example_1/MolDis_cycolhexanone.png)
 
 
 ## Example 2, Reconstruction of spectrum of a molecule in the trainingset    
