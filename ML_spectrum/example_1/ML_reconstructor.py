@@ -150,17 +150,17 @@ for i in range(0,1000):
     x_grids[i]=0.46875+i*dx+dx/2
 
 #=== Comment from here, if you do not wish to print the DFT reference spectrum
-#print('Reading spectra of query molecule'+'\n')
-#N_query=0
-#str_N_query=str('%05d' %(N_query+1))
-#datafile=open('../trainingset_data/train_spec_'+str_N_query+'.txt','r')
-#Spec_DFT=np.zeros([N_train,N_bin])
-#iline=0
-#for line in datafile:
-#    string=line.split()
-#    Spec_DFT[iline,:]=string
-#    iline=iline+1
-#plt.stem(x, Spec_DFT[N_query,:]*Nel, label=r'TDDFT',linewidth=1.0, linefmt='r-', markerfmt=' ')
+print('Reading spectra of query molecule'+'\n')
+N_query=0
+str_N_query=str('%05d' %(N_query+1))
+datafile=open('../trainingset_data/train_spec_'+str_N_query+'.txt','r')
+Spec_DFT=np.zeros([N_train,N_bin])
+iline=0
+for line in datafile:
+    string=line.split()
+    Spec_DFT[iline,:]=string
+    iline=iline+1
+plt.stem(x, Spec_DFT[N_query,:]*Nel, label=r'TDDFT',linewidth=1.0, linefmt='r-', markerfmt=' ')
 #=== until here.
 
 f=interpolate.interp1d(x, spec_pred, kind='cubic')
