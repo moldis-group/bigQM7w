@@ -168,7 +168,7 @@ plt.legend()
 
 plt.xlabel('Wavelength (nm)', fontsize = 15)
 plt.ylabel('Oscillator strength (au)', fontsize = 15)
-plt.savefig("query_spec_reconstructed.pdf",bbox_inches='tight')
+plt.savefig("query_spec_reconstructed.png",bbox_inches='tight')
 
 print('Predicted spectrum of the query molecule is printed in "query_spec.dat" and plotted in "query_spec_reconstructed.pdf"'+'\n')
 print('+========================================================================================================================+')
