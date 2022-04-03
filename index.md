@@ -162,6 +162,9 @@ You can access a data-mining platform to query this dataset at [https://moldis.t
 
 [https://dx.doi.org/10.17172/NOMAD/2021.09.30-1](https://dx.doi.org/10.17172/NOMAD/2021.09.30-1)
 
+## Machine learning model for resconstruction of TDωB97XD/def2SVPD @ ωB97XD/def2SVP level electronic spectra 
+
+Please see the material collected at [https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum](https://github.com/moldis-group/bigQM7w/tree/main/ML_spectrum)    
 
 ***
 
@@ -169,7 +172,8 @@ You can access a data-mining platform to query this dataset at [https://moldis.t
 
 _15 September 2021: First upload_                     
 _27 October 2021: Mulliken and APT charges uploaded_  
-_30 March 2022: Data-mining platform at MolDis announced_
+_30 March 2022: Data-mining platform at MolDis announced_   
+_03 April 2022: ML model for full-spectrum reconstruction made available_
 
 ***
 
