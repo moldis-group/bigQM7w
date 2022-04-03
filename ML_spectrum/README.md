@@ -38,7 +38,7 @@ If you scroll through the results, you will be able to find the entry for cycloh
 
 ![image](./example_2/MolDis_cycolhexanone.png)
 
-The agreement between ML predicted and DFT results should improve if the DFT results are binned with a resolution of 0.94 nm (120 nm / 128), which is the whole point of our article [Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma](https://doi.org/10.48550/arXiv.2110.11798).
+The agreement between ML predicted and DFT results should improve if the DFT results are binned with a resolution of 0.94 nm (120 nm / 128), which is the subject of our article [Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma](https://doi.org/10.48550/arXiv.2110.11798).
 
 ## Reference
 If you are using the program distributed here or any part of the bigQM7ω dataset, including its MolDis interface, please consider citing the following article and the QML code.        
