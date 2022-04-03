@@ -14,5 +14,5 @@ FCHL descriptor (representation) used for training the ML models were calculated
 ## Example 1, Reconstruction of spectrum of a molecule in the trainingset    
 Let's use `geoms_bigqQM7w_UFF/005569.xyz`, which is the first molecule after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_2`. We have added a few extra lines to show the DFT-level spectrumon the same plot to get the following plot.
 
-![image](./example_2/query_spec_reconstructed.pdf)
+![image](./example_2/query_spec_reconstructed.png)
 
