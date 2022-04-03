@@ -1,0 +1,65 @@
++===============================================================+
+|          FCHL-ML Prediction of Electronic Spectrum            |
+|                                                               |
+| How to use this program?                                      |
+| =========================                                     |
+| INPUT:                                                        |
+| ------                                                        |
+| 1. The folder "trainingset_data" contains pre-trained ML data |
+|    and geometries of 12880 bigQM7w molecules at the UFF level.|
+|    Note that the ML model is trained on time-dependent        |
+|    wB97XD/def2SVPD-level using minimum energy geometries at   |
+|    wB97XD/def2SVP-level. For predictions, the ML model uses   |
+|    the UFF geometries.                                        |
+|                                                               |
+|    Please do not modify the content of "trainingset_data"     |
+|                                                               |
+| 2. The coordinates of the query molecule must be at the UFF   |
+|    level, and collected in "query.xyz"                        |
+|                                                               |
+| EXECUTION:                                                    |
+| ----------                                                    |
+| python3.6 ML_reconstructor.py N_train                         |
+| where N_train is any of 100, 300, 500, 1000, 3000, or 5000    |
+|                                                               |
+| OUTPUT:                                                       |
+| -------                                                       |
+| "query_spec.dat" contains the electronic spectrum for         |
+| "query.xyz". The predicted spectrum is plotted in             |
+| "query_spec_reconstructed.pdf"                                |
+|                                                               |
+| This program is provided as a part of the bigQM7w study       |
+| DOI:                                                          |
+| ----                                                          |
+| https://doi.org/10.48550/arXiv.2110.11798                     |
+|                                                               |
+| See also:                                                     |
+| ---------                                                     |
+| https://moldis-group.github.io/bigQM7w/                       |
+| https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp               |
+|                                                               |
+| 02 April 2022:                                                |
+| --------------                                                |
+| Contact: ramakrishnan@tifrh.res.in, raghu.rama.chem@gmail.com |
++===============================================================+
+Enter training set size (100, 300, 500, 1000, 3000, or 5000): 100 
+Reading shuffled indices
+
+Reading XYZ of training molecules and calculating FCHL descriptors
+
+Reading XYZ of the query molecule and calculating FCHL descriptor
+
+Reading ML coefficients
+
+Reading spectra of training molecules
+
+Calculating FCHL kernel elements between query and training molecules
+
+0 elements calculated 100 remaining
+50 elements calculated 50 remaining
+
+The query molecule is very similar to the following training molecules
+0,  geoms_bigqQM7w_UFF/005569.xyz
+Predicted spectrum of the query molecule is printed in "query_spec.dat" and plotted in "query_spec_reconstructed.pdf"
+
++========================================================================================================================+
