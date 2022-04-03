@@ -11,6 +11,27 @@ FCHL descriptor (representation) used for training the ML models were calculated
 ## How to use the code?
 You can begin by trying out the two examples provided here. `ML_spectrum/example_1` reconstructs the spectrum of a molecule _not_ in the trainingset. `ML_spectrum/example_2` reconstructs the spectrum of a molecule in the trainingset and the resulting spectrum is compared with DFT-level spectrum used for training the ML model.        
 
+You can copy one of the directories, cd there, and then run `python3.6 ML_reconstructor.py`      
+
+## Dependencies
+
+We have tested the code with Python 3.6.10 on a MacBook-Pro [Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz]. We have also tested the code on a workstation with a linux-OS. 
+
+The code depends on the python modules `numpy`, `scipy`, `matplotlib`, and `qml`. Here are the versions of the modules used by us. 
+
+```
+$ python3.6 --version
+Python 3.6.10 :: Anaconda, Inc.
+>>> numpy.__version__
+'1.19.5'
+>>> scipy.__version__
+'1.5.4'
+>>> matplotlib.__version__
+'2.1.0'
+>>> qml.__version__
+'0.2.1'
+```
+
 
 ## Example 1, Reconstruction of spectrum of a molecule in the trainingset    
 Let's use `geoms_bigqQM7w_UFF/005569.xyz`, which is the first molecule after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_1`. We have added a few extra lines to show the DFT-level spectrum on the same plot to get the following plot.
