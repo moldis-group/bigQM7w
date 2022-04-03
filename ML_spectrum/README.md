@@ -14,7 +14,10 @@ You can begin by trying out the two examples provided here. `ML_spectrum/example
 ## Example 1, Reconstruction of spectrum of a molecule _not_ in the trainingset    
 Let's use `geoms_bigqQM7w_UFF/005569.xyz`, which is the first molecule after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_2`. We have added a few extra lines to show the DFT-level spectrumon the same plot to get the following plot.
 
-![image](./example_2/query_spec_reconstructed.png)
+![image](./example_1/query_spec_reconstructed_0100.png)
+![image](./example_1/query_spec_reconstructed_0500.png)
+![image](./example_1/query_spec_reconstructed_1000.png)
+![image](./example_1/query_spec_reconstructed_5000.png)
 
 ## Example 2, Reconstruction of spectrum of a molecule in the trainingset    
 Let's use `geoms_bigqQM7w_UFF/005569.xyz`, which is the first molecule after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_2`. We have added a few extra lines to show the DFT-level spectrumon the same plot to get the following plot.
