@@ -16,15 +16,12 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
 
 <table>
   <tr>
-    <td> <img src="./example_1/query_spec_reconstructed_0100.png"  alt="1" width = 360px height = 640px ></td>
-
-    <td><img src="./example_1/query_spec_reconstructed_0500.png" alt="2" width = 360px height = 640px></td>
+    <td> <img src="./example_1/query_spec_reconstructed_0100.png"  alt="1" width = 360px  ></td>
+    <td><img src="./example_1/query_spec_reconstructed_0500.png" alt="2" width = 360px ></td>
    </tr> 
    <tr>
-      <td><img src="./example_1/query_spec_reconstructed_1000.png" alt="3" width = 360px height = 640px></td>
-
-      <td><img src="./example_1/query_spec_reconstructed_5000.png" align="right" alt="4" width = 360px height = 640px>
-  </td>
+      <td><img src="./example_1/query_spec_reconstructed_1000.png" alt="3" width = 360px></td>
+      <td><img src="./example_1/query_spec_reconstructed_5000.png" align="right" alt="4" width = 360px></td>
   </tr>
 </table>
 
