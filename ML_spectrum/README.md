@@ -12,7 +12,7 @@ FCHL descriptor (representation) used for training the ML models were calculated
 You can begin by trying out the two examples provided here. `ML_spectrum/example_1` reconstructs the spectrum of a molecule _not_ in the trainingset. `ML_spectrum/example_2` reconstructs the spectrum of a molecule in the trainingset and the resulting spectrum is compared with DFT-level spectrum used for training the ML model.        
 
 ## Example 1, Reconstruction of spectrum of a molecule _not_ in the trainingset    
-Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the first 1000 molecules after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100, 500, 1000, and 5000 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_1`.
+Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the first 5000 molecules after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100, 500, 1000, and 5000 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_1`.
 
 <table>
   <tr>
@@ -27,7 +27,7 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
 
 #### How do we check this against DFT results? 
 
- TDωB97XD/def2SVPD@ωB97XD/def2SVP level spectra of all 12880 molecules in the bigQM7ω dataset are collected in the [MolDis repository](http://moldis.tifrh.res.in). You can query in the corresponding dataset page (https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp)[https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp] by choosing the stoichiometry C$\_6$ H$\_{10}$O. 
+ TDωB97XD/def2SVPD@ωB97XD/def2SVP level spectra of all 12880 molecules in the bigQM7ω dataset are collected in the [MolDis repository](http://moldis.tifrh.res.in). You can query in the corresponding dataset page (https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp)[https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp] by choosing the stoichiometry C<sub>6</sub>H<sub>10</sub>O. 
  
 If you scroll through the results, you will be able to find the entry for cyclohexanone.  
 
