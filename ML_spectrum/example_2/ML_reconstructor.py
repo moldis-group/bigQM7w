@@ -108,15 +108,6 @@ for line in datafile:
     MLcoeff[iline,:]=string
     iline=iline+1
 
-print('Reading spectra of training molecules'+'\n')
-datafile=open('../trainingset_data/train_spec_'+str_N_train+'.txt','r')
-Spec_train=np.zeros([N_train,N_bin])
-iline=0
-for line in datafile:
-    string=line.split()
-    Spec_train[iline,:]=string
-    iline=iline+1
-
 print('Calculating FCHL kernel elements between query and training molecules'+'\n')
 K=np.zeros(N_train)
 similar=[]
@@ -158,11 +149,23 @@ x_grids=np.zeros(1000)
 for i in range(0,1000):
     x_grids[i]=0.46875+i*dx+dx/2
 
+#=== Comment from here, if you do not wish to print the DFT reference spectrum
+print('Reading spectra of query molecule'+'\n')
+N_query=0
+str_N_query=str('%05d' %(N_query+1))
+datafile=open('../trainingset_data/train_spec_'+str_N_query+'.txt','r')
+Spec_DFT=np.zeros([N_train,N_bin])
+iline=0
+for line in datafile:
+    string=line.split()
+    Spec_DFT[iline,:]=string
+    iline=iline+1
+plt.stem(x, Spec_DFT[N_query,:]*Nel, label=r'TDDFT',linewidth=1.0, linefmt='r-', markerfmt=' ')
+#=== until here.
+
 f=interpolate.interp1d(x, spec_pred, kind='cubic')
 spec_pred_smooth=f(x_grids)
 plt.plot(x_grids, spec_pred_smooth, label=r'FCHL-ML-predicted ($N_{train}$='+ str(N_train) +')',color='blue',linewidth=1.0)
-
-plt.stem(x, Spec_train[0,:]*Nel, label=r'TDDFT',linewidth=1.0, linefmt='r-', markerfmt=' ')
 
 plt.legend()
 
