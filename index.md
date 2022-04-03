@@ -184,8 +184,9 @@ _03 April 2022: ML model for full-spectrum reconstruction made available_
 ***
 
 ## References
-[Ref-1] [_Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma_](https://arxiv.org/abs/2110.11798)            
+[Ref-1] [_Quantum Machine Learning Transition Probabilities in Electronic Excitation Spectra across Chemical Space: The Resolution-vs.-Accuracy Dilemma_](hhttps://doi.org/10.48550/arXiv.2110.11798)            
 Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan 
-(2022)  
+(2022)   
+DOI: [https://doi.org/10.48550/arXiv.2110.11798](https://doi.org/10.48550/arXiv.2110.11798)  
 
 ***
