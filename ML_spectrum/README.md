@@ -25,6 +25,14 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
   </tr>
 </table>
 
+#### How do we check this against DFT results? 
+
+ TDωB97XD/def2SVPD@ωB97XD/def2SVP level spectra of all 12880 molecules in the bigQM7ω dataset are collected in the [MolDis repository](http://moldis.tifrh.res.in). You can query in the corresponding dataset page (https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp)[https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp] by choosing the stoichiometry C$\_6$ H$\_{10}$O. 
+ 
+If you scroll through the results, you will be able to find the entry for cyclohexanone.  
+
+![image](./example_2/query_spec_reconstructed.png)
+
 
 ## Example 2, Reconstruction of spectrum of a molecule in the trainingset    
 Let's use `geoms_bigqQM7w_UFF/005569.xyz`, which is the first molecule after shuffling the dataset as may be seen in the file `../trainingset_data/shuffle_index.dat` and use a model based on 100 training examples to reconstruct its spectrum. The content of this exercise are collected in `ML_spectrum/example_2`. We have added a few extra lines to show the DFT-level spectrumon the same plot to get the following plot.
