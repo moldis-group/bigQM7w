@@ -6,12 +6,12 @@ regression weights from pre-trained machine learning models with trainingset siz
 
 Target spectra used for training are at the TDωB97XD/def2SVPD level using minimum energy geometries from the ωB97XD/def2SVP level. 
 
-FCHL descriptor (representation) used for training the ML models were calculated using geometries from the UFF (Universal Force Field) level. Hence, it is recommended that the structures used for querying is from the UFF level. 
+FCHL descriptor (representation) used for training the ML models were calculated using minimum energy geometries relaxed with the UFF (Universal Force Field). Hence, it is recommended that the structures used for querying is from the UFF level. 
 
 ## How to use the code?
 You can begin by trying out the two examples provided here. `ML_spectrum/example_1` reconstructs the spectrum of a molecule _not_ in the trainingset. `ML_spectrum/example_2` reconstructs the spectrum of a molecule in the trainingset and the resulting spectrum is compared with DFT-level spectrum used for training the ML model.        
 
-You can copy one of the directories, cd there, and then run `python3.6 ML_reconstructor.py`      
+You can copy one of the directories and run `python3.6 ML_reconstructor.py` inside that directory.        
 
 ## Dependencies
 
