@@ -55,7 +55,7 @@ Let's use Cyclohexanone `geoms_bigqQM7w_UFF/007382.xyz`, which is beyond the fir
 </table>
 
 #### How do we check this against DFT results? 
- TDωB97XD/def2SVPD@ωB97XD/def2SVP level spectra of all 12880 molecules in the bigQM7ω dataset are collected in the [MolDis repository](http://moldis.tifrh.res.in). You can query in the corresponding dataset page [https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp](https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp) by choosing the stoichiometry C<sub>6</sub>H<sub>10</sub>O. 
+TDωB97XD/def2SVPD@ωB97XD/def2SVP level (TDωB97XD/def2SVPD single point on ωB97XD/def2SVP minimum energy geometry) spectra of all 12880 molecules in the bigQM7ω dataset are collected in the [MolDis repository](http://moldis.tifrh.res.in). You can query in the corresponding dataset page [https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp](https://moldis.tifrh.res.in/db/dbbigqm7wdef2svp) by choosing the stoichiometry C<sub>6</sub>H<sub>10</sub>O. 
  
 If you scroll through the results, you will be able to find the entry for cyclohexanone.  
 
