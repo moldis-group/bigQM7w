@@ -187,6 +187,6 @@ _03 April 2022: ML model for full-spectrum reconstruction made available_
 [Ref-1] [_The Resolution-vs.-Accuracy Dilemma in Machine Learning Modeling of Electronic Excitation Spectra_](https://doi.org/10.1039/D1DD00031D)                  
 Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan    
 Digital Discovery (2022).          
-DOI: [https://doi.org/10.1039/D1DD00031D)](https://doi.org/10.1039/D1DD00031D)      
+DOI: [https://doi.org/10.1039/D1DD00031D](https://doi.org/10.1039/D1DD00031D)      
 
 ***
