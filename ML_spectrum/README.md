@@ -66,8 +66,10 @@ The agreement between ML predicted and DFT results should improve if the DFT res
 ## Reference
 If you are using the program distributed here or any part of the bigQM7ω dataset, including its MolDis interface, please consider citing the following article and the QML code.        
 
-[Ref-1] [_The Resolution-vs.-Accuracy Dilemma in Machine Learning Modeling of Electronic Excitation Spectra_](https://arxiv.org/abs/2110.11798)     
-Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishnan (2022)     
+[Ref-1] [_The Resolution-vs.-Accuracy Dilemma in Machine Learning Modeling of Electronic Excitation Spectra_](https://doi.org/10.1039/D1DD00031D)     
+Prakriti Kayastha, Sabyasachi Chakraborty, Raghunathan Ramakrishan          
+Digital Discovery (2022).
+DOI: [https://doi.org/10.1039/D1DD00031D](https://doi.org/10.1039/D1DD00031D)   
 
 [Ref-2] [_AS Christensen, FA Faber, B Huang, LA Bratholm, A Tkatchenko, KR Muller, OA von Lilienfeld (2017) "QML: A Python Toolkit for Quantum Machine Learning, https://github.com/qmlcode/qml"_](https://github.com/qmlcode/qml)     
 
