@@ -18,23 +18,23 @@ _NOTE: We retain molecular indices as in GDB11 so the indices run from 1 to 1288
 
 
 #### SMILES from GDB11 universe for 12880 molecules, [SELFIES](https://github.com/aspuru-guzik-group/selfies) and UFF geometries   
-[bigQM7w.smi.bz2](https://ndownloader.figshare.com/files/30478341) (52 kB)        
-[bigQM7w.selfies.bz2](https://ndownloader.figshare.com/files/31084855) (32 kB)    
-[bigQM7w_UFF.sdf.bz2](https://ndownloader.figshare.com/files/30478323) (1.5 MB)     
-[bigQM7w_UFF.xyz.bz2](https://ndownloader.figshare.com/files/30478326) (1.4 MB)      
+[bigQM7w.smi.bz2](https://figshare.com/ndownloader/files/30478341) (52 kB)        
+[bigQM7w.selfies.bz2](https://figshare.com/ndownloader/files/31084855) (32 kB)    
+[bigQM7w_UFF.sdf.bz2](https://figshare.com/ndownloader/files/30478323) (1.5 MB)     
+[bigQM7w_UFF.xyz.bz2](https://figshare.com/ndownloader/files/30478326) (1.4 MB)      
 
 #### Minimum energy geometries of 12880 molecules
 
-[bigQM7w_PM6.xyz.bz2](https://ndownloader.figshare.com/files/30478311) (2.0 MB)     
-[bigQM7w_wB97XD_321G.xyz.bz2](https://ndownloader.figshare.com/files/30478314) (1.9 MB)       
-[bigQM7w_wB97XD_def2SVP.xyz.bz2](https://ndownloader.figshare.com/files/30478317) (2.0 MB)      
-[bigQM7w_wB97XD_def2TZVP.xyz.bz2](https://ndownloader.figshare.com/files/30478320) (2.0 MB)     
+[bigQM7w_PM6.xyz.bz2](https://figshare.com/ndownloader/files/30478311) (2.0 MB)     
+[bigQM7w_wB97XD_321G.xyz.bz2](https://figshare.com/ndownloader/files/30478314) (1.9 MB)       
+[bigQM7w_wB97XD_def2SVP.xyz.bz2](https://figshare.com/ndownloader/files/30478317) (2.0 MB)      
+[bigQM7w_wB97XD_def2TZVP.xyz.bz2](https://figshare.com/ndownloader/files/30478320) (2.0 MB)     
 
 #### Harmonic frequencies of 12880 molecules
 
-[bigQM7w_wB97XD_321G_freq.txt.bz2](https://ndownloader.figshare.com/files/30478362) (1.7 MB)       
-[bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://ndownloader.figshare.com/files/30478347) (1.7 MB)      
-[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://ndownloader.figshare.com/files/30478359) (1.7 MB)  
+[bigQM7w_wB97XD_321G_freq.txt.bz2](https://figshare.com/ndownloader/files/30478362) (1.7 MB)       
+[bigQM7w_wB97XD_def2SVP_freq.txt.bz2](https://figshare.com/ndownloader/files/30478347) (1.7 MB)      
+[bigQM7w_wB97XD_def2TZVP_freq.txt.bz2](https://figshare.com/ndownloader/files/30478359) (1.7 MB)  
 
 _NOTE: The purpose of PM6 and &omega;B97XD/3-21G geometries was to generate rapid baseline geometries for structural descriptors in ML. So, these calculations have not been performed by computing force constants only at the first step of geometry optimization, i.e., with Opt(CalcFC). Three molecules (indices: 8815, 8816, 10619) at the &omega;B97XD/def2TZVP level contain small imaginary wavenumbers with magnitude < 10cm<sup>-1</sup>_ 
 
@@ -66,7 +66,7 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 **Column 05** Total energy (in au)                  
 **Column 06** Atomization energy (in au)      
 
-[bigQM7w_PM6_prop.txt.bz2](https://ndownloader.figshare.com/files/30478353) (282 kB)     
+[bigQM7w_PM6_prop.txt.bz2](https://figshare.com/ndownloader/files/30478353) (282 kB)     
 
 #### &omega;B97XD-level properties 
 
@@ -85,9 +85,9 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_freq.txt.bz2
 **Column 13** Total heat capacity, _C_<sub>v</sub> (in Cal/mol/K)             
 **Column 14** Atomization energy (in _E_<sub>H</sub>, hartree)    
  
-[bigQM7w_wB97XD_321G_prop.txt.bz2](https://ndownloader.figshare.com/files/30478350) (619 kB)           
-[bigQM7w_wB97XD_def2SVP_prop.txt.bz2](https://ndownloader.figshare.com/files/30478344) (619 kB)       
-[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2](https://ndownloader.figshare.com/files/30478356) (617 kB)       
+[bigQM7w_wB97XD_321G_prop.txt.bz2](https://figshare.com/ndownloader/files/30478350) (619 kB)           
+[bigQM7w_wB97XD_def2SVP_prop.txt.bz2](https://figshare.com/ndownloader/files/30478344) (619 kB)       
+[bigQM7w_wB97XD_def2TZVP_prop.txt.bz2](https://figshare.com/ndownloader/files/30478356) (617 kB)       
 
 Unzip the files in linux as
 ```
@@ -98,14 +98,14 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2
 ```
 
 ### Mulliken charges
-[bigQM7w_wB97XD_321G_Mulliken.txt.bz2](https://ndownloader.figshare.com/files/31212415)        
-[bigQM7w_wB97XD_def2SVP_Mulliken.txt.bz2](https://ndownloader.figshare.com/files/31212421)           
-[bigQM7w_wB97XD_def2TZVP_Mulliken.txt.bz2](https://ndownloader.figshare.com/files/31212418)     
+[bigQM7w_wB97XD_321G_Mulliken.txt.bz2](https://figshare.com/ndownloader/files/31212415)        
+[bigQM7w_wB97XD_def2SVP_Mulliken.txt.bz2](https://figshare.com/ndownloader/files/31212421)           
+[bigQM7w_wB97XD_def2TZVP_Mulliken.txt.bz2](https://figshare.com/ndownloader/files/31212418)     
 
 ### APT charges
-[bigQM7w_wB97XD_321G_APT.txt.bz2](https://ndownloader.figshare.com/files/31212454)        
-[bigQM7w_wB97XD_def2SVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212457)           
-[bigQM7w_wB97XD_def2TZVP_APT.txt.bz2](https://ndownloader.figshare.com/files/31212451)    
+[bigQM7w_wB97XD_321G_APT.txt.bz2](https://figshare.com/ndownloader/files/31212454)        
+[bigQM7w_wB97XD_def2SVP_APT.txt.bz2](https://figshare.com/ndownloader/files/31212457)           
+[bigQM7w_wB97XD_def2TZVP_APT.txt.bz2](https://figshare.com/ndownloader/files/31212451)    
 
 ***
 
@@ -120,10 +120,10 @@ bunzip2 -f bigQM7w_wB97XD_def2TZVP_prop.txt.bz2
 **Column 07** _T_<sub>z</sub> (in au), z-component of transition dipole moment vector for S<sub>0</sub>  → S<sub>k</sub> excitation    
 **Column 08** _T_<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment  for S<sub>0</sub>  → S<sub>k</sub> excitation 
 
-[bigQM7w_ZINDO_spectra.tar.gz](https://ndownloader.figshare.com/files/30478308) (76 MB)     
-[bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://ndownloader.figshare.com/files/30478335) (207 MB)       
-[bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz](https://ndownloader.figshare.com/files/30478338) (409 MB)      
-[bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz](https://ndownloader.figshare.com/files/30791935) (791 MB)      
+[bigQM7w_ZINDO_spectra.tar.gz](https://figshare.com/ndownloader/files/30478308) (76 MB)     
+[bigQM7w_TDwB97XD_321G_spectra.tar.gz](https://figshare.com/ndownloader/files/30478335) (207 MB)       
+[bigQM7w_TDwB97XD_def2SVP_spectra.tar.gz](https://figshare.com/ndownloader/files/30478338) (409 MB)      
+[bigQM7w_TDwB97XD_def2TZVP_spectra.tar.gz](https://figshare.com/ndownloader/files/30791935) (791 MB)      
 
 Untar the folders in linux as
 
